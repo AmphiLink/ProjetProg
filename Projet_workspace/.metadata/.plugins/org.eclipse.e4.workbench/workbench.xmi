@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Sh7GodLDEe29Vuhvg4PZKA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_Sh7GotLDEe29Vuhvg4PZKA" bindingContexts="_Sh7tsNLDEe29Vuhvg4PZKA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;de.bmotionstudio.gef.editor.BMotionStudioEditor&quot; name=&quot;MuskProject VISUALS.bmso&quot; tooltip=&quot;Lift for cars/MuskProject VISUALS.bmso&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Lift for cars/MuskProject VISUALS.bmso&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eventb.texteditor.ui.texteditor&quot; name=&quot;MuskProject.bum&quot; tooltip=&quot;Lift for cars/MuskProject.bum&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Lift for cars/MuskProject.bum&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eventb.texteditor.ui.texteditor&quot; name=&quot;ProjetGroupeM.bum&quot; tooltip=&quot;ProjetGroupe/ProjetGroupeM.bum&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetGroupe/ProjetGroupeM.bum&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eventb.ui.editors.ProverUI&quot; name=&quot;ProjetGroupeM.bps&quot; tooltip=&quot;ProjetGroupe/ProjetGroupeM.bps&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetGroupe/ProjetGroupeM.bps&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;fr.systerel.editor.editors.RodinEditor&quot; name=&quot;ProjetGroupeC.buc&quot; tooltip=&quot;ProjetGroupe/ProjetGroupeC.buc&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetGroupe/ProjetGroupeC.buc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eventb.texteditor.ui.texteditor&quot; name=&quot;ProjetGroupeM.bum&quot; tooltip=&quot;ProjetGroupe/ProjetGroupeM.bum&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetGroupe/ProjetGroupeM.bum&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;de.bmotionstudio.gef.editor.BMotionStudioEditor&quot; name=&quot;MuskProject VISUALS.bmso&quot; tooltip=&quot;Lift for cars/MuskProject VISUALS.bmso&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Lift for cars/MuskProject VISUALS.bmso&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eventb.texteditor.ui.texteditor&quot; name=&quot;MuskProject.bum&quot; tooltip=&quot;Lift for cars/MuskProject.bum&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Lift for cars/MuskProject.bum&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eventb.ui.editors.ProverUI&quot; name=&quot;ProjetGroupeM.bps&quot; tooltip=&quot;ProjetGroupe/ProjetGroupeM.bps&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetGroupe/ProjetGroupeM.bps&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;fr.systerel.editor.editors.RodinEditor&quot; name=&quot;ProjetGroupeC.buc&quot; tooltip=&quot;ProjetGroupe/ProjetGroupeC.buc&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ProjetGroupe/ProjetGroupeC.buc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_Sh7GotLDEe29Vuhvg4PZKA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_S3qGENLDEe29Vuhvg4PZKA" label="%trimmedwindow.label.eclipseSDK" x="-7" y="0" width="974" height="1047">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_Sh7GotLDEe29Vuhvg4PZKA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_S3qGENLDEe29Vuhvg4PZKA" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="974" height="1047">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -98,7 +98,7 @@
           <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
           <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_QsmtMNk5Ee20ncQIeoaHzQ" selectedElement="_QsmtN9k5Ee20ncQIeoaHzQ" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_QsmtMdk5Ee20ncQIeoaHzQ" containerData="3132" selectedElement="_QsmtMtk5Ee20ncQIeoaHzQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_QsmtMdk5Ee20ncQIeoaHzQ" containerData="3132" selectedElement="_QsmtNNk5Ee20ncQIeoaHzQ">
               <children xsi:type="basic:PartStack" xmi:id="_QsmtMtk5Ee20ncQIeoaHzQ" elementId="left" containerData="5000" selectedElement="_QsmtM9k5Ee20ncQIeoaHzQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_QsmtM9k5Ee20ncQIeoaHzQ" elementId="de.prob.ui.OperationView" ref="_Qsh0sNk5Ee20ncQIeoaHzQ" closeable="true">
                   <tags>View</tags>
@@ -305,12 +305,18 @@
           <tags>fr.systerel.editor.editors.RodinEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_RRabsNk_Ee20ncQIeoaHzQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ProjetGroupeM" iconURI="platform:/plugin/fr.systerel.editor/icons/full/clcl16/b_file.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;fr.systerel.editor.editors.RodinEditor&quot; name=&quot;ProjetGroupeM.bum&quot; partName=&quot;ProjetGroupeM&quot; title=&quot;ProjetGroupeM&quot; tooltip=&quot;ProjetGroupe/ProjetGroupeM.bum&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ProjetGroupe/ProjetGroupeM.bum&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1113&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;fr.systerel.editor.editors.RodinEditor&quot; name=&quot;ProjetGroupeM.bum&quot; partName=&quot;ProjetGroupeM&quot; title=&quot;ProjetGroupeM&quot; tooltip=&quot;ProjetGroupe/ProjetGroupeM.bum&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ProjetGroupe/ProjetGroupeM.bum&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1438&quot; selectionTopPixel=&quot;2028&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>fr.systerel.editor.editors.RodinEditor</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_WBBeENlCEe2nuf-UDJ5ILg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ProjetGroupeM" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eventb.texteditor.ui.texteditor&quot; name=&quot;ProjetGroupeM.bum&quot; partName=&quot;ProjetGroupeM&quot; title=&quot;ProjetGroupeM&quot; tooltip=&quot;ProjetGroupe/ProjetGroupeM.bum&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ProjetGroupe/ProjetGroupeM.bum&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2327&quot; selectionTopPixel=&quot;1230&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eventb.texteditor.ui.texteditor</tags>
         </children>
       </children>
     </sharedElements>
@@ -482,7 +488,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_S59MINLDEe29Vuhvg4PZKA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_hArnYNkzEe20ncQIeoaHzQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Si5-Q9LDEe29Vuhvg4PZKA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_NNmgoNlCEe2nuf-UDJ5ILg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Si5-Q9LDEe29Vuhvg4PZKA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_S59MIdLDEe29Vuhvg4PZKA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -507,7 +513,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_S59zNdLDEe29Vuhvg4PZKA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_hAtckNkzEe20ncQIeoaHzQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Si5XHtLDEe29Vuhvg4PZKA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_NNo84NlCEe2nuf-UDJ5ILg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Si5XHtLDEe29Vuhvg4PZKA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_S5-aQNLDEe29Vuhvg4PZKA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1683,7 +1689,7 @@
   <addons xmi:id="_Sh7tvNLDEe29Vuhvg4PZKA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_Sh7tvdLDEe29Vuhvg4PZKA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_SiMzcNLDEe29Vuhvg4PZKA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_gygogdkzEe20ncQIeoaHzQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_SixbMNLDEe29Vuhvg4PZKA" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_SixbMdLDEe29Vuhvg4PZKA" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
