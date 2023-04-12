@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1681309937041" org.eventb.texttools.text_representation="machine ProjetGroupeM&#10;&#10;variables P1 P2 P3 S1 P1ToP2 P2ToP3 P1ToS1 S1ToP3&#10;&#10;invariants&#10;  @inv1 P1 ∈ (1‥4) → BOOL&#10;  @inv2 finite(P1)&#10;  @inv3 P2 ∈ (1‥4) → BOOL&#10;  @inv4 finite(P2)&#10;  @inv5 P3 ∈ (1‥4) → BOOL&#10;  @inv6 finite(P3)&#10;  @inv7 S1 ∈ (1‥2) → BOOL&#10;  @inv8 finite(S1)&#10;  @inv9 P1ToP2 ∈ (1‥2) → BOOL&#10;  @inv10 finite(P1ToP2)&#10;  @inv11 P2ToP3 ∈ (1‥2) → BOOL&#10;  @inv12 finite(P2ToP3)&#10;  @inv13 P1ToS1 ∈ (1‥2) → BOOL&#10;  @inv14 finite(P1ToS1)&#10;  @inv15 S1ToP3 ∈ (1‥2) → BOOL&#10;  @inv16 finite(S1ToP3)&#10;&#10;events&#10;  event INITIALISATION&#10;    then&#10;      @act1 P1 ≔ {i↦FALSE ∣ i ∈ 1‥4}&#10;      @act2 P2 ≔ {i↦FALSE ∣ i ∈ 1‥4}&#10;      @act3 P3 ≔ {i↦FALSE ∣ i ∈ 1‥4}&#10;      @act4 S1 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act5 P1ToP2 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act6 P2ToP3 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act7 P1ToS1 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act8 S1ToP3 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;  end&#10;end&#10;" version="5">
+    <org.eventb.core.variable name="(" org.eventb.core.generated="false" org.eventb.core.identifier="P1"/>
+    <org.eventb.core.event name="*" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
+        <org.eventb.core.action name="'" org.eventb.core.assignment="P1 ≔ {1↦TRUE} ∪ {i↦FALSE ∣ i ∈ 2‥4}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="(" org.eventb.core.assignment="P2 ≔ {i↦FALSE ∣ i ∈ 1‥4}" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+        <org.eventb.core.action name=")" org.eventb.core.assignment="P3 ≔ {i↦FALSE ∣ i ∈ 1‥4}" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+        <org.eventb.core.action name="*" org.eventb.core.assignment="S1 ≔ {i↦FALSE ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act4"/>
+        <org.eventb.core.action name="+" org.eventb.core.assignment="P1ToP2 ≔ {i↦FALSE ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act5"/>
+        <org.eventb.core.action name="," org.eventb.core.assignment="P2ToP3 ≔ {i↦FALSE ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act6"/>
+        <org.eventb.core.action name="-" org.eventb.core.assignment="P1ToS1 ≔ {i↦FALSE ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act7"/>
+        <org.eventb.core.action name="." org.eventb.core.assignment="S1ToP3 ≔ {i↦FALSE ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act8"/>
+    </org.eventb.core.event>
+    <org.eventb.core.invariant name="." org.eventb.core.generated="false" org.eventb.core.label="inv1" org.eventb.core.predicate="P1 ∈ (1‥4) → BOOL"/>
+    <org.eventb.core.variable name="/" org.eventb.core.generated="false" org.eventb.core.identifier="P2"/>
+    <org.eventb.core.invariant name="0" org.eventb.core.generated="false" org.eventb.core.label="inv2" org.eventb.core.predicate="finite(P1)"/>
+    <org.eventb.core.invariant name="2" org.eventb.core.generated="false" org.eventb.core.label="inv3" org.eventb.core.predicate="P2 ∈ (1‥4) → BOOL"/>
+    <org.eventb.core.invariant name="4" org.eventb.core.generated="false" org.eventb.core.label="inv4" org.eventb.core.predicate="finite(P2)"/>
+    <org.eventb.core.invariant name="6" org.eventb.core.generated="false" org.eventb.core.label="inv5" org.eventb.core.predicate="P3 ∈ (1‥4) → BOOL"/>
+    <org.eventb.core.invariant name="8" org.eventb.core.generated="false" org.eventb.core.label="inv6" org.eventb.core.predicate="finite(P3)"/>
+    <org.eventb.core.invariant name=":" org.eventb.core.generated="false" org.eventb.core.label="inv7" org.eventb.core.predicate="S1 ∈ (1‥2) → BOOL"/>
+    <org.eventb.core.invariant name="=" org.eventb.core.generated="false" org.eventb.core.label="inv8" org.eventb.core.predicate="finite(S1)"/>
+    <org.eventb.core.invariant name="&gt;" org.eventb.core.generated="false" org.eventb.core.label="inv9" org.eventb.core.predicate="P1ToP2 ∈ (1‥2) → BOOL"/>
+    <org.eventb.core.variable name="1" org.eventb.core.generated="false" org.eventb.core.identifier="P3"/>
+    <org.eventb.core.invariant name="?" org.eventb.core.generated="false" org.eventb.core.label="inv10" org.eventb.core.predicate="finite(P1ToP2)"/>
+    <org.eventb.core.variable name="3" org.eventb.core.generated="false" org.eventb.core.identifier="S1"/>
+    <org.eventb.core.invariant name="@" org.eventb.core.generated="false" org.eventb.core.label="inv11" org.eventb.core.predicate="P2ToP3 ∈ (1‥2) → BOOL"/>
+    <org.eventb.core.variable name="5" org.eventb.core.generated="false" org.eventb.core.identifier="P1ToP2"/>
+    <org.eventb.core.invariant name="A" org.eventb.core.generated="false" org.eventb.core.label="inv12" org.eventb.core.predicate="finite(P2ToP3)"/>
+    <org.eventb.core.variable name="7" org.eventb.core.generated="false" org.eventb.core.identifier="P2ToP3"/>
+    <org.eventb.core.invariant name="B" org.eventb.core.generated="false" org.eventb.core.label="inv13" org.eventb.core.predicate="P1ToS1 ∈ (1‥2) → BOOL"/>
+    <org.eventb.core.variable name="9" org.eventb.core.generated="false" org.eventb.core.identifier="P1ToS1"/>
+    <org.eventb.core.invariant name="C" org.eventb.core.generated="false" org.eventb.core.label="inv14" org.eventb.core.predicate="finite(P1ToS1)"/>
+    <org.eventb.core.invariant name="D" org.eventb.core.generated="false" org.eventb.core.label="inv15" org.eventb.core.predicate="S1ToP3 ∈ (1‥2) → BOOL"/>
+    <org.eventb.core.variable name=";" org.eventb.core.generated="false" org.eventb.core.identifier="S1ToP3"/>
+    <org.eventb.core.invariant name="E" org.eventb.core.generated="false" org.eventb.core.label="inv16" org.eventb.core.predicate="finite(S1ToP3)"/>
+    <org.eventb.core.event name="F" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="exit_P1_R1">
+        <org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(0) ≠ TRUE ∧ P1ToP2(1) ≠ TRUE"/>
+        <org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
+        <org.eventb.core.action name=")" org.eventb.core.assignment="P1ToP2(0) ≔ P1(0) " org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="*" org.eventb.core.assignment="P1(0) ≔ FALSE" org.eventb.core.label="act2"/>
+    </org.eventb.core.event>
+</org.eventb.core.machineFile>

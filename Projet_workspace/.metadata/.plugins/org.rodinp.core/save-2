@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+    <pim project="/ProjetGroupe">
+        <rodin_index>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#3" name="S1">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="7"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#1" name="P3">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="7"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#\/" name="P2">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="7"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM" name="ProjetGroupeM">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#;" name="S1ToP3">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#E" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*|org.eventb.core.action#." kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#9" name="P1ToS1">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#C" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#B" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*" name="INITIALISATION">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#7" name="P2ToP3">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#A" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#(" name="P1">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="12"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="7"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#5" name="P1ToP2">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="19"/>
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeC.buc|org.eventb.core.contextFile#ProjetGroupeC" name="ProjetGroupeC">
+                <occurrence element="/ProjetGroupe/ProjetGroupeC.buc|org.eventb.core.contextFile#ProjetGroupeC" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F" name="exit_P1_R1">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/ProjetGroupe/ProjetGroupeM.bum">
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#7" name="P2ToP3"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM" name="ProjetGroupeM"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#3" name="S1"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#F" name="exit_P1_R1"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#9" name="P1ToS1"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#;" name="S1ToP3"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#1" name="P3"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#\/" name="P2"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#*" name="INITIALISATION"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#(" name="P1"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.variable#5" name="P1ToP2"/>
+            </export>
+            <export file="/ProjetGroupe/ProjetGroupeC.buc">
+                <exported element="/ProjetGroupe/ProjetGroupeC.buc|org.eventb.core.contextFile#ProjetGroupeC" name="ProjetGroupeC"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/ProjetGroupe/ProjetGroupeM.bum" mark="false" order_pos="0"/>
+            <node label="/ProjetGroupe/ProjetGroupeC.buc" mark="false" order_pos="1"/>
+        </graph>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bcm_tmp"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeC.bcc"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeC.bpo"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeC.bpr"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeC.bps"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bcm"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bpo"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bpr"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bps"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bpo_tmp"/>
+    </pim>
+    <delta_list/>
+    <indexer_registry>
+        <registry_entry element_type="org.eventb.core.machineFile">
+            <indexer id="machineIndexer"/>
+        </registry_entry>
+        <registry_entry element_type="org.eventb.core.contextFile">
+            <indexer id="contextIndexer"/>
+        </registry_entry>
+    </indexer_registry>
+</index_root>

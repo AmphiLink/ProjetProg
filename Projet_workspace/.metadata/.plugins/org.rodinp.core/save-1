@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+    <pim project="/ProjetGroupe">
+        <rodin_index>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM" name="ProjetGroupeM">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/ProjetGroupe/ProjetGroupeC.buc|org.eventb.core.contextFile#ProjetGroupeC" name="ProjetGroupeC">
+                <occurrence element="/ProjetGroupe/ProjetGroupeC.buc|org.eventb.core.contextFile#ProjetGroupeC" kind="org.eventb.core.declaration"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/ProjetGroupe/ProjetGroupeM.bum">
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM" name="ProjetGroupeM"/>
+                <exported element="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#'" name="INITIALISATION"/>
+            </export>
+            <export file="/ProjetGroupe/ProjetGroupeC.buc">
+                <exported element="/ProjetGroupe/ProjetGroupeC.buc|org.eventb.core.contextFile#ProjetGroupeC" name="ProjetGroupeC"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/ProjetGroupe/ProjetGroupeM.bum" mark="false" order_pos="0"/>
+            <node label="/ProjetGroupe/ProjetGroupeC.buc" mark="false" order_pos="1"/>
+        </graph>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bcm_tmp"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeC.bcc"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeC.bpo"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeC.bpr"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeC.bps"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bcm"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bpo"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bpr"/>
+        <unprocessed file="/ProjetGroupe/ProjetGroupeM.bps"/>
+    </pim>
+    <delta_list/>
+    <indexer_registry>
+        <registry_entry element_type="org.eventb.core.machineFile">
+            <indexer id="machineIndexer"/>
+        </registry_entry>
+        <registry_entry element_type="org.eventb.core.contextFile">
+            <indexer id="contextIndexer"/>
+        </registry_entry>
+    </indexer_registry>
+</index_root>
