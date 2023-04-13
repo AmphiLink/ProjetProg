@@ -9,7 +9,7 @@
             </org.eventb.core.prAnte>
         </org.eventb.core.prRule>
         <org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤"/>
-        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="finite({1 ↦ TRUE}∪{i⦂ℤ·i∈2 ‥ 4 ∣ i ↦ FALSE})"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="finite({i⦂ℤ·i∈1 ‥ 4 ∣ i ↦ FALSE})"/>
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
     </org.eventb.core.prProof>
