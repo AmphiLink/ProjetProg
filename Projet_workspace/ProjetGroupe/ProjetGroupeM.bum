@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1681311980938" org.eventb.texttools.text_representation="machine ProjetGroupeM&#10;&#10;variables P1 P2 P3 S1 P1ToP2 P2ToP3 P1ToS1 S1ToP3&#10;&#10;invariants&#10;  @inv1 P1 ∈ (1‥4) → BOOL&#10;  @inv2 finite(P1)&#10;  @inv3 P2 ∈ (1‥4) → BOOL&#10;  @inv4 finite(P2)&#10;  @inv5 P3 ∈ (1‥4) → BOOL&#10;  @inv6 finite(P3)&#10;  @inv7 S1 ∈ (1‥2) → BOOL&#10;  @inv8 finite(S1)&#10;  @inv9 P1ToP2 ∈ (1‥2) → BOOL&#10;  @inv10 finite(P1ToP2)&#10;  @inv11 P2ToP3 ∈ (1‥2) → BOOL&#10;  @inv12 finite(P2ToP3)&#10;  @inv13 P1ToS1 ∈ (1‥2) → BOOL&#10;  @inv14 finite(P1ToS1)&#10;  @inv15 S1ToP3 ∈ (1‥2) → BOOL&#10;  @inv16 finite(S1ToP3)&#10;&#10;events&#10;  event INITIALISATION&#10;    then&#10;      @act1 P1 ≔ {1↦TRUE} ∪ {i↦FALSE ∣ i ∈ 2‥4}&#10;      @act2 P2 ≔ {i↦FALSE ∣ i ∈ 1‥4}&#10;      @act3 P3 ≔ {i↦FALSE ∣ i ∈ 1‥4}&#10;      @act4 S1 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act5 P1ToP2 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act6 P2ToP3 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act7 P1ToS1 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act8 S1ToP3 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;  end&#10;&#10;  event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;&#10;    event exit_P1_R2_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(2) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(2)&#10;      @act2 P1(2) ≔ FALSE&#10;  end&#10;&#10;    event exit_P1_R3_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(3) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(3)&#10;      @act2 P1(3) ≔ FALSE&#10;  end&#10;    event exit_P1_R4_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(4) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(4)&#10;      @act2 P1(4) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToS1&#10;    where&#10;      @grd1 P1ToS1(1) ≠ TRUE ∧ P1ToS1(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R2_ToS1&#10;    where&#10;      @grd1 P1ToS1(1) ≠ TRUE ∧ P1ToS1(2) ≠ TRUE&#10;      @grd2 P1(2) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(2)&#10;      @act2 P1(2) ≔ FALSE&#10;  end&#10;    event exit_P1_R3_ToS1&#10;    where&#10;      @grd1 P1ToS1(1) ≠ TRUE ∧ P1ToS1(2) ≠ TRUE&#10;      @grd2 P1(3) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(3)&#10;      @act2 P1(3) ≔ FALSE&#10;  end&#10;    event exit_P1_R4_ToS1&#10;    where&#10;      @grd1 P1ToS1(1) ≠ TRUE ∧ P1ToS1(2) ≠ TRUE&#10;      @grd2 P1(4) ≠ FALSE&#10;    then&#10;      @act1 P1ToS1(1) ≔ P1(4)&#10;      @act2 P1(4) ≔ FALSE&#10;  end&#10;  //ici je me suis arrêté&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;    event exit_P1_R1_ToP2&#10;    where&#10;      @grd1 P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE&#10;      @grd2 P1(1) ≠ FALSE&#10;    then&#10;      @act1 P1ToP2(1) ≔ P1(1)&#10;      @act2 P1(1) ≔ FALSE&#10;  end&#10;&#10;end&#10;" version="5">
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1681371281962" org.eventb.texttools.text_representation="machine ProjetGroupeM&#10;&#10;variables P1 P2 P3 S1 P1ToP2 P2ToP3 P1ToS1 S1ToP3 stations rames&#10;&#10;invariants&#10;  @inv1 P1 ∈ (1‥4) → BOOL&#10;  @inv2 finite(P1)&#10;  @inv3 P2 ∈ (1‥4) → BOOL&#10;  @inv4 finite(P2)&#10;  @inv5 P3 ∈ (1‥4) → BOOL&#10;  @inv6 finite(P3)&#10;  @inv7 S1 ∈ (1‥2) → BOOL&#10;  @inv8 finite(S1)&#10;  @inv9 P1ToP2 ∈ (1‥2) → BOOL&#10;  @inv10 finite(P1ToP2)&#10;  @inv11 P2ToP3 ∈ (1‥2) → BOOL&#10;  @inv12 finite(P2ToP3)&#10;  @inv13 P1ToS1 ∈ (1‥2) → BOOL&#10;  @inv14 finite(P1ToS1)&#10;  @inv15 S1ToP3 ∈ (1‥2) → BOOL&#10;  @inv16 finite(S1ToP3)&#10;  @inv17 stations ∈ (1‥4) → BOOL // Dans l'ordre stations(1) = P1, 2 = P2, 3 = P3 et 4 = S1&#10;  @inv18 finite(stations)&#10;  @inv19 rames ∈ (1‥4) → BOOL&#10;  @inv20 finite(rames)&#10; // @inv21 ¬(stations(4) == TRUE ∧ (rames(3) == TRUE ∨ rames(4) == TRUE))&#10;  /* Ici on vérifie qu'un train sortant d'une gare secondaire ne se trouve pas sur une voie n'existant pas&#10;     en effet une gare secondaire n'a que 2 voies */&#10;&#10;events&#10;  event INITIALISATION&#10;    then&#10;      @act1 P1 ≔ {1↦TRUE} ∪ {i↦FALSE ∣ i ∈ 2‥4}&#10;      @act2 P2 ≔ {i↦FALSE ∣ i ∈ 1‥4}&#10;      @act3 P3 ≔ {i↦FALSE ∣ i ∈ 1‥4}&#10;      @act4 S1 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act5 P1ToP2 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act6 P2ToP3 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act7 P1ToS1 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act8 S1ToP3 ≔ {i↦FALSE ∣ i ∈ 1‥2}&#10;      @act9 stations ≔ {i↦FALSE ∣ i ∈ 1‥4}&#10;      @act10 rames ≔ {i↦FALSE ∣ i ∈ 1‥4}&#10;  end&#10;&#10;  event exit_stations&#10;    any destination rame stationToExit&#10;    where&#10;      @grd1 rame ∈ rames&#10;      @grd2 destination ∈ stations ∧ stationToExit ∈ stations&#10;  end&#10;end&#10;" version="5">
     <org.eventb.core.variable name="(" org.eventb.core.generated="false" org.eventb.core.identifier="P1"/>
     <org.eventb.core.event name="*" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
         <org.eventb.core.action name="'" org.eventb.core.assignment="P1 ≔ {1↦TRUE} ∪ {i↦FALSE ∣ i ∈ 2‥4}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
@@ -10,6 +10,7 @@
         <org.eventb.core.action name="," org.eventb.core.assignment="P2ToP3 ≔ {i↦FALSE ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act6"/>
         <org.eventb.core.action name="-" org.eventb.core.assignment="P1ToS1 ≔ {i↦FALSE ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act7"/>
         <org.eventb.core.action name="." org.eventb.core.assignment="S1ToP3 ≔ {i↦FALSE ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act8"/>
+        <org.eventb.core.action name="1" org.eventb.core.assignment="rails ≔ {i↦FALSE ∣ i ∈ 1‥8}" org.eventb.core.label="act9"/>
     </org.eventb.core.event>
     <org.eventb.core.invariant name="." org.eventb.core.generated="false" org.eventb.core.label="inv1" org.eventb.core.predicate="P1 ∈ (1‥4) → BOOL"/>
     <org.eventb.core.variable name="/" org.eventb.core.generated="false" org.eventb.core.identifier="P2"/>
@@ -20,7 +21,7 @@
     <org.eventb.core.invariant name="8" org.eventb.core.generated="false" org.eventb.core.label="inv6" org.eventb.core.predicate="finite(P3)"/>
     <org.eventb.core.invariant name=":" org.eventb.core.generated="false" org.eventb.core.label="inv7" org.eventb.core.predicate="S1 ∈ (1‥2) → BOOL"/>
     <org.eventb.core.invariant name="=" org.eventb.core.generated="false" org.eventb.core.label="inv8" org.eventb.core.predicate="finite(S1)"/>
-    <org.eventb.core.invariant name="&gt;" org.eventb.core.generated="false" org.eventb.core.label="inv9" org.eventb.core.predicate="P1ToP2 ∈ (1‥2) → BOOL"/>
+    <org.eventb.core.invariant name="&gt;" org.eventb.core.generated="false" org.eventb.core.label="inv9" org.eventb.core.predicate="P1ToP2 ∈ (1‥2) → BOOL" org.eventb.core.theorem="true"/>
     <org.eventb.core.variable name="1" org.eventb.core.generated="false" org.eventb.core.identifier="P3"/>
     <org.eventb.core.invariant name="?" org.eventb.core.generated="false" org.eventb.core.label="inv10" org.eventb.core.predicate="finite(P1ToP2)"/>
     <org.eventb.core.variable name="3" org.eventb.core.generated="false" org.eventb.core.identifier="S1"/>
@@ -34,148 +35,19 @@
     <org.eventb.core.invariant name="D" org.eventb.core.generated="false" org.eventb.core.label="inv15" org.eventb.core.predicate="S1ToP3 ∈ (1‥2) → BOOL"/>
     <org.eventb.core.variable name=";" org.eventb.core.generated="false" org.eventb.core.identifier="S1ToP3"/>
     <org.eventb.core.invariant name="E" org.eventb.core.generated="false" org.eventb.core.label="inv16" org.eventb.core.predicate="finite(S1ToP3)"/>
-    <org.eventb.core.event name="_fJRcANlCEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="'" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="(" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name=")" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="*" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+    <org.eventb.core.event name="F" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_stations">
+        <org.eventb.core.parameter name="'" org.eventb.core.generated="false" org.eventb.core.identifier="nextRail"/>
+        <org.eventb.core.parameter name="(" org.eventb.core.generated="false" org.eventb.core.identifier="rame"/>
+        <org.eventb.core.parameter name=")" org.eventb.core.generated="false" org.eventb.core.identifier="depart"/>
+        <org.eventb.core.action name="," org.eventb.core.assignment="nextRail ≔ rame" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="." org.eventb.core.assignment="rame ≔ FALSE" org.eventb.core.label="act2"/>
+        <org.eventb.core.guard name="/" org.eventb.core.label="grd1" org.eventb.core.predicate="depart ∈ {P1, P2, P3, S1}"/>
+        <org.eventb.core.guard name="0" org.eventb.core.label="grd2" org.eventb.core.predicate="rame ∈ {1, 2, 3, 4}"/>
+        <org.eventb.core.guard name="1" org.eventb.core.label="grd3" org.eventb.core.predicate="nextRail ∈ rails"/>
+        <org.eventb.core.guard name="2" org.eventb.core.label="grd4" org.eventb.core.predicate="depart(rame) = TRUE"/>
+        <org.eventb.core.guard name="3" org.eventb.core.label="grd5" org.eventb.core.predicate="⊤"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_gOlBwNlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R2_ToP2">
-        <org.eventb.core.guard name="_gOlo0NlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gOlo0dlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(2) ≠ FALSE"/>
-        <org.eventb.core.action name="_gOmP4NlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(2)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gOmP4dlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(2) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gOm28NlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R3_ToP2">
-        <org.eventb.core.guard name="_gOm28dlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gOneANlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(3) ≠ FALSE"/>
-        <org.eventb.core.action name="_gOneAdlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(3)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gOoFENlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(3) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gOpTMNlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R4_ToP2">
-        <org.eventb.core.guard name="_gOqhUNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gOrIYNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(4) ≠ FALSE"/>
-        <org.eventb.core.action name="_gOrvcNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(4)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gOsWgNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(4) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gOsWgdlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToS1">
-        <org.eventb.core.guard name="_gOs9kNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToS1(1) ≠ TRUE ∧ P1ToS1(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gOs9kdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gOtkoNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gOtkodlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gOuLsNlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R2_ToS1">
-        <org.eventb.core.guard name="_gOuLsdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToS1(1) ≠ TRUE ∧ P1ToS1(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gOuywNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(2) ≠ FALSE"/>
-        <org.eventb.core.action name="_gOuywdlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(2)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gOvZ0NlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(2) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gOvZ0dlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R3_ToS1">
-        <org.eventb.core.guard name="_gOwA4NlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToS1(1) ≠ TRUE ∧ P1ToS1(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gOwn8NlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(3) ≠ FALSE"/>
-        <org.eventb.core.action name="_gOwn8dlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(3)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gOwn8tlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(3) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gOxPANlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R4_ToS1">
-        <org.eventb.core.guard name="_gOx2ENlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToS1(1) ≠ TRUE ∧ P1ToS1(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gOx2EdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(4) ≠ FALSE"/>
-        <org.eventb.core.action name="_gOydINlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToS1(1) ≔ P1(4)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gOzEMNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(4) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gOzEMdlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gOzrQNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gOzrQdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gO05YNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gO1gcNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gO1gcdlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gO2HgNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gO2HgdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gO2ukNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gO2ukdlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gO3VoNlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gO3VodlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gO38sNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gO38sdlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gO38stlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gO4jwNlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gO4jwdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gO5K0NlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gO5K0dlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gO5K0tlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gO5x4NlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gO5x4dlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gO6Y8NlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gO6Y8dlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gO6Y8tlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gO6Y89lDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gO7AANlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gO7AAdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gO7AAtlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gO7nENlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gO7nEdlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gO8OINlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gO8OIdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gO8OItlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gO8OI9lDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gO81MNlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gO81MdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gO9cQNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gO-DUNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gO-DUdlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gO-DUtlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gO-qYNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gO_4gNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gO_4gdlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gO_4gtlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gPAfkNlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gPAfkdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gPBGoNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gPBGodlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gPBGotlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gPBtsNlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gPBtsdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gPBtstlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gPCUwNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gPCUwdlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gPCUwtlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gPC70NlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gPC70dlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gPC70tlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gPDi4NlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gPDi4dlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gPEJ8NlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gPEJ8dlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gPEJ8tlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gPExANlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gPExAdlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gPExAtlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gPFYENlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gPFYEdlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gPFYEtlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gPF_INlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gPF_IdlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gPGmMNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gPHNQNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gPHNQdlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
-    <org.eventb.core.event name="_gPH0UNlDEe2nuf-UDJ5ILg" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1_R1_ToP2">
-        <org.eventb.core.guard name="_gPIbYNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2(1) ≠ TRUE ∧ P1ToP2(2) ≠ TRUE"/>
-        <org.eventb.core.guard name="_gPJCcNlDEe2nuf-UDJ5ILg" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(1) ≠ FALSE"/>
-        <org.eventb.core.action name="_gPJCcdlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1ToP2(1) ≔ P1(1)" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="_gPJpgNlDEe2nuf-UDJ5ILg" org.eventb.core.assignment="P1(1) ≔ FALSE" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
-    </org.eventb.core.event>
+    <org.eventb.core.variable name="M" org.eventb.core.identifier="rails"/>
+    <org.eventb.core.invariant name="N" org.eventb.core.label="inv17" org.eventb.core.predicate="rails ∈ (1‥8) → BOOL"/>
+    <org.eventb.core.invariant name="O" org.eventb.core.label="inv18" org.eventb.core.predicate="finite(rails)"/>
 </org.eventb.core.machineFile>
