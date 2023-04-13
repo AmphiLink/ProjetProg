@@ -570,6 +570,4 @@
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_stations/grd3/WD"/>
-    <org.eventb.core.prProof name="exit_stations/grd6/WD"/>
-    <org.eventb.core.prProof name="exit_stations/grd7/WD"/>
 </org.eventb.core.prFile>

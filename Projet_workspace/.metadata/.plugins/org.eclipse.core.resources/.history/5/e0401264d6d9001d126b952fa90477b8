@@ -39,16 +39,16 @@
         <org.eventb.core.parameter name="'" org.eventb.core.generated="false" org.eventb.core.identifier="nextRail"/>
         <org.eventb.core.parameter name="(" org.eventb.core.generated="false" org.eventb.core.identifier="rame"/>
         <org.eventb.core.parameter name=")" org.eventb.core.generated="false" org.eventb.core.identifier="depart"/>
-        <org.eventb.core.action name="," org.eventb.core.assignment="nextRail ≔ depart(rame)" org.eventb.core.label="act1"/>
-        <org.eventb.core.action name="." org.eventb.core.assignment="depart(rame) ≔ FALSE" org.eventb.core.label="act2"/>
+        <org.eventb.core.action name="," org.eventb.core.assignment="nextRail ≔ rame" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="." org.eventb.core.assignment="rame ≔ FALSE" org.eventb.core.label="act2"/>
         <org.eventb.core.guard name="/" org.eventb.core.label="grd1" org.eventb.core.predicate="depart ∈ {P1, P2, P3, S1}"/>
         <org.eventb.core.guard name="0" org.eventb.core.label="grd2" org.eventb.core.predicate="rame ∈ {1, 2, 3, 4}"/>
         <org.eventb.core.guard name="2" org.eventb.core.label="grd3" org.eventb.core.predicate="depart(rame) = TRUE"/>
         <org.eventb.core.guard name="3" org.eventb.core.label="grd4" org.eventb.core.predicate="direction = TRUE ⇒ Direction = TRUE"/>
         <org.eventb.core.parameter name="4" org.eventb.core.identifier="Direction"/>
         <org.eventb.core.guard name="7" org.eventb.core.label="grd5" org.eventb.core.predicate="direction = FALSE ⇒ Direction = FALSE"/>
-        <org.eventb.core.guard name="5" org.eventb.core.label="grd6" org.eventb.core.predicate="Direction = TRUE ⇒ nextRail ∈ {P1ToP2(0), P2ToP3(0), P1ToS1(0), S1ToP3(0)} "/>
-        <org.eventb.core.guard name="6" org.eventb.core.label="grd7" org.eventb.core.predicate="Direction = FALSE ⇒ nextRail ∈ {P1ToP2(1), P2ToP3(1), P1ToS1(1), S1ToP3(1)} "/>
+        <org.eventb.core.guard name="5" org.eventb.core.label="grd6" org.eventb.core.predicate="Direction == TRUE ⇒ rame ∈ {P1ToP2(0), P2ToP3(0), P1ToS1(0), S1ToP3(0)} "/>
+        <org.eventb.core.guard name="6" org.eventb.core.label="grd7" org.eventb.core.predicate="Direction == FALSE ⇒ rame ∈ {P1ToP2(1), P2ToP3(1), P1ToS1(1), S1ToP3(1)} "/>
     </org.eventb.core.event>
     <org.eventb.core.variable name="G" org.eventb.core.identifier="direction"/>
     <org.eventb.core.invariant name="H" org.eventb.core.label="inv17" org.eventb.core.predicate="direction ∈ BOOL"/>
