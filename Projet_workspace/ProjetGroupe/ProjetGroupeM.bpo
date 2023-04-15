@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="74">
+<org.eventb.core.poFile org.eventb.core.poStamp="77">
     <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0"/>
     <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="61">
         <org.eventb.core.poIdentifier name="P1ToS1" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
@@ -788,19 +788,25 @@
         <org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="origin=1⇒direction=1" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_jR2VsNoYEe2IFZev-8rMUA|org.eventb.core.guard#_UjvX4NrbEe2mf8JCU2im1Q"/>
         <org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="origin=3⇒direction=2" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_jR2VsNoYEe2IFZev-8rMUA|org.eventb.core.guard#_UjzCQNrbEe2mf8JCU2im1Q"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="enter_P3/grd4/WD" org.eventb.core.accurate="false" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/grd3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;("/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="origin=1⇒2∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STvGYNomEe2IFZev-8rMUA"/>
-        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STvGYNomEe2IFZev-8rMUA"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="rame∈dom(P3)∧P3∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STsDENomEe2IFZev-8rMUA"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STsDENomEe2IFZev-8rMUA"/>
         <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;("/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/grd5/WD" org.eventb.core.accurate="false" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/grd4/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;)"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="origin=2⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STywwNomEe2IFZev-8rMUA"/>
-        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STywwNomEe2IFZev-8rMUA"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="origin=1⇒2∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STvGYNomEe2IFZev-8rMUA"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STvGYNomEe2IFZev-8rMUA"/>
         <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;)"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/inv5/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/grd5/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="75">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;*"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="origin=2⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STywwNomEe2IFZev-8rMUA"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STywwNomEe2IFZev-8rMUA"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;*"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_P3/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="P3{rame ↦ 2}∈1 ‥ 4 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#6"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA"/>
@@ -808,7 +814,7 @@
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_P3\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#HYP.|org.eventb.core.poPredicate#PRD4"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/inv6/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/inv6/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite(P3{rame ↦ 2})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#8"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA"/>
@@ -816,7 +822,7 @@
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_P3\/inv6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#HYP.|org.eventb.core.poPredicate#PRD5"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/inv11/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/inv11/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;">
             <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(origin=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST2bINomEe2IFZev-8rMUA"/>
         </org.eventb.core.poPredicateSet>
@@ -826,7 +832,7 @@
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_P3\/inv11\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD10"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/inv12/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;">
             <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(origin=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST2bINomEe2IFZev-8rMUA"/>
         </org.eventb.core.poPredicateSet>
@@ -836,7 +842,7 @@
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_P3\/inv12\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD11"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/inv15/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/inv15/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;">
             <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧(origin=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST43YNomEe2IFZev-8rMUA"/>
         </org.eventb.core.poPredicateSet>
@@ -846,7 +852,7 @@
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_P3\/inv15\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD14"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/inv16/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/inv16/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;">
             <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧(origin=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST43YNomEe2IFZev-8rMUA"/>
         </org.eventb.core.poPredicateSet>
@@ -856,25 +862,25 @@
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_P3\/inv16\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD15"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/act1/WD" org.eventb.core.accurate="false" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/act1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧origin=2⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST2bINomEe2IFZev-8rMUA"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST2bINomEe2IFZev-8rMUA"/>
         <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/act1/FIS" org.eventb.core.accurate="false" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/act1/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∃P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧(origin=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST2bINomEe2IFZev-8rMUA"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST2bINomEe2IFZev-8rMUA"/>
         <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/act3/WD" org.eventb.core.accurate="false" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/act3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀S1ToP3'⦂ℙ(ℤ×ℤ)·S1ToP3'∈1 ‥ 2 → {0,1,2}∧origin=1⇒1∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST43YNomEe2IFZev-8rMUA"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST43YNomEe2IFZev-8rMUA"/>
         <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="enter_P3/act3/FIS" org.eventb.core.accurate="false" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="69">
+    <org.eventb.core.poSequent name="enter_P3/act3/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="75">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP;"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∃S1ToP3'⦂ℙ(ℤ×ℤ)·S1ToP3'∈1 ‥ 2 → {0,1,2}∧(origin=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST43YNomEe2IFZev-8rMUA"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.action#_ST43YNomEe2IFZev-8rMUA"/>
@@ -891,171 +897,292 @@
         <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="rame∈{1,2,3,4}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STkHQNomEe2IFZev-8rMUA"/>
         <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="origin∈{1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_SToYsNomEe2IFZev-8rMUA"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTHYPS1ToP;)" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;(" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="origin=1⇒S1ToP3(2)=1" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STvGYNomEe2IFZev-8rMUA"/>
+    <org.eventb.core.poPredicateSet name="EVTHYPS1ToP;)" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;(" org.eventb.core.poStamp="75">
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="P3(rame)=0" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STsDENomEe2IFZev-8rMUA"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToP;" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;)" org.eventb.core.poStamp="69">
-        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="origin=2⇒P2ToP3(2)=1" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STywwNomEe2IFZev-8rMUA"/>
+    <org.eventb.core.poPredicateSet name="EVTHYPS1ToP;*" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;)" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="origin=1⇒S1ToP3(2)=1" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STvGYNomEe2IFZev-8rMUA"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="movrightP1ToP2/inv10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="70">
+    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToP;" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP;*" org.eventb.core.poStamp="75">
+        <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="origin=2⇒P2ToP3(2)=1" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_STcygNomEe2IFZev-8rMUA|org.eventb.core.guard#_STywwNomEe2IFZev-8rMUA"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="enter_S1/grd3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP=("/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="rame∈dom(S1)∧S1∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_mYeGENuREe2Rh9Fgd20L0A"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_mYeGENuREe2Rh9Fgd20L0A"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP=("/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/grd4/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP=)"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="origin=1⇒2∈dom(P1ToS1)∧P1ToS1∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_mYetINuREe2Rh9Fgd20L0A"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_mYetINuREe2Rh9Fgd20L0A"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP=)"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/grd5/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP=*"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="origin=3⇒1∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_mYetIduREe2Rh9Fgd20L0A"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_mYetIduREe2Rh9Fgd20L0A"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP=*"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/inv7/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP="/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="S1{rame ↦ 2}∈1 ‥ 2 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#:"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#:"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_S1\/inv7\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#HYP.|org.eventb.core.poPredicate#PRD6"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/inv8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP="/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite(S1{rame ↦ 2})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#="/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#="/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_S1\/inv8\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#HYP.|org.eventb.core.poPredicate#PRD7"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP=">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="P1ToS1'∈1 ‥ 2 → {0,1,2}∧(origin=1⇒P1ToS1'={1 ↦ P1ToS1(1),2 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_uYZLANuGEe2QFtY3tT2RXA"/>
+        </org.eventb.core.poPredicateSet>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="P1ToS1'∈1 ‥ 2 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#B"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#B"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_S1\/inv13\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD12"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP=">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="P1ToS1'∈1 ‥ 2 → {0,1,2}∧(origin=1⇒P1ToS1'={1 ↦ P1ToS1(1),2 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_uYZLANuGEe2QFtY3tT2RXA"/>
+        </org.eventb.core.poPredicateSet>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite(P1ToS1')" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#C"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#C"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_S1\/inv14\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD13"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/inv15/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP=">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧(origin=1⇒S1ToP3'={1 ↦ 0,2 ↦ S1ToP3(2)})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_mYf7QNuREe2Rh9Fgd20L0A"/>
+        </org.eventb.core.poPredicateSet>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#D"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#D"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_S1\/inv15\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD14"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/inv16/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP=">
+            <org.eventb.core.poPredicate name="'" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧(origin=1⇒S1ToP3'={1 ↦ 0,2 ↦ S1ToP3(2)})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_mYf7QNuREe2Rh9Fgd20L0A"/>
+        </org.eventb.core.poPredicateSet>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite(S1ToP3')" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#E"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#E"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#enter_S1\/inv16\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD15"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/act1/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP="/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀P1ToS1'⦂ℙ(ℤ×ℤ)·P1ToS1'∈1 ‥ 2 → {0,1,2}∧origin=1⇒1∈dom(P1ToS1)∧P1ToS1∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_uYZLANuGEe2QFtY3tT2RXA"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_uYZLANuGEe2QFtY3tT2RXA"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP="/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/act1/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP="/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∃P1ToS1'⦂ℙ(ℤ×ℤ)·P1ToS1'∈1 ‥ 2 → {0,1,2}∧(origin=1⇒P1ToS1'={1 ↦ P1ToS1(1),2 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_uYZLANuGEe2QFtY3tT2RXA"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_uYZLANuGEe2QFtY3tT2RXA"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP="/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/act3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of action" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP="/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀S1ToP3'⦂ℙ(ℤ×ℤ)·S1ToP3'∈1 ‥ 2 → {0,1,2}∧origin=1⇒2∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_mYf7QNuREe2Rh9Fgd20L0A"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_mYf7QNuREe2Rh9Fgd20L0A"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP="/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="enter_S1/act3/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP="/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∃S1ToP3'⦂ℙ(ℤ×ℤ)·S1ToP3'∈1 ‥ 2 → {0,1,2}∧(origin=1⇒S1ToP3'={1 ↦ 0,2 ↦ S1ToP3(2)})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_mYf7QNuREe2Rh9Fgd20L0A"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.action#_mYf7QNuREe2Rh9Fgd20L0A"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP="/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToP=" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="P1ToS1'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.poIdentifier name="S1ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.poIdentifier name="S1'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.poIdentifier name="rame" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="origin" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPS1ToP=(" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToP=" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="rame∈{1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_uYUSgNuGEe2QFtY3tT2RXA"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="origin∈{1,3}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_mYdfANuREe2Rh9Fgd20L0A"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPS1ToP=)" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP=(" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="S1(rame)=0" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_mYeGENuREe2Rh9Fgd20L0A"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPS1ToP=*" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP=)" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="origin=1⇒P1ToS1(2)=1" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_mYetINuREe2Rh9Fgd20L0A"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToP=" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTHYPS1ToP=*" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="origin=3⇒S1ToP3(1)=2" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXB|org.eventb.core.guard#_mYetIduREe2Rh9Fgd20L0A"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="movrightP1ToP2/inv10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP&gt;"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite({1 ↦ 0,1 ↦ 1})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#?"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYPaANuGEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#?"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movrightP1ToP2\/inv10\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToP=" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToP&gt;" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="76">
         <org.eventb.core.poIdentifier name="P1ToP2'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToP=" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToP=" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToP2={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYPaANuGEe2QFtY3tT2RXA|org.eventb.core.guard#_uYUSgNuGEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToP&gt;" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToP&gt;" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToP2={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYPaANuGEe2QFtY3tT2RXA|org.eventb.core.guard#_uYht4NuGEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="movrightP1ToS1/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="70">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP&gt;"/>
+    <org.eventb.core.poSequent name="movrightP1ToS1/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP?"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="{1 ↦ 0,1 ↦ 1}∈1 ‥ 2 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#B"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYdccNuGEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#B"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movrightP1ToS1\/inv13\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD12"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="movrightP1ToS1/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="70">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP&gt;"/>
+    <org.eventb.core.poSequent name="movrightP1ToS1/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP?"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite({1 ↦ 0,1 ↦ 1})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#C"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYdccNuGEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#C"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movrightP1ToS1\/inv14\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD13"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToP&gt;" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToP?" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="76">
         <org.eventb.core.poIdentifier name="P1ToS1'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToP&gt;" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToP&gt;" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToS1={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYdccNuGEe2QFtY3tT2RXA|org.eventb.core.guard#_uYht4NuGEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToP?" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToP?" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToS1={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYdccNuGEe2QFtY3tT2RXA|org.eventb.core.guard#_8CyecNuGEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="movrightP2ToP3/inv11/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="71">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP?"/>
+    <org.eventb.core.poSequent name="movrightP2ToP3/inv11/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP@"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="{1 ↦ 0,1 ↦ 1}∈1 ‥ 2 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#@"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_8CuNANuGEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#@"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movrightP2ToP3\/inv11\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD10"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="movrightP2ToP3/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="71">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP?"/>
+    <org.eventb.core.poSequent name="movrightP2ToP3/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP@"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite({1 ↦ 0,1 ↦ 1})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#A"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_8CuNANuGEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#A"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movrightP2ToP3\/inv12\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD11"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToP?" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToP@" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="76">
         <org.eventb.core.poIdentifier name="P2ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToP?" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToP?" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P2ToP3={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_8CuNANuGEe2QFtY3tT2RXA|org.eventb.core.guard#_8CyecNuGEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToP@" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToP@" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P2ToP3={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_8CuNANuGEe2QFtY3tT2RXA|org.eventb.core.guard#_K4wNINuHEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="movrightS1ToP3/inv15/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="72">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP@"/>
+    <org.eventb.core.poSequent name="movrightS1ToP3/inv15/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPA"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="{1 ↦ 0,1 ↦ 1}∈1 ‥ 2 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#D"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_K4siwNuHEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#D"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movrightS1ToP3\/inv15\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD14"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="movrightS1ToP3/inv16/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="72">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToP@"/>
+    <org.eventb.core.poSequent name="movrightS1ToP3/inv16/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPA"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite({1 ↦ 0,1 ↦ 1})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#E"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_K4siwNuHEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#E"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movrightS1ToP3\/inv16\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD15"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToP@" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToPA" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="76">
         <org.eventb.core.poIdentifier name="S1ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToP@" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToP@" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="S1ToP3={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_K4siwNuHEe2QFtY3tT2RXA|org.eventb.core.guard#_K4wNINuHEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToPA" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToPA" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="S1ToP3={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_K4siwNuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjWTENuHEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="movleftP1ToP2/inv10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="73">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPA"/>
+    <org.eventb.core.poSequent name="movleftP1ToP2/inv10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPB"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite({1 ↦ 2,1 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#?"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjSosNuHEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#?"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movleftP1ToP2\/inv10\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToPA" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToPB" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="76">
         <org.eventb.core.poIdentifier name="P1ToP2'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToPA" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToPA" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToP2={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjSosNuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjWTENuHEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToPB" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToPB" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToP2={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjSosNuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjhSMNuHEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="movleftP1ToS1/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="73">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPB"/>
+    <org.eventb.core.poSequent name="movleftP1ToS1/inv13/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPC"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="{1 ↦ 2,1 ↦ 0}∈1 ‥ 2 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#B"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjdn0NuHEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#B"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movleftP1ToS1\/inv13\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD12"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="movleftP1ToS1/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="73">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPB"/>
+    <org.eventb.core.poSequent name="movleftP1ToS1/inv14/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPC"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite({1 ↦ 2,1 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#C"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjdn0NuHEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#C"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movleftP1ToS1\/inv14\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD13"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToPB" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToPC" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="76">
         <org.eventb.core.poIdentifier name="P1ToS1'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToPB" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToPB" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToS1={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjdn0NuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjhSMNuHEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToPC" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToPC" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToS1={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjdn0NuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjsRUNuHEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="movleftP2ToP3/inv11/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="73">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPC"/>
+    <org.eventb.core.poSequent name="movleftP2ToP3/inv11/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPD"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="{1 ↦ 2,1 ↦ 0}∈1 ‥ 2 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#@"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjom8NuHEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#@"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movleftP2ToP3\/inv11\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD10"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="movleftP2ToP3/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="73">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPC"/>
+    <org.eventb.core.poSequent name="movleftP2ToP3/inv12/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPD"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite({1 ↦ 2,1 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#A"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjom8NuHEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#A"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movleftP2ToP3\/inv12\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD11"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToPC" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToPD" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="76">
         <org.eventb.core.poIdentifier name="P2ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToPC" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToPC" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P2ToP3={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjom8NuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjsRUNuHEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToPD" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToPD" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P2ToP3={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjom8NuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yj2pYNuHEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="movleftS1ToP3/inv15/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="73">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPD"/>
+    <org.eventb.core.poSequent name="movleftS1ToP3/inv15/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPE"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="{1 ↦ 2,1 ↦ 0}∈1 ‥ 2 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#D"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#D"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movleftS1ToP3\/inv15\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD14"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="movleftS1ToP3/inv16/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="73">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPD"/>
+    <org.eventb.core.poSequent name="movleftS1ToP3/inv16/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTALLHYPS1ToPE"/>
         <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="finite({1 ↦ 2,1 ↦ 0})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#E"/>
         <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXA"/>
         <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#E"/>
         <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poSequent#movleftS1ToP3\/inv16\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
         <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD15"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToPD" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="EVTIDENTS1ToPE" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
         <org.eventb.core.poIdentifier name="S1ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToPD" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToPD" org.eventb.core.poStamp="0">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="S1ToP3={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yj2pYNuHEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPS1ToPE" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#EVTIDENTS1ToPE" org.eventb.core.poStamp="77">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="S1ToP3={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXA|org.eventb.core.guard#_mYmB4NuREe2Rh9Fgd20L0A"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="HYP." org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeM.bpo|org.eventb.core.poFile#ProjetGroupeM|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="61">
         <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1∈1 ‥ 4 → {0,1,2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.invariant#."/>

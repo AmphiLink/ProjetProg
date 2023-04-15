@@ -346,3 +346,18 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" becaus
 
 !ENTRY de.prob.core 1 0 2023-04-13 17:43:04.826
 !MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable
+!SESSION 2023-04-15 15:20:34.447 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY de.prob.core 1 0 2023-04-15 15:21:01.020
+!MESSAGE Starting ProB CLI for win32 ... Path is C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\probcli.exe
+
+!ENTRY de.prob.core 1 0 2023-04-15 15:21:02.361
+!MESSAGE Server has startet and listens on port 61165
+
+!ENTRY de.prob.core 1 0 2023-04-15 15:21:02.362
+!MESSAGE Server can receive user interrupts via reference 3108
