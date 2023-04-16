@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1681565860043" org.eventb.texttools.text_representation="machine ProjetGroupeM&#10;&#10;variables P1 P2 P3 S1 P1ToP2 P2ToP3 P1ToS1 S1ToP3&#10;&#10;invariants&#10;  @inv1 P1 ∈ (1‥4) → {0, 1, 2} // 1 -&gt; vers la droite, 2 -&gt; vers la gauche&#10;  @inv2 finite(P1)&#10;  @inv3 P2 ∈ (1‥4) → {0, 1, 2}&#10;  @inv4 finite(P2)&#10;  @inv5 P3 ∈ (1‥4) → {0, 1, 2}&#10;  @inv6 finite(P3)&#10;  @inv7 S1 ∈ (1‥2) → {0, 1, 2}&#10;  @inv8 finite(S1)&#10;  theorem @inv9 P1ToP2 ∈ (1‥2) → {0, 1, 2}&#10;  @inv10 finite(P1ToP2)&#10;  @inv11 P2ToP3 ∈ (1‥2) → {0, 1, 2}&#10;  @inv12 finite(P2ToP3)&#10;  @inv13 P1ToS1 ∈ (1‥2) → {0, 1, 2}&#10;  @inv14 finite(P1ToS1)&#10;  @inv15 S1ToP3 ∈ (1‥2) → {0, 1, 2}&#10;  @inv16 finite(S1ToP3)&#10;&#10;events&#10;  event INITIALISATION&#10;    then&#10;      @act1 P1 ≔ {i↦0 ∣ i ∈ 1‥4}&#10;      @act2 P2 ≔ {1↦2} ∪ {i↦0 ∣ i ∈ 2‥4}&#10;      @act3 P3 ≔ {1↦1} ∪ {i↦0 ∣ i ∈ 2‥4}&#10;      @act4 S1 ≔ {i↦0 ∣ i ∈ 1‥2}&#10;      @act5 P1ToP2 ≔ {1↦1} ∪ {i↦0 ∣ i = 2}&#10;      @act6 P2ToP3 ≔ {i↦0 ∣ i ∈ 1‥2}&#10;      @act7 P1ToS1 ≔ {i↦0 ∣ i ∈ 1‥2}&#10;      @act8 S1ToP3 ≔ {i↦0 ∣ i ∈ 1‥2}&#10;  end&#10;&#10;  event exit_P1&#10;    any rame destination&#10;    where&#10;      @grd1 rame ∈ {1, 2, 3, 4}&#10;      @grd2 destination ∈ {2, 3}&#10;      @grd3 P1(rame) = 1&#10;      @grd4 destination = 2 ⇒ P1ToP2(1) = 0 ∧ P1ToP2(2) ≠ 2&#10;      @grd5 destination = 3 ⇒ P1ToS1(1) = 0 ∧ P1ToS1(2) ≠  2 ∧ S1(1) ≠ 1 ∧ S1(2) ≠ 1&#10;    then&#10;      @act1 P1ToP2:∣(P1ToP2' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 2 ⇒ P1ToP2' = {1 ↦ 1, 2 ↦ P1ToP2(2)})&#10;      @act3 P1ToS1:∣(P1ToS1' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 3 ⇒ P1ToS1' = {1 ↦ 1, 2 ↦ P1ToS1(2)})&#10;      @act2 P1(rame) ≔ 0&#10;  end&#10;&#10;  event exit_P2&#10;    any rame destination&#10;    where&#10;      @grd1 rame ∈ {1, 2, 3, 4}&#10;      @grd2 destination ∈ {1, 3}&#10;      @grd3 P2(rame) ≠ 0&#10;      @grd4 destination = 1 ⇒ P1ToP2 = {1 ↦ 0, 2 ↦ 0}&#10;      @grd5 destination = 3 ⇒ P2ToP3 = {1 ↦ 0, 2 ↦ 0}&#10;    then&#10;      @act1 P1ToP2:∣(P1ToP2' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 1 ⇒ P1ToP2' = {1 ↦ 1, 2 ↦ P1ToP2(2)})&#10;      @act3 P2ToP3:∣(P2ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 3 ⇒ P2ToP3' = {1 ↦ P2ToP3(1), 2 ↦ 2})&#10;      @act2 P2(rame) ≔ 0&#10;  end&#10;&#10;  event exit_P3&#10;    any rame destination&#10;    where&#10;      @grd1 rame ∈ {1, 2, 3, 4}&#10;      @grd2 destination ∈ {1, 2}&#10;      @grd3 P3(rame) = 2&#10;      @grd4 destination = 1 ⇒ S1ToP3(2) = 0 ∧ S1ToP3(1) ≠ 1&#10;      @grd5 destination = 2 ⇒ P2ToP3(2) = 0 ∧ P2ToP3(1) ≠ 1 ∧ S1(1) ≠ 2 ∧ S1(2) ≠ 2&#10;    then&#10;      @act1 P2ToP3:∣(P2ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 2 ⇒ P2ToP3' = {1 ↦ P2ToP3(1), 2 ↦ 1})&#10;      @act3 S1ToP3:∣(S1ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 1 ⇒ S1ToP3' = {1 ↦ S1ToP3(1), 2 ↦ 1})&#10;      @act2 P3(rame) ≔ 0&#10;  end&#10;&#10;  event exit_S1&#10;    any rame destination&#10;    where&#10;      @grd1 rame ∈ {1, 2}&#10;      @grd2 destination ∈ {1, 3}&#10;      @grd3 S1(rame) ≠ 0&#10;      @grd4 destination = 1 ⇒ P1ToS1 = {1 ↦ 0, 2 ↦ 0}&#10;      @grd5 destination = 3 ⇒ S1ToP3 = {1 ↦ 0, 2 ↦ 0}&#10;    then&#10;      @act1 P1ToS1:∣(P1ToS1' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 1 ⇒ P1ToS1' = {1 ↦ P1ToS1(1), 2 ↦ 2})&#10;      @act3 S1ToP3:∣(S1ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 3 ⇒ S1ToP3' = {1 ↦ 1, 2 ↦ S1ToP3(2)})&#10;      @act2 S1(rame) ≔ 0&#10;  end&#10;&#10;  event enter_P1&#10;    any rame origin&#10;    where&#10;      @grd1 rame ∈ {1, 2, 3, 4}&#10;      @grd2 P1(rame) = 0&#10;      @grd3 origin ∈ {2, 3}&#10;      @grd4 origin = 2 ⇒ P1ToP2(1) = 2&#10;      @grd5 origin = 3 ⇒ P1ToS1(1) = 2&#10;    then&#10;      @act1 P1(rame) ≔ 1&#10;      @act2 P1ToS1:∣(P1ToS1' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 3 ⇒ P1ToS1' = {1 ↦ 0, 2 ↦ P1ToS1(2)})&#10;      @act3 P1ToP2:∣(P1ToP2' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 2 ⇒ P1ToP2' = {1 ↦ 0, 2 ↦ P1ToP2(2)})&#10;  end&#10;&#10;  event enter_P2&#10;    any rame origin direction&#10;    where&#10;      @grd1 rame ∈ {1, 2, 3, 4}&#10;      @grd2 origin ∈ {1, 3}&#10;      @grd3 P2(rame) = 0&#10;      @grd4 origin = 1 ⇒ P1ToP2(2) = 1&#10;      @grd5 origin = 3 ⇒ P2ToP3(1) = 2&#10;      @grd6 direction ∈ {1, 2}&#10;      @grd7 origin = 1 ⇒ direction = 1&#10;      @grd8 origin = 3 ⇒ direction = 2&#10;    then&#10;      @act1 P1ToP2:∣(P1ToP2' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 1 ⇒ P1ToP2' = {1 ↦ P1ToP2(1), 2 ↦ 0})&#10;      @act2 P2ToP3:∣(P2ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 3 ⇒ P2ToP3' = {1 ↦ 0, 2 ↦ P2ToP3(2)})&#10;      @act3 P2(rame) ≔ direction&#10;  end&#10;&#10;  event enter_P3&#10;    any rame origin&#10;    where&#10;      @grd1 rame ∈ {1, 2, 3, 4}&#10;      @grd2 origin ∈ {1, 2}&#10;      @grd3 P3(rame) = 0&#10;      @grd4 origin = 1 ⇒ S1ToP3(2) = 1&#10;      @grd5 origin = 2 ⇒ P2ToP3(2) = 1&#10;    then&#10;      @act1 P2ToP3:∣(P2ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 2 ⇒ P2ToP3' = {1 ↦ P2ToP3(1), 2 ↦ 0})&#10;      @act3 S1ToP3:∣(S1ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 1 ⇒ S1ToP3' = {1 ↦ S1ToP3(1), 2 ↦ 0})&#10;      @act2 P3(rame) ≔ 2&#10;  end&#10;&#10;  event enter_S1&#10;    any rame origin direction&#10;    where&#10;      @grd1 rame ∈ {1, 2}&#10;      @grd2 origin ∈ {1, 3}&#10;      @grd3 S1(rame) = 0&#10;      @grd4 origin = 1 ⇒ P1ToS1(2) = 1&#10;      @grd5 origin = 3 ⇒ S1ToP3(1) = 2&#10;      @grd6 direction ∈ {1, 2}&#10;      @grd7 origin = 1 ⇒ direction = 1&#10;      @grd8 origin = 3 ⇒ direction = 2&#10;    then&#10;      @act1 P1ToS1:∣(P1ToS1' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 1 ⇒ P1ToS1' = {1 ↦ P1ToS1(1), 2 ↦ 0})&#10;      @act3 S1ToP3:∣(S1ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 1 ⇒ S1ToP3' = {1 ↦ 0, 2 ↦ S1ToP3(2)})&#10;      @act2 S1(rame) ≔ direction&#10;  end&#10;&#10;  event movrightP1ToP2&#10;    where&#10;      @grd1 P1ToP2 = {1 ↦ 1, 1 ↦ 0}&#10;    then&#10;      @act1 P1ToP2 ≔ {1 ↦ 0, 1 ↦ 1}&#10;  end&#10;&#10;  event movrightP1ToS1&#10;    where&#10;      @grd1 P1ToS1 = {1 ↦ 1, 1 ↦ 0}&#10;    then&#10;      @act1 P1ToS1 ≔ {1 ↦ 0, 1 ↦ 1}&#10;  end&#10;&#10;  event movrightP2ToP3&#10;    where&#10;      @grd1 P2ToP3 = {1 ↦ 1, 1 ↦ 0}&#10;    then&#10;      @act1 P2ToP3 ≔ {1 ↦ 0, 1 ↦ 1}&#10;  end&#10;&#10;  event movrightS1ToP3&#10;    where&#10;      @grd1 S1ToP3 = {1 ↦ 1, 1 ↦ 0}&#10;    then&#10;      @act1 S1ToP3 ≔ {1 ↦ 0, 1 ↦ 1}&#10;  end&#10;&#10;  event movleftP1ToP2&#10;    where&#10;      @grd1 P1ToP2 = {1 ↦ 0, 1 ↦ 2}&#10;    then&#10;      @act1 P1ToP2 ≔ {1 ↦ 2, 1 ↦ 0}&#10;  end&#10;&#10;  event movleftP1ToS1&#10;    where&#10;      @grd1 P1ToS1 = {1 ↦ 0, 1 ↦ 2}&#10;    then&#10;      @act1 P1ToS1 ≔ {1 ↦ 2, 1 ↦ 0}&#10;  end&#10;&#10;  event movleftP2ToP3&#10;    where&#10;      @grd1 P2ToP3 = {1 ↦ 0, 1 ↦ 2}&#10;    then&#10;      @act1 P2ToP3 ≔ {1 ↦ 2, 1 ↦ 0}&#10;  end&#10;&#10;  event movleftS1ToP3&#10;    where&#10;      @grd1 S1ToP3 = {1 ↦ 0, 1 ↦ 2}&#10;    then&#10;      @act1 S1ToP3 ≔ {1 ↦ 2, 1 ↦ 0}&#10;  end&#10;end&#10;" version="5">
+    <org.eventb.core.variable name="(" org.eventb.core.generated="false" org.eventb.core.identifier="P1"/>
+    <org.eventb.core.event name="*" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
+        <org.eventb.core.action name="'" org.eventb.core.assignment="P1 ≔ {i↦0 ∣ i ∈ 1‥4}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="(" org.eventb.core.assignment="P2 ≔ {1↦2} ∪ {i↦0 ∣ i ∈ 2‥4}" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+        <org.eventb.core.action name=")" org.eventb.core.assignment="P3 ≔ {1↦1} ∪ {i↦0 ∣ i ∈ 2‥4}" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+        <org.eventb.core.action name="*" org.eventb.core.assignment="S1 ≔ {i↦0 ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act4"/>
+        <org.eventb.core.action name="+" org.eventb.core.assignment="P1ToP2 ≔ {1↦1} ∪ {i↦0 ∣ i = 2}" org.eventb.core.generated="false" org.eventb.core.label="act5"/>
+        <org.eventb.core.action name="," org.eventb.core.assignment="P2ToP3 ≔ {i↦0 ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act6"/>
+        <org.eventb.core.action name="-" org.eventb.core.assignment="P1ToS1 ≔ {i↦0 ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act7"/>
+        <org.eventb.core.action name="." org.eventb.core.assignment="S1ToP3 ≔ {i↦0 ∣ i ∈ 1‥2}" org.eventb.core.generated="false" org.eventb.core.label="act8"/>
+    </org.eventb.core.event>
+    <org.eventb.core.invariant name="." org.eventb.core.comment="1 -&gt; vers la droite, 2 -&gt; vers la gauche" org.eventb.core.generated="false" org.eventb.core.label="inv1" org.eventb.core.predicate="P1 ∈ (1‥4) → {0, 1, 2}"/>
+    <org.eventb.core.variable name="/" org.eventb.core.generated="false" org.eventb.core.identifier="P2"/>
+    <org.eventb.core.invariant name="0" org.eventb.core.generated="false" org.eventb.core.label="inv2" org.eventb.core.predicate="finite(P1)"/>
+    <org.eventb.core.invariant name="2" org.eventb.core.generated="false" org.eventb.core.label="inv3" org.eventb.core.predicate="P2 ∈ (1‥4) → {0, 1, 2}"/>
+    <org.eventb.core.invariant name="4" org.eventb.core.generated="false" org.eventb.core.label="inv4" org.eventb.core.predicate="finite(P2)"/>
+    <org.eventb.core.invariant name="6" org.eventb.core.generated="false" org.eventb.core.label="inv5" org.eventb.core.predicate="P3 ∈ (1‥4) → {0, 1, 2}"/>
+    <org.eventb.core.invariant name="8" org.eventb.core.generated="false" org.eventb.core.label="inv6" org.eventb.core.predicate="finite(P3)"/>
+    <org.eventb.core.invariant name=":" org.eventb.core.generated="false" org.eventb.core.label="inv7" org.eventb.core.predicate="S1 ∈ (1‥2) → {0, 1, 2}"/>
+    <org.eventb.core.invariant name="=" org.eventb.core.generated="false" org.eventb.core.label="inv8" org.eventb.core.predicate="finite(S1)"/>
+    <org.eventb.core.invariant name="&gt;" org.eventb.core.generated="false" org.eventb.core.label="inv9" org.eventb.core.predicate="P1ToP2 ∈ (1‥2) → {0, 1, 2}" org.eventb.core.theorem="true"/>
+    <org.eventb.core.variable name="1" org.eventb.core.generated="false" org.eventb.core.identifier="P3"/>
+    <org.eventb.core.invariant name="?" org.eventb.core.generated="false" org.eventb.core.label="inv10" org.eventb.core.predicate="finite(P1ToP2)"/>
+    <org.eventb.core.variable name="3" org.eventb.core.generated="false" org.eventb.core.identifier="S1"/>
+    <org.eventb.core.invariant name="@" org.eventb.core.generated="false" org.eventb.core.label="inv11" org.eventb.core.predicate="P2ToP3 ∈ (1‥2) → {0, 1, 2}"/>
+    <org.eventb.core.variable name="5" org.eventb.core.generated="false" org.eventb.core.identifier="P1ToP2"/>
+    <org.eventb.core.invariant name="A" org.eventb.core.generated="false" org.eventb.core.label="inv12" org.eventb.core.predicate="finite(P2ToP3)"/>
+    <org.eventb.core.variable name="7" org.eventb.core.generated="false" org.eventb.core.identifier="P2ToP3"/>
+    <org.eventb.core.invariant name="B" org.eventb.core.generated="false" org.eventb.core.label="inv13" org.eventb.core.predicate="P1ToS1 ∈ (1‥2) → {0, 1, 2}"/>
+    <org.eventb.core.variable name="9" org.eventb.core.generated="false" org.eventb.core.identifier="P1ToS1"/>
+    <org.eventb.core.invariant name="C" org.eventb.core.generated="false" org.eventb.core.label="inv14" org.eventb.core.predicate="finite(P1ToS1)"/>
+    <org.eventb.core.invariant name="D" org.eventb.core.generated="false" org.eventb.core.label="inv15" org.eventb.core.predicate="S1ToP3 ∈ (1‥2) → {0, 1, 2}"/>
+    <org.eventb.core.variable name=";" org.eventb.core.generated="false" org.eventb.core.identifier="S1ToP3"/>
+    <org.eventb.core.invariant name="E" org.eventb.core.generated="false" org.eventb.core.label="inv16" org.eventb.core.predicate="finite(S1ToP3)"/>
+    <org.eventb.core.event name="F" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P1">
+        <org.eventb.core.parameter name="(" org.eventb.core.generated="false" org.eventb.core.identifier="rame"/>
+        <org.eventb.core.action name="," org.eventb.core.assignment="P1ToP2:∣(P1ToP2' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 2 ⇒ P1ToP2' = {1 ↦ 1, 2 ↦ P1ToP2(2)})" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name=";" org.eventb.core.assignment="P1ToS1:∣(P1ToS1' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 3 ⇒ P1ToS1' = {1 ↦ 1, 2 ↦ P1ToS1(2)})" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+        <org.eventb.core.action name="." org.eventb.core.assignment="P1(rame) ≔ 0" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+        <org.eventb.core.guard name="0" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="rame ∈ {1, 2, 3, 4}"/>
+        <org.eventb.core.guard name=":" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="destination ∈ {2, 3}"/>
+        <org.eventb.core.guard name="8" org.eventb.core.generated="false" org.eventb.core.label="grd3" org.eventb.core.predicate="P1(rame) = 1"/>
+        <org.eventb.core.parameter name="9" org.eventb.core.generated="false" org.eventb.core.identifier="destination"/>
+        <org.eventb.core.guard name="=" org.eventb.core.generated="false" org.eventb.core.label="grd4" org.eventb.core.predicate="destination = 2 ⇒ P1ToP2(1) = 0 ∧ P1ToP2(2) ≠ 2"/>
+        <org.eventb.core.guard name="&gt;" org.eventb.core.generated="false" org.eventb.core.label="grd5" org.eventb.core.predicate="destination = 3 ⇒ P1ToS1(1) = 0 ∧ P1ToS1(2) ≠  2 ∧ S1(1) ≠ 1 ∧ S1(2) ≠ 1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_lxgwgNngEe26adFr9nnCpw" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P2">
+        <org.eventb.core.parameter name="_3BYLQdnfEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.identifier="rame"/>
+        <org.eventb.core.parameter name="_3BYyUNnfEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.identifier="destination"/>
+        <org.eventb.core.guard name="_3BYyUdnfEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="rame ∈ {1, 2, 3, 4}"/>
+        <org.eventb.core.guard name="_3BYyUtnfEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="destination ∈ {1, 3}"/>
+        <org.eventb.core.guard name="_3BYyU9nfEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.label="grd3" org.eventb.core.predicate="P2(rame) ≠ 0"/>
+        <org.eventb.core.guard name="_3BYyVNnfEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.label="grd4" org.eventb.core.predicate="destination = 1 ⇒ P1ToP2 = {1 ↦ 0, 2 ↦ 0}"/>
+        <org.eventb.core.guard name="_3BZZYNnfEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.label="grd5" org.eventb.core.predicate="destination = 3 ⇒ P2ToP3 = {1 ↦ 0, 2 ↦ 0}"/>
+        <org.eventb.core.action name="_3BZZYdnfEe26adFr9nnCpw" org.eventb.core.assignment="P1ToP2:∣(P1ToP2' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 1 ⇒ P1ToP2' = {1 ↦ 1, 2 ↦ P1ToP2(2)})" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="_3BZZYtnfEe26adFr9nnCpw" org.eventb.core.assignment="P2ToP3:∣(P2ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 3 ⇒ P2ToP3' = {1 ↦ P2ToP3(1), 2 ↦ 2})" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+        <org.eventb.core.action name="_3BZZY9nfEe26adFr9nnCpw" org.eventb.core.assignment="P2(rame) ≔ 0" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_3BYLQNnfEe26adFr9nnCpw" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_P3">
+        <org.eventb.core.parameter name="_lxilsNngEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.identifier="rame"/>
+        <org.eventb.core.parameter name="_lxilsdngEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.identifier="destination"/>
+        <org.eventb.core.guard name="_lxilstngEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="rame ∈ {1, 2, 3, 4}"/>
+        <org.eventb.core.guard name="_lxjMwNngEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="destination ∈ {1, 2}"/>
+        <org.eventb.core.guard name="_lxjMwdngEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.label="grd3" org.eventb.core.predicate="P3(rame) = 2"/>
+        <org.eventb.core.guard name="_lxjMwtngEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.label="grd4" org.eventb.core.predicate="destination = 1 ⇒ S1ToP3(2) = 0 ∧ S1ToP3(1) ≠ 1"/>
+        <org.eventb.core.guard name="_lxjMw9ngEe26adFr9nnCpw" org.eventb.core.generated="false" org.eventb.core.label="grd5" org.eventb.core.predicate="destination = 2 ⇒ P2ToP3(2) = 0 ∧ P2ToP3(1) ≠ 1 ∧ S1(1) ≠ 2 ∧ S1(2) ≠ 2"/>
+        <org.eventb.core.action name="_lxjMxNngEe26adFr9nnCpw" org.eventb.core.assignment="P2ToP3:∣(P2ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 2 ⇒ P2ToP3' = {1 ↦ P2ToP3(1), 2 ↦ 1})" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="_lxjMxdngEe26adFr9nnCpw" org.eventb.core.assignment="S1ToP3:∣(S1ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 1 ⇒ S1ToP3' = {1 ↦ S1ToP3(1), 2 ↦ 1})" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+        <org.eventb.core.action name="_lxjz0NngEe26adFr9nnCpw" org.eventb.core.assignment="P3(rame) ≔ 0" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_gNPaYNoGEe2rMP-SQ61ezA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="exit_S1">
+        <org.eventb.core.parameter name="_gNQBcNoGEe2rMP-SQ61ezA" org.eventb.core.generated="false" org.eventb.core.identifier="rame"/>
+        <org.eventb.core.parameter name="_gNQBcdoGEe2rMP-SQ61ezA" org.eventb.core.generated="false" org.eventb.core.identifier="destination"/>
+        <org.eventb.core.guard name="_gNQBctoGEe2rMP-SQ61ezA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="rame ∈ {1, 2}"/>
+        <org.eventb.core.guard name="_gNQogNoGEe2rMP-SQ61ezA" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="destination ∈ {1, 3}"/>
+        <org.eventb.core.guard name="_gNQogdoGEe2rMP-SQ61ezA" org.eventb.core.generated="false" org.eventb.core.label="grd3" org.eventb.core.predicate="S1(rame) ≠ 0"/>
+        <org.eventb.core.guard name="_gNQogtoGEe2rMP-SQ61ezA" org.eventb.core.generated="false" org.eventb.core.label="grd4" org.eventb.core.predicate="destination = 1 ⇒ P1ToS1 = {1 ↦ 0, 2 ↦ 0}"/>
+        <org.eventb.core.guard name="_gNRPkNoGEe2rMP-SQ61ezA" org.eventb.core.generated="false" org.eventb.core.label="grd5" org.eventb.core.predicate="destination = 3 ⇒ S1ToP3 = {1 ↦ 0, 2 ↦ 0}"/>
+        <org.eventb.core.action name="_gNRPkdoGEe2rMP-SQ61ezA" org.eventb.core.assignment="P1ToS1:∣(P1ToS1' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 1 ⇒ P1ToS1' = {1 ↦ P1ToS1(1), 2 ↦ 2})" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="_gNRPktoGEe2rMP-SQ61ezA" org.eventb.core.assignment="S1ToP3:∣(S1ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (destination = 3 ⇒ S1ToP3' = {1 ↦ 1, 2 ↦ S1ToP3(2)})" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+        <org.eventb.core.action name="_gNR2oNoGEe2rMP-SQ61ezA" org.eventb.core.assignment="S1(rame) ≔ 0" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_lxgwgNngEe26adFr9nnCpx" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="enter_P1">
+        <org.eventb.core.parameter name="'" org.eventb.core.generated="false" org.eventb.core.identifier="rame"/>
+        <org.eventb.core.guard name="(" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="rame ∈ {1, 2, 3, 4}"/>
+        <org.eventb.core.guard name=")" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="P1(rame) = 0"/>
+        <org.eventb.core.parameter name="*" org.eventb.core.generated="false" org.eventb.core.identifier="origin"/>
+        <org.eventb.core.guard name="+" org.eventb.core.generated="false" org.eventb.core.label="grd3" org.eventb.core.predicate="origin ∈ {2, 3}"/>
+        <org.eventb.core.guard name="," org.eventb.core.generated="false" org.eventb.core.label="grd4" org.eventb.core.predicate="origin = 2 ⇒ P1ToP2(1) = 2"/>
+        <org.eventb.core.guard name="-" org.eventb.core.generated="false" org.eventb.core.label="grd5" org.eventb.core.predicate="origin = 3 ⇒ P1ToS1(1) = 2"/>
+        <org.eventb.core.action name="/" org.eventb.core.assignment="P1(rame) ≔ 1" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="0" org.eventb.core.assignment="P1ToS1:∣(P1ToS1' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 3 ⇒ P1ToS1' = {1 ↦ 0, 2 ↦ P1ToS1(2)})" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+        <org.eventb.core.action name="1" org.eventb.core.assignment="P1ToP2:∣(P1ToP2' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 2 ⇒ P1ToP2' = {1 ↦ 0, 2 ↦ P1ToP2(2)})" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_jR2VsNoYEe2IFZev-8rMUA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="enter_P2">
+        <org.eventb.core.parameter name="_jR7OMNoYEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.identifier="rame"/>
+        <org.eventb.core.parameter name="_jR9qcNoYEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.identifier="origin"/>
+        <org.eventb.core.guard name="_jSAtwNoYEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="rame ∈ {1, 2, 3, 4}"/>
+        <org.eventb.core.guard name="_jSE_MNoYEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="origin ∈ {1, 3}"/>
+        <org.eventb.core.guard name="_jSJQoNoYEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.label="grd3" org.eventb.core.predicate="P2(rame) = 0"/>
+        <org.eventb.core.guard name="_jSOJINoYEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.label="grd4" org.eventb.core.predicate="origin = 1 ⇒ P1ToP2(2) = 1"/>
+        <org.eventb.core.guard name="_jSTBoNoYEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.label="grd5" org.eventb.core.predicate="origin = 3 ⇒ P2ToP3(1) = 2"/>
+        <org.eventb.core.action name="_jSYhMNoYEe2IFZev-8rMUA" org.eventb.core.assignment="P1ToP2:∣(P1ToP2' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 1 ⇒ P1ToP2' = {1 ↦ P1ToP2(1), 2 ↦ 0})" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="_jSf18NoYEe2IFZev-8rMUA" org.eventb.core.assignment="P2ToP3:∣(P2ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 3 ⇒ P2ToP3' = {1 ↦ 0, 2 ↦ P2ToP3(2)})" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+        <org.eventb.core.action name="_jScLkNoYEe2IFZev-8rMUA" org.eventb.core.assignment="P2(rame) ≔ direction" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+        <org.eventb.core.parameter name="_UjqfYNrbEe2mf8JCU2im1Q" org.eventb.core.generated="false" org.eventb.core.identifier="direction"/>
+        <org.eventb.core.guard name="." org.eventb.core.generated="false" org.eventb.core.label="grd6" org.eventb.core.predicate="direction ∈ {1, 2}"/>
+        <org.eventb.core.guard name="_UjvX4NrbEe2mf8JCU2im1Q" org.eventb.core.generated="false" org.eventb.core.label="grd7" org.eventb.core.predicate="origin = 1 ⇒ direction = 1"/>
+        <org.eventb.core.guard name="_UjzCQNrbEe2mf8JCU2im1Q" org.eventb.core.generated="false" org.eventb.core.label="grd8" org.eventb.core.predicate="origin = 3 ⇒ direction = 2"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_STcygNomEe2IFZev-8rMUA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="enter_P3">
+        <org.eventb.core.parameter name="_STf10NomEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.identifier="rame"/>
+        <org.eventb.core.parameter name="_STiSENomEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.identifier="origin"/>
+        <org.eventb.core.guard name="_STkHQNomEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="rame ∈ {1, 2, 3, 4}"/>
+        <org.eventb.core.guard name="_SToYsNomEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="origin ∈ {1, 2}"/>
+        <org.eventb.core.guard name="_STsDENomEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.label="grd3" org.eventb.core.predicate="P3(rame) = 0"/>
+        <org.eventb.core.guard name="_STvGYNomEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.label="grd4" org.eventb.core.predicate="origin = 1 ⇒ S1ToP3(2) = 1"/>
+        <org.eventb.core.guard name="_STywwNomEe2IFZev-8rMUA" org.eventb.core.generated="false" org.eventb.core.label="grd5" org.eventb.core.predicate="origin = 2 ⇒ P2ToP3(2) = 1"/>
+        <org.eventb.core.action name="_ST2bINomEe2IFZev-8rMUA" org.eventb.core.assignment="P2ToP3:∣(P2ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 2 ⇒ P2ToP3' = {1 ↦ P2ToP3(1), 2 ↦ 0})" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="_ST43YNomEe2IFZev-8rMUA" org.eventb.core.assignment="S1ToP3:∣(S1ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 1 ⇒ S1ToP3' = {1 ↦ S1ToP3(1), 2 ↦ 0})" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+        <org.eventb.core.action name="_ST76sNomEe2IFZev-8rMUA" org.eventb.core.assignment="P3(rame) ≔ 2" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_yjzmENuHEe2QFtY3tT2RXB" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="enter_S1">
+        <org.eventb.core.parameter name="'" org.eventb.core.generated="false" org.eventb.core.identifier="rame"/>
+        <org.eventb.core.parameter name="(" org.eventb.core.generated="false" org.eventb.core.identifier="origin"/>
+        <org.eventb.core.guard name="_uYUSgNuGEe2QFtY3tT2RXA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="rame ∈ {1, 2}"/>
+        <org.eventb.core.guard name="_mYdfANuREe2Rh9Fgd20L0A" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="origin ∈ {1, 3}"/>
+        <org.eventb.core.guard name="_mYeGENuREe2Rh9Fgd20L0A" org.eventb.core.generated="false" org.eventb.core.label="grd3" org.eventb.core.predicate="S1(rame) = 0"/>
+        <org.eventb.core.guard name="_mYetINuREe2Rh9Fgd20L0A" org.eventb.core.generated="false" org.eventb.core.label="grd4" org.eventb.core.predicate="origin = 1 ⇒ P1ToS1(2) = 1"/>
+        <org.eventb.core.guard name="_mYetIduREe2Rh9Fgd20L0A" org.eventb.core.generated="false" org.eventb.core.label="grd5" org.eventb.core.predicate="origin = 3 ⇒ S1ToP3(1) = 2"/>
+        <org.eventb.core.action name="_uYZLANuGEe2QFtY3tT2RXA" org.eventb.core.assignment="P1ToS1:∣(P1ToS1' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 1 ⇒ P1ToS1' = {1 ↦ P1ToS1(1), 2 ↦ 0})" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+        <org.eventb.core.action name="_mYf7QNuREe2Rh9Fgd20L0A" org.eventb.core.assignment="S1ToP3:∣(S1ToP3' ∈ (1‥2) → {0, 1, 2}) ∧ (origin = 1 ⇒ S1ToP3' = {1 ↦ 0, 2 ↦ S1ToP3(2)})" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+        <org.eventb.core.action name="_mYf7QduREe2Rh9Fgd20L0A" org.eventb.core.assignment="S1(rame) ≔ direction" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+        <org.eventb.core.parameter name="_sUIWwNuSEe2Rh9Fgd20L0A" org.eventb.core.generated="false" org.eventb.core.identifier="direction"/>
+        <org.eventb.core.guard name="_sUJk4NuSEe2Rh9Fgd20L0A" org.eventb.core.generated="false" org.eventb.core.label="grd6" org.eventb.core.predicate="direction ∈ {1, 2}"/>
+        <org.eventb.core.guard name="_sUJk4duSEe2Rh9Fgd20L0A" org.eventb.core.generated="false" org.eventb.core.label="grd7" org.eventb.core.predicate="origin = 1 ⇒ direction = 1"/>
+        <org.eventb.core.guard name="_sUKL8NuSEe2Rh9Fgd20L0A" org.eventb.core.generated="false" org.eventb.core.label="grd8" org.eventb.core.predicate="origin = 3 ⇒ direction = 2"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_uYPaANuGEe2QFtY3tT2RXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="movrightP1ToP2">
+        <org.eventb.core.guard name="_uYht4NuGEe2QFtY3tT2RXA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2 = {1 ↦ 1, 1 ↦ 0}"/>
+        <org.eventb.core.action name="_uYmmYNuGEe2QFtY3tT2RXA" org.eventb.core.assignment="P1ToP2 ≔ {1 ↦ 0, 1 ↦ 1}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_uYdccNuGEe2QFtY3tT2RXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="movrightP1ToS1">
+        <org.eventb.core.guard name="_8CyecNuGEe2QFtY3tT2RXA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToS1 = {1 ↦ 1, 1 ↦ 0}"/>
+        <org.eventb.core.action name="_8C2I0NuGEe2QFtY3tT2RXA" org.eventb.core.assignment="P1ToS1 ≔ {1 ↦ 0, 1 ↦ 1}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_8CuNANuGEe2QFtY3tT2RXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="movrightP2ToP3">
+        <org.eventb.core.guard name="_K4wNINuHEe2QFtY3tT2RXA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P2ToP3 = {1 ↦ 1, 1 ↦ 0}"/>
+        <org.eventb.core.action name="_K4z3gNuHEe2QFtY3tT2RXA" org.eventb.core.assignment="P2ToP3 ≔ {1 ↦ 0, 1 ↦ 1}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_K4siwNuHEe2QFtY3tT2RXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="movrightS1ToP3">
+        <org.eventb.core.guard name="_yjWTENuHEe2QFtY3tT2RXA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="S1ToP3 = {1 ↦ 1, 1 ↦ 0}"/>
+        <org.eventb.core.action name="_yjakgNuHEe2QFtY3tT2RXA" org.eventb.core.assignment="S1ToP3 ≔ {1 ↦ 0, 1 ↦ 1}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_yjSosNuHEe2QFtY3tT2RXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="movleftP1ToP2">
+        <org.eventb.core.guard name="_yjhSMNuHEe2QFtY3tT2RXA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToP2 = {1 ↦ 0, 1 ↦ 2}"/>
+        <org.eventb.core.action name="_yjljoNuHEe2QFtY3tT2RXA" org.eventb.core.assignment="P1ToP2 ≔ {1 ↦ 2, 1 ↦ 0}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_yjdn0NuHEe2QFtY3tT2RXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="movleftP1ToS1">
+        <org.eventb.core.guard name="_yjsRUNuHEe2QFtY3tT2RXA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P1ToS1 = {1 ↦ 0, 1 ↦ 2}"/>
+        <org.eventb.core.action name="_yjv7sNuHEe2QFtY3tT2RXA" org.eventb.core.assignment="P1ToS1 ≔ {1 ↦ 2, 1 ↦ 0}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_yjom8NuHEe2QFtY3tT2RXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="movleftP2ToP3">
+        <org.eventb.core.guard name="_yj2pYNuHEe2QFtY3tT2RXA" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="P2ToP3 = {1 ↦ 0, 1 ↦ 2}"/>
+        <org.eventb.core.action name="_yj7h4NuHEe2QFtY3tT2RXA" org.eventb.core.assignment="P2ToP3 ≔ {1 ↦ 2, 1 ↦ 0}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_yjzmENuHEe2QFtY3tT2RXA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="movleftS1ToP3">
+        <org.eventb.core.guard name="_mYmB4NuREe2Rh9Fgd20L0A" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="S1ToP3 = {1 ↦ 0, 1 ↦ 2}"/>
+        <org.eventb.core.action name="_mYmB4duREe2Rh9Fgd20L0A" org.eventb.core.assignment="S1ToP3 ≔ {1 ↦ 2, 1 ↦ 0}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+    </org.eventb.core.event>
+</org.eventb.core.machineFile>
