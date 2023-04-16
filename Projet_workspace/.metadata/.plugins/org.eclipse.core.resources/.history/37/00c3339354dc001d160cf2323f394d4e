@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poIdentifier name="Status" org.eventb.core.type="ℙ(Status)"/>
+        <org.eventb.core.poIdentifier name="Direction" org.eventb.core.type="ℙ(Direction)"/>
+        <org.eventb.core.poIdentifier name="Lift" org.eventb.core.type="ℙ(Lift)"/>
+        <org.eventb.core.poIdentifier name="Down" org.eventb.core.type="Direction"/>
+        <org.eventb.core.poIdentifier name="Up" org.eventb.core.type="Direction"/>
+        <org.eventb.core.poIdentifier name="Stopped" org.eventb.core.type="Status"/>
+        <org.eventb.core.poIdentifier name="Idle" org.eventb.core.type="Status"/>
+        <org.eventb.core.poIdentifier name="MaxFloor" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="Waiting" org.eventb.core.type="Status"/>
+        <org.eventb.core.poIdentifier name="Moving" org.eventb.core.type="Status"/>
+        <org.eventb.core.poIdentifier name="Floor" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="Change" org.eventb.core.type="ℙ(Direction×Direction)"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Basic_lift/Lift_ctx.bpo|org.eventb.core.poFile#Lift_ctx|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="MaxFloor∈ℕ1" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#)"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="Floor=0 ‥ MaxFloor" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="Direction={Up,Down}" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#0"/>
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="Up≠Down" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#1"/>
+        <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="finite(Lift)" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#7"/>
+        <org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="partition(Status,{Idle},{Stopped},{Waiting},{Moving})" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#8"/>
+        <org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="Change∈Direction ⤖ Direction" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#9"/>
+        <org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="Change={Up ↦ Down,Down ↦ Up}" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#:"/>
+        <org.eventb.core.poPredicate name="PRD8" org.eventb.core.predicate="Floor∉(∅ ⦂ ℙ(ℙ(ℤ)))" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#;"/>
+        <org.eventb.core.poPredicate name="PRD9" org.eventb.core.predicate="finite(Floor)" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#="/>
+        <org.eventb.core.poPredicate name="PRD10" org.eventb.core.predicate="finite(Status)" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#&gt;"/>
+        <org.eventb.core.poPredicate name="PRD11" org.eventb.core.predicate="finite(Direction)" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#?"/>
+        <org.eventb.core.poPredicate name="PRD12" org.eventb.core.predicate="finite(Change)" org.eventb.core.source="/Basic_lift/Lift_ctx.buc|org.eventb.core.contextFile#Lift_ctx|org.eventb.core.axiom#@"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
