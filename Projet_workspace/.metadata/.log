@@ -231,3 +231,6 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.get
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY de.prob.core 1 0 2023-04-16 17:08:10.390
+!MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable

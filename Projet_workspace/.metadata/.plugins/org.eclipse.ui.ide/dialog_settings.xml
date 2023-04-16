@@ -6,6 +6,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\esteb\OneDrive\Bureau\Unif\2 ème année\Q2\Projet_Prog\TPS\workspace\Event-B"/>
+			<item value="C:\Users\esteb\OneDrive\Bureau\Unif\2 ème année\Q2\Projet_Prog\TPS\workspace-2\Lifts"/>
+			<item value="C:\Users\esteb\OneDrive\Bureau\Unif\2 ème année\Q2\Projet_Prog\TPS\workspace-2\CorrectionBasicLift"/>
 			<item value="C:\Users\esteb\OneDrive\Bureau\Unif\2 ème année\Q2\Projet_Prog\Bernagou_Esteban_projet_indiv\ProjetIndividuel"/>
 			<item value="C:\Users\esteb\OneDrive\Bureau\Unif\2 ème année\Q2\Projet_Prog\Lift for cars"/>
 		</list>

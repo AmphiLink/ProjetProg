@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1681641534400" org.eventb.texttools.text_representation="machine ProjetGroupeR1 sees ProjetGroupeC&#10;&#10;invariants&#10;&#9;@inv1 Aiguillage ∈ aiguillage&#10;events&#10;  event INITIALISATION&#10;  &#9;then&#10;  &#9;@act1 Aiguillage ≔ gauche&#10;  end&#10;end&#10;" version="5">
-    <org.eventb.core.seesContext name="_4nsxMNxCEe2u7OUguLE_dw" org.eventb.core.target="ProjetGroupeC"/>
-    <org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
-        <org.eventb.core.action name="_4ntYQNxCEe2u7OUguLE_dw" org.eventb.core.assignment="Aiguillage ≔ gauche" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
-    </org.eventb.core.event>
-    <org.eventb.core.invariant name="_4ntYQdxCEe2u7OUguLE_dw" org.eventb.core.generated="false" org.eventb.core.label="inv1" org.eventb.core.predicate="Aiguillage ∈ aiguillage"/>
-</org.eventb.core.machineFile>
