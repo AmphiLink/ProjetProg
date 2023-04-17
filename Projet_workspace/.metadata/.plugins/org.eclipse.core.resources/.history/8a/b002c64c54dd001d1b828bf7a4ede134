@@ -899,7 +899,7 @@
         <org.eventb.core.poIdentifier name="gare" org.eventb.core.type="ℤ"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupe]" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR1.bpo|org.eventb.core.poFile#ProjetGroupeR1|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupe]" org.eventb.core.poStamp="13">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="gare∈{2,3,4}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeR1.bum|org.eventb.core.machineFile#ProjetGroupeR1|org.eventb.core.event#_UMdRkN1SEe2UfJmx-cHuNQ|org.eventb.core.guard#_UMfGwN1SEe2UfJmx-cHuNQ"/>
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="gare∈{2,3,1,4}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeR1.bum|org.eventb.core.machineFile#ProjetGroupeR1|org.eventb.core.event#_UMdRkN1SEe2UfJmx-cHuNQ|org.eventb.core.guard#_UMfGwN1SEe2UfJmx-cHuNQ"/>
         <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="sens∈{gauche,droite}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeR1.bum|org.eventb.core.machineFile#ProjetGroupeR1|org.eventb.core.event#_UMdRkN1SEe2UfJmx-cHuNQ|org.eventb.core.guard#_UMgU4N1SEe2UfJmx-cHuNQ"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR1.bpo|org.eventb.core.poFile#ProjetGroupeR1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="3">
