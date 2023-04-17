@@ -8,8 +8,8 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="org.eventb.ui.symboltable.view"/>
 			<item value="org.eventb.ui.views.ProofControl"/>
+			<item value="org.eventb.ui.symboltable.view"/>
 			<item value="org.eventb.ui.views.ProofTreeUI"/>
 			<item value="de.prob.ui.OperationView"/>
 			<item value="org.eclipse.debug.ui.VariableView"/>
@@ -35,8 +35,8 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="symbol"/>
 			<item value="proof cont"/>
+			<item value="symbol"/>
 			<item value="proof"/>
 			<item value="events"/>
 			<item value="var"/>
