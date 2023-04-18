@@ -1,90 +1,94 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1681811999110" org.eventb.texttools.text_representation="machine ProjetGroupeR2 refines ProjetGroupeR1  sees ProjetGroupeC&#10;&#10;variables P1 P2 P3 S1 P1ToP2 P2ToP3 P1ToS1 S1ToP3 P1A P2A P3A S1A Srinjoy&#10;&#10;invariants&#10;&#9;@inv25 Srinjoy ∈ ℕ&#10;events&#10;  event INITIALISATION extends INITIALISATION&#10;  &#9;then&#10;  &#9;&#9;@act13 Srinjoy ≔ 0&#10;  end&#10;&#10;  event exit_P1 extends exit_P1&#10;  end&#10;&#10;  event exit_P2 extends exit_P2&#10;  end&#10;&#10;  event exit_P3 extends exit_P3&#10;  end&#10;&#10;  event exit_S1 extends exit_S1&#10;  end&#10;&#10;  event enter_P1 extends enter_P1&#10;  end&#10;&#10;  event enter_P2 extends enter_P2&#10;  end&#10;&#10;  event enter_P3 extends enter_P3&#10;  end&#10;&#10;  event enter_S1 extends enter_S1&#10;  end&#10;&#10;  event movrightP1ToP2 extends movrightP1ToP2&#10;  end&#10;&#10;  event movrightP1ToS1 extends movrightP1ToS1&#10;  end&#10;&#10;  event movrightP2ToP3 extends movrightP2ToP3&#10;  end&#10;&#10;  event movrightS1ToP3 extends movrightS1ToP3&#10;  end&#10;&#10;  event movleftP1ToP2 extends movleftP1ToP2&#10;  end&#10;&#10;  event movleftP1ToS1 extends movleftP1ToS1&#10;  end&#10;&#10;  event movleftP2ToP3 extends movleftP2ToP3&#10;  end&#10;&#10;  event movleftS1ToP3 extends movleftS1ToP3&#10;  end&#10;&#10;  event modifyAiguillage0 extends modifyAiguillage0&#10;  end&#10;&#10;  event modifyAiguillage1 extends modifyAiguillage1&#10;  end&#10;&#10;  event modifyAiguillage2 extends modifyAiguillage2&#10;  end&#10;&#10;  event modifyAiguillage3 extends modifyAiguillage3&#10;  end&#10;&#10;  event modifyAiguillage4 extends modifyAiguillage4&#10;  end&#10;&#10;  event modifyAiguillage5 extends modifyAiguillage5&#10;  end&#10;&#10;  event modifyAiguillage6 extends modifyAiguillage6&#10;  end&#10;&#10;  event modifyAiguillage7 extends modifyAiguillage7&#10;  end&#10;end&#10;" version="5">
     <org.eventb.core.refinesMachine name="'" org.eventb.core.target="ProjetGroupeR1"/>
     <org.eventb.core.seesContext name="_TIzG8NxnEe2CPrJ6LuiP1g" org.eventb.core.target="ProjetGroupeC"/>
-    <org.eventb.core.variable name="(" org.eventb.core.identifier="P1"/>
-    <org.eventb.core.variable name="/" org.eventb.core.identifier="P2"/>
-    <org.eventb.core.variable name="1" org.eventb.core.identifier="P3"/>
-    <org.eventb.core.variable name="3" org.eventb.core.identifier="S1"/>
-    <org.eventb.core.variable name="5" org.eventb.core.identifier="P1ToP2"/>
-    <org.eventb.core.variable name="7" org.eventb.core.identifier="P2ToP3"/>
-    <org.eventb.core.variable name="9" org.eventb.core.identifier="P1ToS1"/>
-    <org.eventb.core.variable name=";" org.eventb.core.identifier="S1ToP3"/>
-    <org.eventb.core.variable name="_TI5NkNxnEe2CPrJ6LuiP1g" org.eventb.core.identifier="P1A"/>
-    <org.eventb.core.variable name="_TI5NkdxnEe2CPrJ6LuiP1g" org.eventb.core.identifier="P2A"/>
-    <org.eventb.core.variable name="_TI5NktxnEe2CPrJ6LuiP1g" org.eventb.core.identifier="P3A"/>
-    <org.eventb.core.variable name="_TI5Nk9xnEe2CPrJ6LuiP1g" org.eventb.core.identifier="S1A"/>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1h" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION"/>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1i" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="exit_P1">
+    <org.eventb.core.variable name="(" org.eventb.core.generated="false" org.eventb.core.identifier="P1"/>
+    <org.eventb.core.variable name="/" org.eventb.core.generated="false" org.eventb.core.identifier="P2"/>
+    <org.eventb.core.variable name="1" org.eventb.core.generated="false" org.eventb.core.identifier="P3"/>
+    <org.eventb.core.variable name="3" org.eventb.core.generated="false" org.eventb.core.identifier="S1"/>
+    <org.eventb.core.variable name="5" org.eventb.core.generated="false" org.eventb.core.identifier="P1ToP2"/>
+    <org.eventb.core.variable name="7" org.eventb.core.generated="false" org.eventb.core.identifier="P2ToP3"/>
+    <org.eventb.core.variable name="9" org.eventb.core.generated="false" org.eventb.core.identifier="P1ToS1"/>
+    <org.eventb.core.variable name=";" org.eventb.core.generated="false" org.eventb.core.identifier="S1ToP3"/>
+    <org.eventb.core.variable name="_TI5NkNxnEe2CPrJ6LuiP1g" org.eventb.core.generated="false" org.eventb.core.identifier="P1A"/>
+    <org.eventb.core.variable name="_TI5NkdxnEe2CPrJ6LuiP1g" org.eventb.core.generated="false" org.eventb.core.identifier="P2A"/>
+    <org.eventb.core.variable name="_TI5NktxnEe2CPrJ6LuiP1g" org.eventb.core.generated="false" org.eventb.core.identifier="P3A"/>
+    <org.eventb.core.variable name="_TI5Nk9xnEe2CPrJ6LuiP1g" org.eventb.core.generated="false" org.eventb.core.identifier="S1A"/>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1h" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
+        <org.eventb.core.action name="_xakpwN3PEe2db-10Gn96nw" org.eventb.core.assignment="Srinjoy ≔ 0" org.eventb.core.generated="false" org.eventb.core.label="act13"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1i" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="exit_P1">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="exit_P1"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1j" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="exit_P2">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1j" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="exit_P2">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="exit_P2"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1k" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="exit_P3">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1k" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="exit_P3">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="exit_P3"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1l" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="exit_S1">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1l" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="exit_S1">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="exit_S1"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1m" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="enter_P1">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1m" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="enter_P1">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="enter_P1"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1n" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="enter_P2">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1n" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="enter_P2">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="enter_P2"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1o" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="enter_P3">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1o" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="enter_P3">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="enter_P3"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1p" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="enter_S1">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1p" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="enter_S1">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="enter_S1"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1q" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="movrightP1ToP2">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1q" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movrightP1ToP2">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movrightP1ToP2"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1r" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="movrightP1ToS1">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1r" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movrightP1ToS1">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movrightP1ToS1"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1s" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="movrightP2ToP3">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1s" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movrightP2ToP3">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movrightP2ToP3"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1t" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="movrightS1ToP3">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1t" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movrightS1ToP3">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movrightS1ToP3"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1u" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="movleftP1ToP2">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1u" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movleftP1ToP2">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movleftP1ToP2"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1v" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="movleftP1ToS1">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1v" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movleftP1ToS1">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movleftP1ToS1"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1w" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="movleftP2ToP3">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1w" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movleftP2ToP3">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movleftP2ToP3"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1x" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="movleftS1ToP3">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1x" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movleftS1ToP3">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movleftS1ToP3"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1y" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="modifyAiguillage0">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1y" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage0">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage0"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1z" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="modifyAiguillage1">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1z" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage1">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage1"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1{" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="modifyAiguillage2">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1{" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage2">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage2"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1|" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="modifyAiguillage3">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1|" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage3">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage3"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1}" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="modifyAiguillage4">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1}" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage4">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage4"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1~" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="modifyAiguillage5">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1~" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage5">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage5"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP2'" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="modifyAiguillage6">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP2'" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage6">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage6"/>
     </org.eventb.core.event>
-    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP2(" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="modifyAiguillage7">
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP2(" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage7">
         <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage7"/>
     </org.eventb.core.event>
+    <org.eventb.core.variable name="_qA7isN3PEe2db-10Gn96nw" org.eventb.core.generated="false" org.eventb.core.identifier="Srinjoy"/>
+    <org.eventb.core.invariant name="_qA7isd3PEe2db-10Gn96nw" org.eventb.core.generated="false" org.eventb.core.label="inv25" org.eventb.core.predicate="Srinjoy ∈ ℕ"/>
 </org.eventb.core.machineFile>
