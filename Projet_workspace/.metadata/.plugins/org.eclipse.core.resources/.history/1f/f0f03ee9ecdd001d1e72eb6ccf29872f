@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+    <org.eventb.core.prProof name="INITIALISATION/inv25/INV"/>
+    <org.eventb.core.prProof name="INITIALISATION/inv26/INV"/>
+    <org.eventb.core.prProof name="INITIALISATION/inv27/INV"/>
+    <org.eventb.core.prProof name="INITIALISATION/inv28/INV"/>
+    <org.eventb.core.prProof name="exit_P1/grd14/WD"/>
+    <org.eventb.core.prProof name="exit_P1/grd15/WD"/>
+    <org.eventb.core.prProof name="exit_P1/grd16/WD"/>
+    <org.eventb.core.prProof name="exit_P1/grd17/WD"/>
+    <org.eventb.core.prProof name="exit_P2/grd15/WD"/>
+    <org.eventb.core.prProof name="exit_P2/grd16/WD"/>
+    <org.eventb.core.prProof name="exit_P3/grd14/WD"/>
+    <org.eventb.core.prProof name="exit_S1/grd15/WD"/>
+    <org.eventb.core.prProof name="exit_S1/grd16/WD"/>
+</org.eventb.core.prFile>
