@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1681655468918" org.eventb.texttools.text_representation="context ProjetGroupeC&#10;&#10;sets aiguillage&#10;&#10;constants gauche droite&#10;&#10;axioms&#10;  @axm1 partition (aiguillage, {gauche}, {droite})&#10;end&#10;" version="3">
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1681810825802" org.eventb.texttools.text_representation="context ProjetGroupeC&#10;&#10;sets aiguillage trafficLights&#10;&#10;constants gauche droite vert rouge&#10;&#10;axioms&#10;  @axm1 partition (aiguillage, {gauche}, {droite})&#10;  @axm2 partition (trafficLights, {vert}, {rouge})&#10;end&#10;" version="3">
     <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name="'" org.eventb.core.generated="false" org.eventb.core.identifier="gauche"/>
     <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name="(" org.eventb.core.generated="false" org.eventb.core.identifier="droite"/>
     <org.eventb.core.axiom name=")" org.eventb.core.generated="false" org.eventb.core.label="axm1" org.eventb.core.predicate="partition (aiguillage, {gauche}, {droite})"/>
     <org.eventb.core.carrierSet name="_7LcSwNxiEe2CPrJ6LuiP1g" org.eventb.core.generated="false" org.eventb.core.identifier="aiguillage"/>
+    <org.eventb.core.carrierSet name="_DAW8EN3NEe2qrqL6npIxhA" org.eventb.core.generated="false" org.eventb.core.identifier="trafficLights"/>
+    <org.eventb.core.constant name="_DAW8Ed3NEe2qrqL6npIxhA" org.eventb.core.generated="false" org.eventb.core.identifier="vert"/>
+    <org.eventb.core.constant name="_DAW8Et3NEe2qrqL6npIxhA" org.eventb.core.generated="false" org.eventb.core.identifier="rouge"/>
+    <org.eventb.core.axiom name="_DAW8E93NEe2qrqL6npIxhA" org.eventb.core.generated="false" org.eventb.core.label="axm2" org.eventb.core.predicate="partition (trafficLights, {vert}, {rouge})"/>
 </org.eventb.core.contextFile>
