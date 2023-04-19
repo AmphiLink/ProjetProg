@@ -9457,4 +9457,13 @@
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
     </org.eventb.core.prProof>
+    <org.eventb.core.prProof name="updateFeuxP2/inv26/INV"/>
+    <org.eventb.core.prProof name="updateFeuxP2/act1/WD"/>
+    <org.eventb.core.prProof name="updateFeuxP2/act1/FIS"/>
+    <org.eventb.core.prProof name="updateFeuxP3/inv27/INV"/>
+    <org.eventb.core.prProof name="updateFeuxP3/act1/WD"/>
+    <org.eventb.core.prProof name="updateFeuxP3/act1/FIS"/>
+    <org.eventb.core.prProof name="updateFeuxP1/inv25/INV"/>
+    <org.eventb.core.prProof name="updateFeuxP1/act1/WD"/>
+    <org.eventb.core.prProof name="updateFeuxP1/act1/FIS"/>
 </org.eventb.core.prFile>
