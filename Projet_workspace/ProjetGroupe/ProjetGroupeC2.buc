@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1681907395767" org.eventb.texttools.text_representation="context ProjetGroupeC2 extends ProjetGroupeC&#10;&#10;sets trafficLights&#10;&#10;constants vert rouge&#10;&#10;axioms&#10;  @axm1 partition (trafficLights, {vert}, {rouge})&#10;end&#10;" version="3">
+    <org.eventb.core.extendsContext name="_teoZwN6tEe21C40mRHpxCA" org.eventb.core.target="ProjetGroupeC"/>
+    <org.eventb.core.carrierSet name="_yCrpMN6sEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.identifier="trafficLights"/>
+    <org.eventb.core.constant name="_yCrpMd6sEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.identifier="vert"/>
+    <org.eventb.core.constant name="_yCsQQN6sEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.identifier="rouge"/>
+    <org.eventb.core.axiom name="_5DVMAN6tEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.label="axm1" org.eventb.core.predicate="partition (trafficLights, {vert}, {rouge})"/>
+</org.eventb.core.contextFile>

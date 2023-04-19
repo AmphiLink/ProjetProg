@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase">
+    <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(trafficLights,{vert},{rouge})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC2.buc|org.eventb.core.contextFile#ProjetGroupeC2|org.eventb.core.axiom#_yCsQQd6sEe21C40mRHpxCA" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scCarrierSet name="trafficLights" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC2.buc|org.eventb.core.contextFile#ProjetGroupeC2|org.eventb.core.carrierSet#_yCrpMN6sEe21C40mRHpxCA" org.eventb.core.type="ℙ(trafficLights)"/>
+    <org.eventb.core.scConstant name="vert" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC2.buc|org.eventb.core.contextFile#ProjetGroupeC2|org.eventb.core.constant#_yCrpMd6sEe21C40mRHpxCA" org.eventb.core.type="trafficLights"/>
+    <org.eventb.core.scConstant name="rouge" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC2.buc|org.eventb.core.contextFile#ProjetGroupeC2|org.eventb.core.constant#_yCsQQN6sEe21C40mRHpxCA" org.eventb.core.type="trafficLights"/>
+</org.eventb.core.scContextFile>

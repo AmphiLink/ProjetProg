@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1681899134736" org.eventb.texttools.text_representation="machine ProjetGroupeR2 refines ProjetGroupeR1  sees ProjetGroupeC&#10;&#10;variables P1 P2 P3 S1 P1ToP2 P2ToP3 P1ToS1 S1ToP3 P1A P2A P3A S1A P1F P2F P3F S1F P1FS P2FS P3FS S1FS&#10;&#10;invariants&#10;  @inv25 P1F ∈ 5‥8 → trafficLights&#10;  @inv26 P2F ∈ 1‥8 → trafficLights&#10;  @inv27 P3F ∈ 1‥4 → trafficLights&#10;  @inv28 S1F ∈ 1‥4 → trafficLights&#10;  @inv29 P1FS ∈ 2 → trafficLights&#10;  @inv30 P2FS ∈ 1‥2 → trafficLights&#10;  @inv31 P3FS ∈ 1 → trafficLights&#10;  @inv32 S1FS ∈ 1‥2 → trafficLights&#10;&#10;&#10;events&#10;  event INITIALISATION extends INITIALISATION&#10;    then&#10;      @act13 P1F ≔ 5‥8 × {rouge}&#10;      @act14 P2F ≔ 1‥8 × {rouge}&#10;      @act15 P3F ≔ 1‥4 × {rouge}&#10;      @act16 S1F ≔ 1‥4 × {rouge}&#10;      @act17 P1FS ≔  1→rouge&#10;      @act18 P2FS ≔  1‥2 × {rouge}&#10;      @act19 P3FS ≔  2→rouge&#10;      @act20 S1FS ≔  1‥2 → {rouge}&#10;  end&#10;&#10;  event exit_P1 extends exit_P1&#10;    where&#10;      @grd14 rame = 1 ⇒ P1F(5) = vert ∧ P1F(6) = rouge ∧ P1F(7) = rouge ∧ P1F(8) = rouge&#10;      @grd15 rame = 2 ⇒ P1F(5) = rouge ∧ P1F(6) = vert ∧ P1F(7) = rouge ∧ P1F(8) = rouge&#10;      @grd16 rame = 3 ⇒ P1F(5) = rouge ∧ P1F(6) = rouge ∧ P1F(7) = vert ∧ P1F(8) = rouge&#10;      @grd17 rame = 4 ⇒ P1F(5) = rouge ∧ P1F(6) = rouge ∧ P1F(7) = rouge ∧ P1F(8) = vert&#10;  end&#10;&#10; event exit_P2 extends exit_P2&#10; &#9;where&#10; &#9;  @grd14 rame = 1 ∧ destination = 1 ⇒ P2F(1) = vert ∧ P2F(2) = rouge ∧ P2F(3) = rouge ∧ P2F(4) = rouge&#10;      @grd15 rame = 2 ∧ destination = 1 ⇒ P2F(1) = rouge ∧ P2F(2) = vert ∧ P2F(3) = rouge ∧ P2F(4) = rouge&#10;      @grd16 rame = 3 ∧ destination = 1 ⇒ P2F(1) = rouge ∧ P2F(2) = rouge ∧ P2F(3) = vert ∧ P2F(4) = rouge&#10;      @grd17 rame = 4 ∧ destination = 1 ⇒ P2F(1) = rouge ∧ P2F(2) = rouge ∧ P2F(3) = rouge ∧ P2F(4) = vert&#10;      @grd18 rame = 1 ∧ destination = 3 ⇒ P2F(5) = vert ∧ P2F(6) = rouge ∧ P2F(7) = rouge ∧ P2F(8) = rouge&#10;      @grd19 rame = 2 ∧ destination = 3 ⇒ P2F(5) = rouge ∧ P2F(6) = vert ∧ P2F(7) = rouge ∧ P2F(8) = rouge&#10;      @grd20 rame = 3 ∧ destination = 3 ⇒ P2F(5) = rouge ∧ P2F(6) = rouge ∧ P2F(7) = vert ∧ P2F(8) = rouge&#10;      @grd21 rame = 4 ∧ destination = 3 ⇒ P2F(5) = rouge ∧ P2F(6) = rouge ∧ P2F(7) = rouge ∧ P2F(8) = vert&#10; end&#10;&#10;&#10; event exit_P3 extends exit_P3&#10;    where&#10;      @grd14 rame = 1 ⇒ P3F(1) = vert ∧ P3F(2) = rouge ∧ P3F(3) = rouge ∧ P3F(4) = rouge&#10;      @grd15 rame = 2 ⇒ P3F(1) = rouge ∧ P3F(2) = vert ∧ P3F(3) = rouge ∧ P3F(4) = rouge&#10;      @grd16 rame = 3 ⇒ P3F(1) = rouge ∧ P3F(2) = rouge ∧ P3F(3) = vert ∧ P3F(4) = rouge&#10;      @grd17 rame = 4 ⇒ P3F(1) = rouge ∧ P3F(2) = rouge ∧ P3F(3) = rouge ∧ P3F(4) = vert&#10; end&#10;&#10; event exit_S1 extends exit_S1&#10;    where&#10;      @grd10 rame = 1  ∧ destination = 1⇒ S1F(1) = vert ∧ S1F(2) = rouge&#10;      @grd11 rame = 2 ∧ destination = 1⇒ S1F(1) = rouge ∧ S1F(2) = vert&#10;      @grd12 rame = 1  ∧ destination = 3⇒ S1F(3) = vert ∧ S1F(4) = rouge&#10;      @grd13 rame = 2 ∧ destination = 3⇒ S1F(3) = rouge ∧ S1F(4) = vert&#10;  end&#10;&#10;  event enter_P1 extends enter_P1&#10;  end&#10;&#10;  event enter_P2 extends enter_P2&#10;  end&#10;&#10;  event enter_P3 extends enter_P3&#10;  end&#10;&#10;  event enter_S1 extends enter_S1&#10;  end&#10;&#10;  event movrightP1ToP2 extends movrightP1ToP2&#10;  end&#10;&#10;  event movrightP1ToS1 extends movrightP1ToS1&#10;  end&#10;&#10;  event movrightP2ToP3 extends movrightP2ToP3&#10;  end&#10;&#10;  event movrightS1ToP3 extends movrightS1ToP3&#10;  end&#10;&#10;  event movleftP1ToP2 extends movleftP1ToP2&#10;  end&#10;&#10;  event movleftP1ToS1 extends movleftP1ToS1&#10;  end&#10;&#10;  event movleftP2ToP3 extends movleftP2ToP3&#10;  end&#10;&#10;  event movleftS1ToP3 extends movleftS1ToP3&#10;  end&#10;&#10;  event modifyAiguillage0 extends modifyAiguillage0&#10;  end&#10;&#10;  event modifyAiguillage1 extends modifyAiguillage1&#10;  end&#10;&#10;  event modifyAiguillage2 extends modifyAiguillage2&#10;  end&#10;&#10;  event modifyAiguillage3 extends modifyAiguillage3&#10;  end&#10;&#10;  event modifyAiguillage4 extends modifyAiguillage4&#10;  end&#10;&#10;  event modifyAiguillage5 extends modifyAiguillage5&#10;  end&#10;&#10;  event modifyAiguillage6 extends modifyAiguillage6&#10;  end&#10;&#10;  event modifyAiguillage7 extends modifyAiguillage7&#10;  end&#10;end&#10;" version="5">
+    <org.eventb.core.refinesMachine name="'" org.eventb.core.target="ProjetGroupeR1"/>
+    <org.eventb.core.seesContext name="_TIzG8NxnEe2CPrJ6LuiP1g" org.eventb.core.target="ProjetGroupeC"/>
+    <org.eventb.core.variable name="(" org.eventb.core.generated="false" org.eventb.core.identifier="P1"/>
+    <org.eventb.core.variable name="/" org.eventb.core.generated="false" org.eventb.core.identifier="P2"/>
+    <org.eventb.core.variable name="1" org.eventb.core.generated="false" org.eventb.core.identifier="P3"/>
+    <org.eventb.core.variable name="3" org.eventb.core.generated="false" org.eventb.core.identifier="S1"/>
+    <org.eventb.core.variable name="5" org.eventb.core.generated="false" org.eventb.core.identifier="P1ToP2"/>
+    <org.eventb.core.variable name="7" org.eventb.core.generated="false" org.eventb.core.identifier="P2ToP3"/>
+    <org.eventb.core.variable name="9" org.eventb.core.generated="false" org.eventb.core.identifier="P1ToS1"/>
+    <org.eventb.core.variable name=";" org.eventb.core.generated="false" org.eventb.core.identifier="S1ToP3"/>
+    <org.eventb.core.variable name="_TI5NkNxnEe2CPrJ6LuiP1g" org.eventb.core.generated="false" org.eventb.core.identifier="P1A"/>
+    <org.eventb.core.variable name="_TI5NkdxnEe2CPrJ6LuiP1g" org.eventb.core.generated="false" org.eventb.core.identifier="P2A"/>
+    <org.eventb.core.variable name="_TI5NktxnEe2CPrJ6LuiP1g" org.eventb.core.generated="false" org.eventb.core.identifier="P3A"/>
+    <org.eventb.core.variable name="_TI5Nk9xnEe2CPrJ6LuiP1g" org.eventb.core.generated="false" org.eventb.core.identifier="S1A"/>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1h" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
+        <org.eventb.core.action name="_xakpwN3PEe2db-10Gn96nw" org.eventb.core.assignment="P1F ≔ 5‥8 × {rouge}" org.eventb.core.generated="false" org.eventb.core.label="act13"/>
+        <org.eventb.core.action name="_KM1-oN3SEe26d52Ym7aeaw" org.eventb.core.assignment="P2F ≔ 1‥8 × {rouge}" org.eventb.core.generated="false" org.eventb.core.label="act14"/>
+        <org.eventb.core.action name="_V5ZsYN3SEe26d52Ym7aeaw" org.eventb.core.assignment="P3F ≔ 1‥4 × {rouge}" org.eventb.core.generated="false" org.eventb.core.label="act15"/>
+        <org.eventb.core.action name="_V5cvsN3SEe26d52Ym7aeaw" org.eventb.core.assignment="S1F ≔ 1‥4 × {rouge}" org.eventb.core.generated="false" org.eventb.core.label="act16"/>
+        <org.eventb.core.action name="_aRPScN6aEe21C40mRHpxCA" org.eventb.core.assignment="P1FS ≔  1→rouge" org.eventb.core.generated="false" org.eventb.core.label="act17"/>
+        <org.eventb.core.action name="_kfOwcN6aEe21C40mRHpxCA" org.eventb.core.assignment="P2FS ≔  1‥2 × {rouge}" org.eventb.core.generated="false" org.eventb.core.label="act18"/>
+        <org.eventb.core.action name="_kfPXgN6aEe21C40mRHpxCA" org.eventb.core.assignment="P3FS ≔  2→rouge" org.eventb.core.generated="false" org.eventb.core.label="act19"/>
+        <org.eventb.core.action name="_kfPXgd6aEe21C40mRHpxCA" org.eventb.core.assignment="S1FS ≔  1‥2 → {rouge}" org.eventb.core.generated="false" org.eventb.core.label="act20"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1i" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="exit_P1">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="exit_P1"/>
+        <org.eventb.core.guard name="_C07gcN3TEe26d52Ym7aeaw" org.eventb.core.generated="false" org.eventb.core.label="grd14" org.eventb.core.predicate="rame = 1 ⇒ P1F(5) = vert ∧ P1F(6) = rouge ∧ P1F(7) = rouge ∧ P1F(8) = rouge"/>
+        <org.eventb.core.guard name="_C1SFwN3TEe26d52Ym7aeaw" org.eventb.core.generated="false" org.eventb.core.label="grd15" org.eventb.core.predicate="rame = 2 ⇒ P1F(5) = rouge ∧ P1F(6) = vert ∧ P1F(7) = rouge ∧ P1F(8) = rouge"/>
+        <org.eventb.core.guard name="_C1XlUN3TEe26d52Ym7aeaw" org.eventb.core.generated="false" org.eventb.core.label="grd16" org.eventb.core.predicate="rame = 3 ⇒ P1F(5) = rouge ∧ P1F(6) = rouge ∧ P1F(7) = vert ∧ P1F(8) = rouge"/>
+        <org.eventb.core.guard name="_4ZRbEN3sEe2_AthA4dezXg" org.eventb.core.generated="false" org.eventb.core.label="grd17" org.eventb.core.predicate="rame = 4 ⇒ P1F(5) = rouge ∧ P1F(6) = rouge ∧ P1F(7) = rouge ∧ P1F(8) = vert"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1j" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="exit_P2">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="exit_P2"/>
+        <org.eventb.core.guard name="_C1NNQN3TEe26d52Ym7aeaw" org.eventb.core.generated="false" org.eventb.core.label="grd14" org.eventb.core.predicate="rame = 1 ∧ destination = 1 ⇒ P2F(1) = vert ∧ P2F(2) = rouge ∧ P2F(3) = rouge ∧ P2F(4) = rouge"/>
+        <org.eventb.core.guard name="_aj5QIN3TEe26d52Ym7aeaw" org.eventb.core.generated="false" org.eventb.core.label="grd15" org.eventb.core.predicate="rame = 2 ∧ destination = 1 ⇒ P2F(1) = rouge ∧ P2F(2) = vert ∧ P2F(3) = rouge ∧ P2F(4) = rouge"/>
+        <org.eventb.core.guard name="_aj-IoN3TEe26d52Ym7aeaw" org.eventb.core.generated="false" org.eventb.core.label="grd16" org.eventb.core.predicate="rame = 3 ∧ destination = 1 ⇒ P2F(1) = rouge ∧ P2F(2) = rouge ∧ P2F(3) = vert ∧ P2F(4) = rouge"/>
+        <org.eventb.core.guard name="_fuL6AN3vEe2_AthA4dezXg" org.eventb.core.generated="false" org.eventb.core.label="grd17" org.eventb.core.predicate="rame = 4 ∧ destination = 1 ⇒ P2F(1) = rouge ∧ P2F(2) = rouge ∧ P2F(3) = rouge ∧ P2F(4) = vert"/>
+        <org.eventb.core.guard name="_77TWIN6WEe2AFfdxi2WJzg" org.eventb.core.generated="false" org.eventb.core.label="grd18" org.eventb.core.predicate="rame = 1 ∧ destination = 3 ⇒ P2F(5) = vert ∧ P2F(6) = rouge ∧ P2F(7) = rouge ∧ P2F(8) = rouge"/>
+        <org.eventb.core.guard name="_77T9MN6WEe2AFfdxi2WJzg" org.eventb.core.generated="false" org.eventb.core.label="grd19" org.eventb.core.predicate="rame = 2 ∧ destination = 3 ⇒ P2F(5) = rouge ∧ P2F(6) = vert ∧ P2F(7) = rouge ∧ P2F(8) = rouge"/>
+        <org.eventb.core.guard name="_77UkQN6WEe2AFfdxi2WJzg" org.eventb.core.generated="false" org.eventb.core.label="grd20" org.eventb.core.predicate="rame = 3 ∧ destination = 3 ⇒ P2F(5) = rouge ∧ P2F(6) = rouge ∧ P2F(7) = vert ∧ P2F(8) = rouge"/>
+        <org.eventb.core.guard name="_77VLUN6WEe2AFfdxi2WJzg" org.eventb.core.generated="false" org.eventb.core.label="grd21" org.eventb.core.predicate="rame = 4 ∧ destination = 3 ⇒ P2F(5) = rouge ∧ P2F(6) = rouge ∧ P2F(7) = rouge ∧ P2F(8) = vert"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1k" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="exit_P3">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="exit_P3"/>
+        <org.eventb.core.guard name="_77WZcN6WEe2AFfdxi2WJzg" org.eventb.core.generated="false" org.eventb.core.label="grd14" org.eventb.core.predicate="rame = 1 ⇒ P3F(1) = vert ∧ P3F(2) = rouge ∧ P3F(3) = rouge ∧ P3F(4) = rouge"/>
+        <org.eventb.core.guard name="_77XAgN6WEe2AFfdxi2WJzg" org.eventb.core.generated="false" org.eventb.core.label="grd15" org.eventb.core.predicate="rame = 2 ⇒ P3F(1) = rouge ∧ P3F(2) = vert ∧ P3F(3) = rouge ∧ P3F(4) = rouge"/>
+        <org.eventb.core.guard name="_77XAgd6WEe2AFfdxi2WJzg" org.eventb.core.generated="false" org.eventb.core.label="grd16" org.eventb.core.predicate="rame = 3 ⇒ P3F(1) = rouge ∧ P3F(2) = rouge ∧ P3F(3) = vert ∧ P3F(4) = rouge"/>
+        <org.eventb.core.guard name="_77XnkN6WEe2AFfdxi2WJzg" org.eventb.core.generated="false" org.eventb.core.label="grd17" org.eventb.core.predicate="rame = 4 ⇒ P3F(1) = rouge ∧ P3F(2) = rouge ∧ P3F(3) = rouge ∧ P3F(4) = vert"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1l" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="exit_S1">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="exit_S1"/>
+        <org.eventb.core.guard name="_T8xE8N3wEe2_AthA4dezXg" org.eventb.core.generated="false" org.eventb.core.label="grd10" org.eventb.core.predicate="rame = 1  ∧ destination = 1⇒ S1F(1) = vert ∧ S1F(2) = rouge"/>
+        <org.eventb.core.guard name="_T8xsAN3wEe2_AthA4dezXg" org.eventb.core.generated="false" org.eventb.core.label="grd11" org.eventb.core.predicate="rame = 2 ∧ destination = 1⇒ S1F(1) = rouge ∧ S1F(2) = vert"/>
+        <org.eventb.core.guard name="_T8xsAd3wEe2_AthA4dezXg" org.eventb.core.generated="false" org.eventb.core.label="grd12" org.eventb.core.predicate="rame = 1  ∧ destination = 3⇒ S1F(3) = vert ∧ S1F(4) = rouge"/>
+        <org.eventb.core.guard name="_T8xsAt3wEe2_AthA4dezXg" org.eventb.core.generated="false" org.eventb.core.label="grd13" org.eventb.core.predicate="rame = 2 ∧ destination = 3⇒ S1F(3) = rouge ∧ S1F(4) = vert"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1m" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="enter_P1">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="enter_P1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1n" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="enter_P2">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="enter_P2"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1o" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="enter_P3">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="enter_P3"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1p" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="enter_S1">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="enter_S1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1q" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movrightP1ToP2">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movrightP1ToP2"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1r" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movrightP1ToS1">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movrightP1ToS1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1s" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movrightP2ToP3">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movrightP2ToP3"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1t" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movrightS1ToP3">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movrightS1ToP3"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1u" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movleftP1ToP2">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movleftP1ToP2"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1v" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movleftP1ToS1">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movleftP1ToS1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1w" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movleftP2ToP3">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movleftP2ToP3"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1x" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="movleftS1ToP3">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="movleftS1ToP3"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1y" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage0">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage0"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1z" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage1">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage1"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1{" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage2">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage2"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1|" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage3">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage3"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1}" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage4">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage4"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP1~" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage5">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage5"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP2'" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage6">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage6"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_TIzG8NxnEe2CPrJ6LuiP2(" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="modifyAiguillage7">
+        <org.eventb.core.refinesEvent name="'" org.eventb.core.target="modifyAiguillage7"/>
+    </org.eventb.core.event>
+    <org.eventb.core.invariant name="_qA7isd3PEe2db-10Gn96nw" org.eventb.core.generated="false" org.eventb.core.label="inv25" org.eventb.core.predicate="P1F ∈ 5‥8 → trafficLights"/>
+    <org.eventb.core.invariant name="_KPUq4N3SEe26d52Ym7aeaw" org.eventb.core.generated="false" org.eventb.core.label="inv26" org.eventb.core.predicate="P2F ∈ 1‥8 → trafficLights"/>
+    <org.eventb.core.invariant name="_KPaKcN3SEe26d52Ym7aeaw" org.eventb.core.generated="false" org.eventb.core.label="inv27" org.eventb.core.predicate="P3F ∈ 1‥4 → trafficLights"/>
+    <org.eventb.core.invariant name="_KPd00N3SEe26d52Ym7aeaw" org.eventb.core.generated="false" org.eventb.core.label="inv28" org.eventb.core.predicate="S1F ∈ 1‥4 → trafficLights"/>
+    <org.eventb.core.variable name="_wz720N3rEe2_AthA4dezXg" org.eventb.core.generated="false" org.eventb.core.identifier="P1F"/>
+    <org.eventb.core.variable name="_wz720d3rEe2_AthA4dezXg" org.eventb.core.generated="false" org.eventb.core.identifier="P2F"/>
+    <org.eventb.core.variable name="_wz8d4N3rEe2_AthA4dezXg" org.eventb.core.generated="false" org.eventb.core.identifier="P3F"/>
+    <org.eventb.core.variable name="_wz8d4d3rEe2_AthA4dezXg" org.eventb.core.generated="false" org.eventb.core.identifier="S1F"/>
+    <org.eventb.core.variable name="_ESYOcN6aEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.identifier="P1FS"/>
+    <org.eventb.core.variable name="_ESY1gN6aEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.identifier="P2FS"/>
+    <org.eventb.core.variable name="_ESZckN6aEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.identifier="P3FS"/>
+    <org.eventb.core.variable name="_ESZckd6aEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.identifier="S1FS"/>
+    <org.eventb.core.invariant name="_ESaDoN6aEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.label="inv29" org.eventb.core.predicate="P1FS ∈ 2‥2 → trafficLights"/>
+    <org.eventb.core.invariant name="_kfiScN6aEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.label="inv30" org.eventb.core.predicate="P2FS ∈ 1‥2 → trafficLights"/>
+    <org.eventb.core.invariant name="_kfi5gN6aEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.label="inv31" org.eventb.core.predicate="P3FS ∈ 1‥1 → trafficLights"/>
+    <org.eventb.core.invariant name="_kfjgkN6aEe21C40mRHpxCA" org.eventb.core.generated="false" org.eventb.core.label="inv32" org.eventb.core.predicate="S1FS ∈ 1‥2 → trafficLights"/>
+</org.eventb.core.machineFile>
