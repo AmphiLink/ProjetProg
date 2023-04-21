@@ -10472,3 +10472,131 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.viewers.CellEdi
 
 !ENTRY de.prob.core 1 0 2023-04-21 17:50:55.971
 !MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable
+!SESSION 2023-04-21 19:03:43.944 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:03:51.973
+!MESSAGE Starting ProB CLI for win32 ... Path is C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\probcli.exe
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:03:53.126
+!MESSAGE Server has startet and listens on port 52301
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:03:53.127
+!MESSAGE Server can receive user interrupts via reference 16820
+
+!ENTRY org.eclipse.ui 4 0 2023-04-21 19:27:14.107
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.core.contexts.IEclipseContext.activateBranch()" because "context" is null
+	at org.eclipse.e4.ui.internal.workbench.PartActivationHistory.activate(PartActivationHistory.java:58)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:761)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:680)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:675)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1252)
+	at org.eclipse.ui.internal.WorkbenchPage.showPart(WorkbenchPage.java:1256)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1244)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$11(WorkbenchPage.java:4262)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4260)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4242)
+	at org.eclipse.ui.internal.quickaccess.providers.ViewElement.execute(ViewElement.java:93)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:36:06.923
+!MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable
+!SESSION 2023-04-21 19:36:10.712 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:36:17.983
+!MESSAGE Starting ProB CLI for win32 ... Path is C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\probcli.exe
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:36:19.634
+!MESSAGE Server has startet and listens on port 54587
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:36:19.635
+!MESSAGE Server can receive user interrupts via reference 12700
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:36:57.424
+!MESSAGE Starting ProB CLI for win32 ... Path is C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\probcli.exe
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:36:58.640
+!MESSAGE Server has startet and listens on port 54619
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:36:58.641
+!MESSAGE Server can receive user interrupts via reference 14248
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:36:59.027
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:05.573
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:09.619
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:13.069
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:13.307
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:15.454
+!MESSAGE Disprover: Result: Counter-Example found: {P2={}, updated2=FALSE}
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:26.911
+!MESSAGE Disprover: Result: Counter-Example found: {P2={}, updated2=FALSE}
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:30.207
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:34.723
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:40.677
+!MESSAGE Disprover: Result: Counter-Example found: {P2={}, updated2=FALSE}
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:50.723
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:37:59.474
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:38:03.612
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:38:06.575
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:38:09.759
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
