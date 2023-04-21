@@ -10600,3 +10600,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY de.prob.core 1 0 2023-04-21 19:38:09.759
 !MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-21 19:59:43.046
+!MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable
