@@ -1157,7 +1157,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(1) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(1) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -1195,7 +1215,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">184</value>
+            <value class="int">196</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -1331,7 +1351,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(5) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(5) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -1369,7 +1409,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">184</value>
+            <value class="int">196</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -1699,7 +1739,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P3F(1) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P3F(1) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -1776,7 +1836,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(2) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -1853,7 +1928,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(2) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -1930,7 +2020,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1A(4) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2099,7 +2204,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1A(5) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2176,7 +2296,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1A(4) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2253,7 +2388,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1A(5) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2330,7 +2480,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1A(6) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2407,7 +2572,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(3) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2484,7 +2664,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(3) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2561,7 +2756,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(1) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2638,7 +2848,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(1) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2715,7 +2940,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(5) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2792,7 +3032,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(4) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2869,7 +3124,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(4) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -2946,7 +3216,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(5) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3105,7 +3390,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(7) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(7) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3182,7 +3487,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(3) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(3) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3259,7 +3584,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(2) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(2) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3297,7 +3642,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">318</value>
+            <value class="int">328</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -3336,7 +3681,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(6) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(6) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3374,7 +3739,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">318</value>
+            <value class="int">328</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -3413,7 +3778,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1F(4) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1F(4) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3490,7 +3875,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(4) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(4) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3518,7 +3923,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeX>
-            <value class="int">781</value>
+            <value class="int">776</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeX>
         </entry>
         <entry>
@@ -3528,7 +3933,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">570</value>
+            <value class="int">563</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -3567,7 +3972,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(6) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3644,7 +4064,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2A(6) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3721,7 +4156,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P3A(0) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3798,7 +4248,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P3A(1) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3875,7 +4340,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P3A(1) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -3952,7 +4432,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P3A(3) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -4029,7 +4524,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P3A(3) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -4106,7 +4616,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P3A(2) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -4183,7 +4708,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P3A(2) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -4260,7 +4800,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P3F(3) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P3F(3) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -4337,7 +4897,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P3F(2) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P3F(2) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -4414,7 +4994,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P3F(4) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P3F(4) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -4491,7 +5091,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1A(6) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -4568,7 +5183,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1A(7) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -4722,7 +5352,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1A(7) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -4876,7 +5521,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>S1A(1) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -5030,7 +5690,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>S1A(1) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -5184,7 +5859,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>S1A(2) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -5261,7 +5951,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>S1A(2) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -5338,7 +6043,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(8) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2F(8) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -5415,7 +6140,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1F(2) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1F(2) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -5492,7 +6237,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1F(3) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1F(3) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -5520,7 +6285,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeX>
-            <value class="int">760</value>
+            <value class="int">747</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeX>
         </entry>
         <entry>
@@ -5569,7 +6334,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1F(1) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1F(1) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -5607,7 +6392,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">650</value>
+            <value class="int">640</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -5877,7 +6662,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P3A(0) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -6074,7 +6874,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeX>
-            <value class="int">1157</value>
+            <value class="int">1149</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeX>
         </entry>
         <entry>
@@ -6084,7 +6884,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">448</value>
+            <value class="int">446</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -7605,7 +8405,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P3FS(1) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P3FS(1) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -7682,7 +8502,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1FS(2) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1FS(2) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -7720,7 +8560,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">702</value>
+            <value class="int">714</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -7856,7 +8696,27 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1FS(1) = vert</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_vert.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>S1FS(1) = rouge</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>feux_rouge.jpg</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="36">
+<org.eventb.core.poFile org.eventb.core.poStamp="35">
     <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="19">
         <org.eventb.core.poIdentifier name="aiguillage" org.eventb.core.type="ℙ(aiguillage)"/>
         <org.eventb.core.poIdentifier name="droite" org.eventb.core.type="aiguillage"/>
@@ -566,50 +566,50 @@
     <org.eventb.core.poPredicateSet name="EVTIDENTProjetGroupeCI" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="34">
         <org.eventb.core.poIdentifier name="P1ToP2'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCI" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCI" org.eventb.core.poStamp="36">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToP2={1 ↦ 1,2 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYPaANuGEe2QFtY3tT2RXA|org.eventb.core.guard#_uYht4NuGEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCI" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCI" org.eventb.core.poStamp="34">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToP2={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYPaANuGEe2QFtY3tT2RXA|org.eventb.core.guard#_uYht4NuGEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="EVTIDENTProjetGroupeCJ" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="34">
         <org.eventb.core.poIdentifier name="P1ToS1'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCJ" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCJ" org.eventb.core.poStamp="36">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToS1={1 ↦ 1,2 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYdccNuGEe2QFtY3tT2RXA|org.eventb.core.guard#_8CyecNuGEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCJ" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCJ" org.eventb.core.poStamp="34">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToS1={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_uYdccNuGEe2QFtY3tT2RXA|org.eventb.core.guard#_8CyecNuGEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="EVTIDENTProjetGroupeCK" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="34">
         <org.eventb.core.poIdentifier name="P2ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCK" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCK" org.eventb.core.poStamp="36">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P2ToP3={1 ↦ 1,2 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_8CuNANuGEe2QFtY3tT2RXA|org.eventb.core.guard#_K4wNINuHEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCK" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCK" org.eventb.core.poStamp="34">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P2ToP3={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_8CuNANuGEe2QFtY3tT2RXA|org.eventb.core.guard#_K4wNINuHEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="EVTIDENTProjetGroupeCL" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="34">
         <org.eventb.core.poIdentifier name="S1ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCL" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCL" org.eventb.core.poStamp="36">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="S1ToP3={1 ↦ 1,2 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_K4siwNuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjWTENuHEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCL" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCL" org.eventb.core.poStamp="34">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="S1ToP3={1 ↦ 1,1 ↦ 0}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_K4siwNuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjWTENuHEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="EVTIDENTProjetGroupeCM" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="34">
         <org.eventb.core.poIdentifier name="P1ToP2'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCM" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCM" org.eventb.core.poStamp="36">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToP2={1 ↦ 0,2 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjSosNuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjhSMNuHEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCM" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCM" org.eventb.core.poStamp="34">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToP2={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjSosNuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjhSMNuHEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="EVTIDENTProjetGroupeCN" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="34">
         <org.eventb.core.poIdentifier name="P1ToS1'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCN" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCN" org.eventb.core.poStamp="36">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToS1={1 ↦ 0,2 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjdn0NuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjsRUNuHEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCN" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCN" org.eventb.core.poStamp="34">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P1ToS1={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjdn0NuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yjsRUNuHEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="EVTIDENTProjetGroupeCO" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="34">
         <org.eventb.core.poIdentifier name="P2ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCO" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCO" org.eventb.core.poStamp="36">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P2ToP3={1 ↦ 0,2 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjom8NuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yj2pYNuHEe2QFtY3tT2RXA"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCO" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCO" org.eventb.core.poStamp="34">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="P2ToP3={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjom8NuHEe2QFtY3tT2RXA|org.eventb.core.guard#_yj2pYNuHEe2QFtY3tT2RXA"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poPredicateSet name="EVTIDENTProjetGroupeCP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="34">
         <org.eventb.core.poIdentifier name="S1ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCP" org.eventb.core.poStamp="36">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="S1ToP3={1 ↦ 0,2 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXA|org.eventb.core.guard#_mYmB4NuREe2Rh9Fgd20L0A"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPProjetGroupeCP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTIDENTProjetGroupeCP" org.eventb.core.poStamp="34">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="S1ToP3={1 ↦ 0,1 ↦ 2}" org.eventb.core.source="/ProjetGroupe/ProjetGroupeM.bum|org.eventb.core.machineFile#ProjetGroupeM|org.eventb.core.event#_yjzmENuHEe2QFtY3tT2RXA|org.eventb.core.guard#_mYmB4NuREe2Rh9Fgd20L0A"/>
     </org.eventb.core.poPredicateSet>
     <org.eventb.core.poSequent name="modifyAiguillage0/inv31/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="34">
         <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/ProjetGroupe/ProjetGroupeR2.bpo|org.eventb.core.poFile#ProjetGroupeR2|org.eventb.core.poPredicateSet#EVTALLHYPProjetGroupeCQ">
