@@ -9,6 +9,7 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
 			<item value="org.eventb.ui.symboltable.view"/>
+			<item value="org.eclipse.ui.views.PropertySheet"/>
 			<item value="org.eventb.ui.views.ProofControl"/>
 			<item value="org.eventb.ui.views.ProofTreeUI"/>
 			<item value="de.prob.ui.OperationView"/>
@@ -24,8 +25,10 @@
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
 			<item value="1"/>
 			<item value="1"/>
 			<item value="1"/>
@@ -36,6 +39,7 @@
 		</list>
 		<list key="textArray">
 			<item value="symbol"/>
+			<item value="prop"/>
 			<item value="proof cont"/>
 			<item value="proof"/>
 			<item value="events"/>
