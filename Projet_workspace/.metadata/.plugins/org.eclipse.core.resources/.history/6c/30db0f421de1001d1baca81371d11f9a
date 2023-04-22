@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="COLOURS" org.eventb.core.type="ℙ(COLOURS)"/>
+        <org.eventb.core.poIdentifier name="yellow" org.eventb.core.type="COLOURS"/>
+        <org.eventb.core.poIdentifier name="red" org.eventb.core.type="COLOURS"/>
+        <org.eventb.core.poIdentifier name="green" org.eventb.core.type="COLOURS"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="type/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Event-B/contexte.bpo|org.eventb.core.poFile#contexte|org.eventb.core.poPredicateSet#ABSHYP"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="partition(COLOURS,{red},{yellow},{green})" org.eventb.core.source="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.axiom#+"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Event-B/contexte.bpo|org.eventb.core.poFile#contexte|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/Event-B/contexte.bpo|org.eventb.core.poFile#contexte|org.eventb.core.poPredicateSet#ABSHYP"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Event-B/contexte.bpo|org.eventb.core.poFile#contexte|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="partition(COLOURS,{red},{yellow},{green})" org.eventb.core.source="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.axiom#+"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

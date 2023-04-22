@@ -1,5 +1,216 @@
 <visualization>
   <children>
+    <de.bmotionstudio.gef.editor.model.BText>
+      <children/>
+      <observers/>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeTextColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">942</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">181</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeFont</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeFont>
+            <value class="string">1||9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|0|0|0|0|</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeFont>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">100</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeText</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeText>
+            <value class="string">P2</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeText>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">100</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_222</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BText>
+    <de.bmotionstudio.gef.editor.model.BText>
+      <children/>
+      <observers/>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeTextColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">81</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">461</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeFont</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeFont>
+            <value class="string">1||9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|0|0|0|0|</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeFont>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">50</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeText</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeText>
+            <value class="string">P1</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeText>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">50</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize>
+            <value class="org.eclipse.draw2d.geometry.Point">
+              <x>50</x>
+              <y>50</y>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeSize>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_218</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BText>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
       <observers/>
@@ -9910,6 +10121,432 @@
       <sourceConnections/>
       <targetConnections/>
     </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BText>
+      <children/>
+      <observers/>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeTextColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">889</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">1254</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeFont</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeFont>
+            <value class="string">1||9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|0|0|0|0|</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeFont>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">100</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeText</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeText>
+            <value class="string">S1</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeText>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">100</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_223</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BText>
+    <de.bmotionstudio.gef.editor.model.BText>
+      <children/>
+      <observers/>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeTextColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">1733</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">489</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeFont</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeFont>
+            <value class="string">1||9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|0|0|0|0|</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeFont>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">100</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeText</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeText>
+            <value class="string">S1</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeText>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">100</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_224</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BText>
+    <de.bmotionstudio.gef.editor.model.BButton>
+      <children/>
+      <observers/>
+      <events>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.event.OnClickEvent</string>
+          <de.bmotionstudio.gef.editor.scheduler.ExecuteOperationByPredicate>
+            <predicateOperation>
+              <isExpressionMode>false</isExpressionMode>
+              <operationName>modifyAiguillage4</operationName>
+              <predicate>gare = 1 &amp; sens = gauche</predicate>
+              <random>false</random>
+              <maxrandom>1</maxrandom>
+            </predicateOperation>
+          </de.bmotionstudio.gef.editor.scheduler.ExecuteOperationByPredicate>
+        </entry>
+      </events>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeTextColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">201</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">640</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">25</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeText</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeText>
+            <value class="string">GAUCHE</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeText>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">100</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeEnabled</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeEnabled>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeEnabled>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>192</red>
+              <green>192</green>
+              <blue>192</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_226</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BButton>
+    <de.bmotionstudio.gef.editor.model.BButton>
+      <children/>
+      <observers/>
+      <events>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.event.OnClickEvent</string>
+          <de.bmotionstudio.gef.editor.scheduler.ExecuteOperationByPredicate>
+            <predicateOperation>
+              <isExpressionMode>false</isExpressionMode>
+              <operationName>modifyAiguillage4</operationName>
+              <predicate>gare = 1 &amp; sens = droite</predicate>
+              <random>false</random>
+              <maxrandom>1</maxrandom>
+            </predicateOperation>
+          </de.bmotionstudio.gef.editor.scheduler.ExecuteOperationByPredicate>
+        </entry>
+      </events>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeTextColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeTextColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">201</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">613</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">25</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeText</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeText>
+            <value class="string">DROITE</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeText>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">100</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeEnabled</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeEnabled>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeEnabled>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+            <value class="org.eclipse.swt.graphics.RGB">
+              <red>192</red>
+              <green>192</green>
+              <blue>192</blue>
+            </value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeBackgroundColor>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_227</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BButton>
   </children>
   <observers/>
   <events/>
@@ -9979,7 +10616,12 @@
   <leftRuler>
     <unit>2</unit>
     <horizontal>false</horizontal>
-    <guides/>
+    <guides>
+      <guide>
+        <position>377</position>
+        <horizontal>true</horizontal>
+      </guide>
+    </guides>
   </leftRuler>
   <topRuler>
     <unit>2</unit>

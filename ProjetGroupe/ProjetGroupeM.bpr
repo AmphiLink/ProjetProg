@@ -2420,7 +2420,7 @@
         <org.eventb.core.prIdent name="P2ToP3" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.prIdent name="P2ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.prIdent name="destination" org.eventb.core.type="ℤ"/>
-        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 1})"/>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2})"/>
         <org.eventb.core.prPred name="p7" org.eventb.core.predicate="destination=2⇒P2ToP3(2)=0∧P2ToP3(1)≠1∧S1(1)≠2∧S1(2)≠2">
             <org.eventb.core.prIdent name="S1" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
@@ -2436,7 +2436,6 @@
             <org.eventb.core.prIdent name="S1" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊥∧destination=2⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="⊥∧(destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 1})"/>
         <org.eventb.core.prPred name="p5" org.eventb.core.predicate="destination=1⇒S1ToP3(2)=0∧S1ToP3(1)≠1">
             <org.eventb.core.prIdent name="S1ToP3" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
@@ -2444,9 +2443,10 @@
             <org.eventb.core.prIdent name="S1" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p3" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=2⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="⊥∧(destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2})"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_P3/inv12/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27" org.eventb.core.psManual="true">
         <org.eventb.core.lang name="L"/>
@@ -2454,15 +2454,15 @@
             <org.eventb.core.prAnte name="'">
                 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p25" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p28"/>
                 <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p29"/>
-                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p18" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p30"/>
-                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p31,p32"/>
+                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p30"/>
+                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p31" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p32,p33"/>
                 <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
                     <org.eventb.core.prAnte name="'">
-                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p15" org.eventb.core.prHyps="p31" org.eventb.core.prInfHyps="p33"/>
+                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p15" org.eventb.core.prHyps="p32" org.eventb.core.prInfHyps="p34"/>
                         <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                             <org.eventb.core.prAnte name="'">
-                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p33" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p34"/>
-                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ProB (no enumeration / all cases checked)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p30,p4,p5,p32,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p33,p34,p19,p20,p21,p22,p28,p31,p23,p24,p25,p29,p26,p27"/>
+                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p34" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p35"/>
+                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ProB (no enumeration / all cases checked)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p30,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p28,p23,p24,p25,p29,p26,p27"/>
                             </org.eventb.core.prAnte>
                         </org.eventb.core.prRule>
                     </org.eventb.core.prAnte>
@@ -2486,7 +2486,7 @@
         <org.eventb.core.prPred name="p30" org.eventb.core.predicate="destination=2⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ∧(P2ToP3(2)=0⇒1∈dom(P2ToP3)∧(¬P2ToP3(1)=1⇒1∈dom(S1)∧S1∈ℤ ⇸ ℤ∧(¬S1(1)=2⇒2∈dom(S1))))"/>
         <org.eventb.core.prPred name="p4" org.eventb.core.predicate="S1∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p32" org.eventb.core.predicate="destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 1}"/>
+        <org.eventb.core.prPred name="p33" org.eventb.core.predicate="destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 1}"/>
         <org.eventb.core.prPred name="p6" org.eventb.core.predicate="finite(P3)"/>
         <org.eventb.core.prPred name="p7" org.eventb.core.predicate="finite(P2ToP3)"/>
         <org.eventb.core.prPred name="p8" org.eventb.core.predicate="destination=2⇒P2ToP3(2)=0∧P2ToP3(1)≠1∧S1(1)≠2∧S1(2)≠2"/>
@@ -2497,18 +2497,19 @@
         <org.eventb.core.prPred name="p13" org.eventb.core.predicate="finite(P1ToS1)"/>
         <org.eventb.core.prPred name="p14" org.eventb.core.predicate="finite(S1ToP3)"/>
         <org.eventb.core.prPred name="p15" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=2⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 1})"/>
-        <org.eventb.core.prPred name="p17" org.eventb.core.predicate="destination=1⇒2∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ∧(S1ToP3(2)=0⇒1∈dom(S1ToP3))"/>
-        <org.eventb.core.prPred name="p18" org.eventb.core.predicate="destination=2⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ∧(P2ToP3(2)=0⇒1∈dom(P2ToP3)∧(P2ToP3(1)≠1⇒1∈dom(S1)∧S1∈ℤ ⇸ ℤ∧(S1(1)≠2⇒2∈dom(S1))))"/>
-        <org.eventb.core.prPred name="p33" org.eventb.core.predicate="⊤∧destination=2⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p34" org.eventb.core.predicate="destination=2⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p19" org.eventb.core.predicate="P1ToP2∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p31" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 1})"/>
+        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="destination=1⇒2∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ∧(S1ToP3(2)=0⇒1∈dom(S1ToP3))"/>
+        <org.eventb.core.prPred name="p17" org.eventb.core.predicate="destination=2⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ∧(P2ToP3(2)=0⇒1∈dom(P2ToP3)∧(P2ToP3(1)≠1⇒1∈dom(S1)∧S1∈ℤ ⇸ ℤ∧(S1(1)≠2⇒2∈dom(S1))))"/>
+        <org.eventb.core.prPred name="p34" org.eventb.core.predicate="⊤∧destination=2⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p35" org.eventb.core.predicate="destination=2⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p18" org.eventb.core.predicate="P1ToP2∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p0" org.eventb.core.predicate="finite(P2ToP3')"/>
-        <org.eventb.core.prPred name="p20" org.eventb.core.predicate="P2∈1 ‥ 4 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p21" org.eventb.core.predicate="finite(S1)"/>
-        <org.eventb.core.prPred name="p22" org.eventb.core.predicate="finite(P1ToP2)"/>
+        <org.eventb.core.prPred name="p19" org.eventb.core.predicate="P2∈1 ‥ 4 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p20" org.eventb.core.predicate="finite(S1)"/>
+        <org.eventb.core.prPred name="p21" org.eventb.core.predicate="finite(P1ToP2)"/>
+        <org.eventb.core.prPred name="p22" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2})"/>
         <org.eventb.core.prPred name="p28" org.eventb.core.predicate="destination=1⇒S1ToP3(2)=0∧¬S1ToP3(1)=1"/>
-        <org.eventb.core.prPred name="p31" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p32" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p23" org.eventb.core.predicate="finite(P1)"/>
         <org.eventb.core.prPred name="p24" org.eventb.core.predicate="destination∈{1,2}"/>
         <org.eventb.core.prPred name="p25" org.eventb.core.predicate="destination=1⇒S1ToP3(2)=0∧S1ToP3(1)≠1"/>
@@ -2516,8 +2517,8 @@
         <org.eventb.core.prPred name="p26" org.eventb.core.predicate="rame∈dom(P3)"/>
         <org.eventb.core.prPred name="p27" org.eventb.core.predicate="P1∈1 ‥ 4 → {0,1,2}"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="de.prob.eventb.disprover.core.disproverReasoner"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_P3/inv15/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
         <org.eventb.core.lang name="L"/>
@@ -2555,34 +2556,34 @@
             <org.eventb.core.prIdent name="S1" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p3" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧destination=1⇒1∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 1})"/>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 2})"/>
         <org.eventb.core.prPred name="p5" org.eventb.core.predicate="destination=1⇒S1ToP3(2)=0∧S1ToP3(1)≠1"/>
         <org.eventb.core.prPred name="p8" org.eventb.core.predicate="destination=2⇒P2ToP3(2)=0∧¬P2ToP3(1)=1∧¬S1(1)=2∧¬S1(2)=2">
             <org.eventb.core.prIdent name="P2ToP3" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
             <org.eventb.core.prIdent name="S1" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p0" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="⊥∧(destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 1})"/>
+        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="⊥∧(destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 2})"/>
         <org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊥∧destination=1⇒1∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_P3/inv16/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27" org.eventb.core.psManual="true">
         <org.eventb.core.lang name="L"/>
         <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
             <org.eventb.core.prAnte name="'">
                 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p25" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p28"/>
-                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p29"/>
-                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p30"/>
-                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p23" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p31,p32"/>
+                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p9" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p29"/>
+                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p30"/>
+                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p31" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p32,p33"/>
                 <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
                     <org.eventb.core.prAnte name="'">
-                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p17" org.eventb.core.prHyps="p31" org.eventb.core.prInfHyps="p33"/>
+                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p18" org.eventb.core.prHyps="p32" org.eventb.core.prInfHyps="p34"/>
                         <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                             <org.eventb.core.prAnte name="'">
-                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p33" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p34"/>
-                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ProB (no enumeration / all cases checked)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p30,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p31,p33,p15,p16,p17,p18,p19,p20,p21,p28,p22,p32,p23,p24,p25,p29,p26,p27,p34"/>
+                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p34" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p35"/>
+                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ProB (no enumeration / all cases checked)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p30,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p28,p23,p24,p25,p29,p26,p27"/>
                             </org.eventb.core.prAnte>
                         </org.eventb.core.prRule>
                     </org.eventb.core.prAnte>
@@ -2607,37 +2608,38 @@
         <org.eventb.core.prPred name="p4" org.eventb.core.predicate="S1∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p6" org.eventb.core.predicate="finite(P3)"/>
-        <org.eventb.core.prPred name="p7" org.eventb.core.predicate="finite(P2ToP3)"/>
-        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="destination=2⇒P2ToP3(2)=0∧P2ToP3(1)≠1∧S1(1)≠2∧S1(2)≠2"/>
-        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="finite(P2)"/>
-        <org.eventb.core.prPred name="p10" org.eventb.core.predicate="P1ToS1∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p11" org.eventb.core.predicate="P3(rame)=2"/>
-        <org.eventb.core.prPred name="p12" org.eventb.core.predicate="P3∈1 ‥ 4 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p13" org.eventb.core.predicate="finite(P1ToS1)"/>
-        <org.eventb.core.prPred name="p14" org.eventb.core.predicate="finite(S1ToP3)"/>
-        <org.eventb.core.prPred name="p31" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p33" org.eventb.core.predicate="⊤∧destination=1⇒1∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p15" org.eventb.core.predicate="destination=1⇒2∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ∧(S1ToP3(2)=0⇒1∈dom(S1ToP3))"/>
-        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="destination=2⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ∧(P2ToP3(2)=0⇒1∈dom(P2ToP3)∧(P2ToP3(1)≠1⇒1∈dom(S1)∧S1∈ℤ ⇸ ℤ∧(S1(1)≠2⇒2∈dom(S1))))"/>
-        <org.eventb.core.prPred name="p17" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧destination=1⇒1∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p7" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 2})"/>
+        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="finite(P2ToP3)"/>
+        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="destination=2⇒P2ToP3(2)=0∧P2ToP3(1)≠1∧S1(1)≠2∧S1(2)≠2"/>
+        <org.eventb.core.prPred name="p10" org.eventb.core.predicate="finite(P2)"/>
+        <org.eventb.core.prPred name="p11" org.eventb.core.predicate="P1ToS1∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p12" org.eventb.core.predicate="P3(rame)=2"/>
+        <org.eventb.core.prPred name="p13" org.eventb.core.predicate="P3∈1 ‥ 4 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p14" org.eventb.core.predicate="finite(P1ToS1)"/>
+        <org.eventb.core.prPred name="p15" org.eventb.core.predicate="finite(S1ToP3)"/>
+        <org.eventb.core.prPred name="p32" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p34" org.eventb.core.predicate="⊤∧destination=1⇒1∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="destination=1⇒2∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ∧(S1ToP3(2)=0⇒1∈dom(S1ToP3))"/>
+        <org.eventb.core.prPred name="p17" org.eventb.core.predicate="destination=2⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ∧(P2ToP3(2)=0⇒1∈dom(P2ToP3)∧(P2ToP3(1)≠1⇒1∈dom(S1)∧S1∈ℤ ⇸ ℤ∧(S1(1)≠2⇒2∈dom(S1))))"/>
+        <org.eventb.core.prPred name="p18" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧destination=1⇒1∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p0" org.eventb.core.predicate="finite(S1ToP3')"/>
-        <org.eventb.core.prPred name="p18" org.eventb.core.predicate="P1ToP2∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p19" org.eventb.core.predicate="P2∈1 ‥ 4 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p20" org.eventb.core.predicate="finite(S1)"/>
-        <org.eventb.core.prPred name="p21" org.eventb.core.predicate="finite(P1ToP2)"/>
+        <org.eventb.core.prPred name="p19" org.eventb.core.predicate="P1ToP2∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p20" org.eventb.core.predicate="P2∈1 ‥ 4 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p21" org.eventb.core.predicate="finite(S1)"/>
+        <org.eventb.core.prPred name="p22" org.eventb.core.predicate="finite(P1ToP2)"/>
         <org.eventb.core.prPred name="p28" org.eventb.core.predicate="destination=1⇒S1ToP3(2)=0∧¬S1ToP3(1)=1"/>
-        <org.eventb.core.prPred name="p22" org.eventb.core.predicate="finite(P1)"/>
-        <org.eventb.core.prPred name="p32" org.eventb.core.predicate="destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 1}"/>
-        <org.eventb.core.prPred name="p23" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 1})"/>
+        <org.eventb.core.prPred name="p23" org.eventb.core.predicate="finite(P1)"/>
+        <org.eventb.core.prPred name="p33" org.eventb.core.predicate="destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 1}"/>
+        <org.eventb.core.prPred name="p31" org.eventb.core.predicate="S1ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 1})"/>
         <org.eventb.core.prPred name="p24" org.eventb.core.predicate="destination∈{1,2}"/>
         <org.eventb.core.prPred name="p25" org.eventb.core.predicate="destination=1⇒S1ToP3(2)=0∧S1ToP3(1)≠1"/>
         <org.eventb.core.prPred name="p29" org.eventb.core.predicate="destination=2⇒P2ToP3(2)=0∧¬P2ToP3(1)=1∧¬S1(1)=2∧¬S1(2)=2"/>
         <org.eventb.core.prPred name="p26" org.eventb.core.predicate="rame∈dom(P3)"/>
         <org.eventb.core.prPred name="p27" org.eventb.core.predicate="P1∈1 ‥ 4 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p34" org.eventb.core.predicate="destination=1⇒1∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p35" org.eventb.core.predicate="destination=1⇒1∈dom(S1ToP3)∧S1ToP3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="de.prob.eventb.disprover.core.disproverReasoner"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_P3/act1/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="P2ToP4'" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3">
         <org.eventb.core.lang name="L"/>
@@ -2758,6 +2760,7 @@
         <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p6" org.eventb.core.predicate="finite(P3)"/>
         <org.eventb.core.prPred name="p7" org.eventb.core.predicate="finite(P2ToP3)"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∃P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2})"/>
         <org.eventb.core.prPred name="p8" org.eventb.core.predicate="destination=2⇒P2ToP3(2)=0∧P2ToP3(1)≠1∧S1(1)≠2∧S1(2)≠2"/>
         <org.eventb.core.prPred name="p9" org.eventb.core.predicate="finite(P2)"/>
         <org.eventb.core.prPred name="p10" org.eventb.core.predicate="∀P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=2⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
@@ -2777,7 +2780,6 @@
         <org.eventb.core.prPred name="p23" org.eventb.core.predicate="destination∈{1,2}"/>
         <org.eventb.core.prPred name="p24" org.eventb.core.predicate="destination=1⇒S1ToP3(2)=0∧S1ToP3(1)≠1"/>
         <org.eventb.core.prPred name="p28" org.eventb.core.predicate="destination=2⇒P2ToP3(2)=0∧¬P2ToP3(1)=1∧¬S1(1)=2∧¬S1(2)=2"/>
-        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∃P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=2⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 1})"/>
         <org.eventb.core.prPred name="p25" org.eventb.core.predicate="rame∈dom(P3)"/>
         <org.eventb.core.prPred name="p26" org.eventb.core.predicate="P1∈1 ‥ 4 → {0,1,2}"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="de.prob.eventb.disprover.core.disproverReasoner"/>
@@ -3276,37 +3278,37 @@
         <org.eventb.core.prIdent name="P2ToP3" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.prIdent name="P2ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.prIdent name="destination" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=3⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p7" org.eventb.core.predicate="⊥"/>
         <org.eventb.core.prPred name="p0" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=3⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2})"/>
-        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬P2(rame)=0">
             <org.eventb.core.prIdent name="P2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
             <org.eventb.core.prIdent name="rame" org.eventb.core.type="ℤ"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="⊥∧(destination=3⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2})"/>
-        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊥∧destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=3⇒P2ToP3'={1 ↦ 1,2 ↦ P2ToP3(2)})"/>
+        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="⊥∧(destination=3⇒P2ToP3'={1 ↦ 1,2 ↦ P2ToP3(2)})"/>
+        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊥∧destination=3⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2(rame)≠0">
             <org.eventb.core.prIdent name="P2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
             <org.eventb.core.prIdent name="rame" org.eventb.core.type="ℤ"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_P2/inv12/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25" org.eventb.core.psManual="true">
         <org.eventb.core.lang name="L"/>
         <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
             <org.eventb.core.prAnte name="'">
                 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p25" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p26"/>
-                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p22" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p27,p28"/>
+                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p27" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p28,p29"/>
                 <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
                     <org.eventb.core.prAnte name="'">
-                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p4" org.eventb.core.prHyps="p27" org.eventb.core.prInfHyps="p29"/>
+                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p30" org.eventb.core.prHyps="p28" org.eventb.core.prInfHyps="p31"/>
                         <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                             <org.eventb.core.prAnte name="'">
-                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p29" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p30"/>
-                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ProB (no enumeration / all cases checked)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p28,p7,p8,p9,p10,p11,p12,p13,p14,p26,p30,p15,p16,p17,p18,p19,p20,p21,p29,p22,p27,p23,p24,p25"/>
+                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p31" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p32"/>
+                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ProB (no enumeration / all cases checked)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p26,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25"/>
                             </org.eventb.core.prAnte>
                         </org.eventb.core.prRule>
                     </org.eventb.core.prAnte>
@@ -3327,37 +3329,39 @@
         <org.eventb.core.prPred name="p1" org.eventb.core.predicate="S1ToP3∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p2" org.eventb.core.predicate="rame∈{1,2,3,4}"/>
         <org.eventb.core.prPred name="p3" org.eventb.core.predicate="S1∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p6" org.eventb.core.predicate="finite(P3)"/>
-        <org.eventb.core.prPred name="p28" org.eventb.core.predicate="destination=3⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2}"/>
-        <org.eventb.core.prPred name="p7" org.eventb.core.predicate="finite(P2ToP3)"/>
+        <org.eventb.core.prPred name="p30" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="finite(P3)"/>
+        <org.eventb.core.prPred name="p29" org.eventb.core.predicate="destination=3⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2}"/>
+        <org.eventb.core.prPred name="p6" org.eventb.core.predicate="finite(P2ToP3)"/>
+        <org.eventb.core.prPred name="p7" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=3⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p8" org.eventb.core.predicate="finite(P2)"/>
         <org.eventb.core.prPred name="p9" org.eventb.core.predicate="P1ToS1∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p10" org.eventb.core.predicate="destination=3⇒P2ToP3={1 ↦ 0,2 ↦ 0}"/>
-        <org.eventb.core.prPred name="p11" org.eventb.core.predicate="P3∈1 ‥ 4 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p12" org.eventb.core.predicate="destination=1⇒P1ToP2={1 ↦ 0,2 ↦ 0}"/>
-        <org.eventb.core.prPred name="p13" org.eventb.core.predicate="finite(P1ToS1)"/>
-        <org.eventb.core.prPred name="p14" org.eventb.core.predicate="finite(S1ToP3)"/>
+        <org.eventb.core.prPred name="p10" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=3⇒P2ToP3'={1 ↦ 1,2 ↦ P2ToP3(2)})"/>
+        <org.eventb.core.prPred name="p11" org.eventb.core.predicate="destination=3⇒P2ToP3={1 ↦ 0,2 ↦ 0}"/>
+        <org.eventb.core.prPred name="p12" org.eventb.core.predicate="P3∈1 ‥ 4 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p13" org.eventb.core.predicate="destination=1⇒P1ToP2={1 ↦ 0,2 ↦ 0}"/>
+        <org.eventb.core.prPred name="p14" org.eventb.core.predicate="finite(P1ToS1)"/>
+        <org.eventb.core.prPred name="p15" org.eventb.core.predicate="finite(S1ToP3)"/>
         <org.eventb.core.prPred name="p26" org.eventb.core.predicate="¬P2(rame)=0"/>
-        <org.eventb.core.prPred name="p30" org.eventb.core.predicate="destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p15" org.eventb.core.predicate="P1ToP2∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="destination∈{1,3}"/>
+        <org.eventb.core.prPred name="p32" org.eventb.core.predicate="destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="P1ToP2∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p17" org.eventb.core.predicate="destination∈{1,3}"/>
         <org.eventb.core.prPred name="p0" org.eventb.core.predicate="finite(P2ToP3')"/>
-        <org.eventb.core.prPred name="p17" org.eventb.core.predicate="P2∈1 ‥ 4 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p18" org.eventb.core.predicate="rame∈dom(P2)"/>
-        <org.eventb.core.prPred name="p19" org.eventb.core.predicate="finite(S1)"/>
-        <org.eventb.core.prPred name="p20" org.eventb.core.predicate="finite(P1ToP2)"/>
-        <org.eventb.core.prPred name="p21" org.eventb.core.predicate="P2∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p29" org.eventb.core.predicate="⊤∧destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p22" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=3⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2})"/>
-        <org.eventb.core.prPred name="p27" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p18" org.eventb.core.predicate="P2∈1 ‥ 4 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p19" org.eventb.core.predicate="rame∈dom(P2)"/>
+        <org.eventb.core.prPred name="p20" org.eventb.core.predicate="finite(S1)"/>
+        <org.eventb.core.prPred name="p21" org.eventb.core.predicate="finite(P1ToP2)"/>
+        <org.eventb.core.prPred name="p22" org.eventb.core.predicate="P2∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p31" org.eventb.core.predicate="⊤∧destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p27" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=3⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2})"/>
+        <org.eventb.core.prPred name="p28" org.eventb.core.predicate="P2ToP3'∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p23" org.eventb.core.predicate="finite(P1)"/>
         <org.eventb.core.prPred name="p24" org.eventb.core.predicate="P1∈1 ‥ 4 → {0,1,2}"/>
         <org.eventb.core.prPred name="p25" org.eventb.core.predicate="P2(rame)≠0"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="de.prob.eventb.disprover.core.disproverReasoner"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_P2/inv15/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
         <org.eventb.core.lang name="L"/>
@@ -3503,17 +3507,22 @@
         </org.eventb.core.prRule>
         <org.eventb.core.prIdent name="P1ToP2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.prIdent name="destination" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="1∈dom(P1ToP2)"/>
         <org.eventb.core.prPred name="p17" org.eventb.core.predicate="⊤"/>
-        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀P1ToP2'⦂ℙ(ℤ×ℤ)·P1ToP2'∈1 ‥ 2 → {0,1,2}∧destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬P2(rame)=0">
             <org.eventb.core.prIdent name="P2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
             <org.eventb.core.prIdent name="rame" org.eventb.core.type="ℤ"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="1∈dom({1 ↦ 0,2 ↦ 0})"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀P1ToP2'⦂ℙ(ℤ×ℤ)·P1ToP2'∈1 ‥ 2 → {0,1,2}∧destination=1⇒1∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p15" org.eventb.core.predicate="1=3⇒P2ToP3={1 ↦ 0,2 ↦ 0}">
             <org.eventb.core.prIdent name="P2ToP3" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="1∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p2" org.eventb.core.predicate="P1ToP2∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P1ToP3'∈1 ‥ 2 → {0,1,2}∧destination=1⇒1∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ">
+            <org.eventb.core.prIdent name="P1ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p12" org.eventb.core.predicate="destination∈{1,3}"/>
         <org.eventb.core.prPred name="p11" org.eventb.core.predicate="P1ToP2={1 ↦ 0,2 ↦ 0}"/>
         <org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤⇒P1ToP2={1 ↦ 0,2 ↦ 0}"/>
@@ -3521,29 +3530,24 @@
         <org.eventb.core.prPred name="p6" org.eventb.core.predicate="P1ToP3'∈1 ‥ 2 → {0,1,2}">
             <org.eventb.core.prIdent name="P1ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="2∈dom({1 ↦ 0,2 ↦ 0})"/>
-        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="2∈dom(P1ToP2)"/>
         <org.eventb.core.prPred name="p14" org.eventb.core.predicate="destination=3⇒P2ToP3={1 ↦ 0,2 ↦ 0}">
             <org.eventb.core.prIdent name="P2ToP3" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p7" org.eventb.core.predicate="destination=1"/>
         <org.eventb.core.prPred name="p18" org.eventb.core.predicate="P1ToP2∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p1" org.eventb.core.predicate="destination=1⇒P1ToP2={1 ↦ 0,2 ↦ 0}"/>
-        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P1ToP3'∈1 ‥ 2 → {0,1,2}∧destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ">
-            <org.eventb.core.prIdent name="P1ToP3'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
-        </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p3" org.eventb.core.predicate="P2(rame)≠0">
             <org.eventb.core.prIdent name="P2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
             <org.eventb.core.prIdent name="rame" org.eventb.core.type="ℤ"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-        <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
-        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
-        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
-        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
         <org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
+        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
         <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_P2/act1/FIS" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24" org.eventb.core.psManual="true">
         <org.eventb.core.lang name="L"/>
@@ -3565,10 +3569,9 @@
         <org.eventb.core.prIdent name="rame" org.eventb.core.type="ℤ"/>
         <org.eventb.core.prPred name="p1" org.eventb.core.predicate="S1ToP3∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p2" org.eventb.core.predicate="rame∈{1,2,3,4}"/>
-        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="∀P1ToP2'⦂ℙ(ℤ×ℤ)·P1ToP2'∈1 ‥ 2 → {0,1,2}∧destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="S1∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∃P1ToP2'⦂ℙ(ℤ×ℤ)·P1ToP2'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒P1ToP2'={1 ↦ 1,2 ↦ P1ToP2(2)})"/>
+        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="S1∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="∀P1ToP2'⦂ℙ(ℤ×ℤ)·P1ToP2'∈1 ‥ 2 → {0,1,2}∧destination=1⇒1∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p8" org.eventb.core.predicate="finite(P3)"/>
         <org.eventb.core.prPred name="p9" org.eventb.core.predicate="finite(P2ToP3)"/>
         <org.eventb.core.prPred name="p15" org.eventb.core.predicate="finite(P2)"/>
@@ -3578,6 +3581,7 @@
         <org.eventb.core.prPred name="p20" org.eventb.core.predicate="destination=1⇒P1ToP2={1 ↦ 0,2 ↦ 0}"/>
         <org.eventb.core.prPred name="p21" org.eventb.core.predicate="finite(P1ToS1)"/>
         <org.eventb.core.prPred name="p22" org.eventb.core.predicate="finite(S1ToP3)"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∃P1ToP2'⦂ℙ(ℤ×ℤ)·P1ToP2'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒P1ToP2'={1 ↦ P1ToP2(1),2 ↦ 2})"/>
         <org.eventb.core.prPred name="p25" org.eventb.core.predicate="¬P2(rame)=0"/>
         <org.eventb.core.prPred name="p6" org.eventb.core.predicate="P1ToP2∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p7" org.eventb.core.predicate="destination∈{1,3}"/>
@@ -3839,14 +3843,14 @@
         <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
             <org.eventb.core.prAnte name="'">
                 <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p25" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p26"/>
-                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p27,p28"/>
+                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p27" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p28,p29"/>
                 <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
                     <org.eventb.core.prAnte name="'">
-                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="p28" org.eventb.core.prInfHyps="p29"/>
+                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p30" org.eventb.core.prHyps="p29" org.eventb.core.prInfHyps="p31"/>
                         <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                             <org.eventb.core.prAnte name="'">
-                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p29" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p30"/>
-                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ProB (no enumeration / all cases checked)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p27,p8,p9,p10,p11,p12,p13,p14,p15,p26,p29,p30,p16,p17,p18,p19,p20,p21,p22,p23,p28,p24,p25"/>
+                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p31" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p32"/>
+                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ProB (no enumeration / all cases checked)" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p26,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25"/>
                             </org.eventb.core.prAnte>
                         </org.eventb.core.prRule>
                     </org.eventb.core.prAnte>
@@ -3867,23 +3871,25 @@
         <org.eventb.core.prPred name="p1" org.eventb.core.predicate="S1ToP3∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p0" org.eventb.core.predicate="finite(P1ToP2')"/>
         <org.eventb.core.prPred name="p2" org.eventb.core.predicate="rame∈{1,2,3,4}"/>
-        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}∧destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="S1∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p6" org.eventb.core.predicate="finite(P3)"/>
-        <org.eventb.core.prPred name="p7" org.eventb.core.predicate="finite(P2ToP3)"/>
-        <org.eventb.core.prPred name="p27" org.eventb.core.predicate="destination=1⇒P1ToP2'={1 ↦ 1,2 ↦ P1ToP2(2)}"/>
-        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒P1ToP2'={1 ↦ 1,2 ↦ P1ToP2(2)})"/>
-        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="finite(P2)"/>
-        <org.eventb.core.prPred name="p10" org.eventb.core.predicate="P1ToS1∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p11" org.eventb.core.predicate="destination=3⇒P2ToP3={1 ↦ 0,2 ↦ 0}"/>
-        <org.eventb.core.prPred name="p12" org.eventb.core.predicate="P3∈1 ‥ 4 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p13" org.eventb.core.predicate="destination=1⇒P1ToP2={1 ↦ 0,2 ↦ 0}"/>
-        <org.eventb.core.prPred name="p14" org.eventb.core.predicate="finite(P1ToS1)"/>
-        <org.eventb.core.prPred name="p15" org.eventb.core.predicate="finite(S1ToP3)"/>
+        <org.eventb.core.prPred name="p30" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}∧destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="S1∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="finite(P3)"/>
+        <org.eventb.core.prPred name="p6" org.eventb.core.predicate="finite(P2ToP3)"/>
+        <org.eventb.core.prPred name="p7" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}∧destination=1⇒1∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p28" org.eventb.core.predicate="destination=1⇒P1ToP2'={1 ↦ 1,2 ↦ P1ToP2(2)}"/>
+        <org.eventb.core.prPred name="p27" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒P1ToP2'={1 ↦ 1,2 ↦ P1ToP2(2)})"/>
+        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="finite(P2)"/>
+        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="P1ToS1∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p10" org.eventb.core.predicate="destination=3⇒P2ToP3={1 ↦ 0,2 ↦ 0}"/>
+        <org.eventb.core.prPred name="p11" org.eventb.core.predicate="P3∈1 ‥ 4 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p12" org.eventb.core.predicate="destination=1⇒P1ToP2={1 ↦ 0,2 ↦ 0}"/>
+        <org.eventb.core.prPred name="p13" org.eventb.core.predicate="finite(P1ToS1)"/>
+        <org.eventb.core.prPred name="p14" org.eventb.core.predicate="finite(S1ToP3)"/>
+        <org.eventb.core.prPred name="p15" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒P1ToP2'={1 ↦ P1ToP2(1),2 ↦ 2})"/>
         <org.eventb.core.prPred name="p26" org.eventb.core.predicate="¬P2(rame)=0"/>
-        <org.eventb.core.prPred name="p29" org.eventb.core.predicate="⊤∧destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p30" org.eventb.core.predicate="destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p31" org.eventb.core.predicate="⊤∧destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p32" org.eventb.core.predicate="destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p16" org.eventb.core.predicate="P1ToP2∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p17" org.eventb.core.predicate="destination∈{1,3}"/>
         <org.eventb.core.prPred name="p18" org.eventb.core.predicate="P2∈1 ‥ 4 → {0,1,2}"/>
@@ -3892,12 +3898,12 @@
         <org.eventb.core.prPred name="p21" org.eventb.core.predicate="finite(P1ToP2)"/>
         <org.eventb.core.prPred name="p22" org.eventb.core.predicate="P2∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p23" org.eventb.core.predicate="finite(P1)"/>
-        <org.eventb.core.prPred name="p28" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}"/>
+        <org.eventb.core.prPred name="p29" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p24" org.eventb.core.predicate="P1∈1 ‥ 4 → {0,1,2}"/>
         <org.eventb.core.prPred name="p25" org.eventb.core.predicate="P2(rame)≠0"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="de.prob.eventb.disprover.core.disproverReasoner"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_S1/grd3/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18">
         <org.eventb.core.lang name="L"/>
@@ -8216,7 +8222,7 @@
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
     </org.eventb.core.prProof>
-    <org.eventb.core.prProof name="exit_P2/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.psManual="true">
+    <org.eventb.core.prProof name="exit_P2/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1">
         <org.eventb.core.lang name="L"/>
         <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
             <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p0">
@@ -8235,23 +8241,23 @@
         <org.eventb.core.prIdent name="P1ToP2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.prIdent name="P1ToP2'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         <org.eventb.core.prIdent name="destination" org.eventb.core.type="ℤ"/>
-        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}∧destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒P1ToP2'={1 ↦ 1,2 ↦ P1ToP2(2)})"/>
         <org.eventb.core.prPred name="p7" org.eventb.core.predicate="⊥"/>
-        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊥∧destination=1⇒2∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="⊥∧(destination=1⇒P1ToP2'={1 ↦ P1ToP2(1),2 ↦ 2})"/>
+        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="⊥∧destination=1⇒1∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬P2(rame)=0">
             <org.eventb.core.prIdent name="P2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
             <org.eventb.core.prIdent name="rame" org.eventb.core.type="ℤ"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p0" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="⊥∧(destination=1⇒P1ToP2'={1 ↦ 1,2 ↦ P1ToP2(2)})"/>
+        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}∧destination=1⇒1∈dom(P1ToP2)∧P1ToP2∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="P1ToP2'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒P1ToP2'={1 ↦ P1ToP2(1),2 ↦ 2})"/>
         <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2(rame)≠0">
             <org.eventb.core.prIdent name="P2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
             <org.eventb.core.prIdent name="rame" org.eventb.core.type="ℤ"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
-        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="enter_P1/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.psManual="true">
         <org.eventb.core.lang name="L"/>
@@ -8599,40 +8605,40 @@
             <org.eventb.core.prIdent name="P1ToP2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p11" org.eventb.core.predicate="P2ToP3={1 ↦ 0,2 ↦ 0}"/>
+        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="2∈dom(P2ToP3)"/>
         <org.eventb.core.prPred name="p17" org.eventb.core.predicate="⊤"/>
         <org.eventb.core.prPred name="p10" org.eventb.core.predicate="⊤⇒P2ToP3={1 ↦ 0,2 ↦ 0}"/>
         <org.eventb.core.prPred name="p4" org.eventb.core.predicate="¬P2(rame)=0">
             <org.eventb.core.prIdent name="P2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
             <org.eventb.core.prIdent name="rame" org.eventb.core.type="ℤ"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p1" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
-        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="1∈dom({1 ↦ 0,2 ↦ 0})"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∀P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=3⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p18" org.eventb.core.predicate="P2ToP3∈ℤ ⇸ ℤ"/>
-        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2ToP4'∈1 ‥ 2 → {0,1,2}∧destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ">
-            <org.eventb.core.prIdent name="P2ToP4'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
-        </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p12" org.eventb.core.predicate="destination∈{1,3}"/>
-        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="1∈dom(P2ToP3)"/>
         <org.eventb.core.prPred name="p13" org.eventb.core.predicate="3∈{1,3}"/>
-        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="2∈dom({1 ↦ 0,2 ↦ 0})"/>
         <org.eventb.core.prPred name="p2" org.eventb.core.predicate="destination=3⇒P2ToP3={1 ↦ 0,2 ↦ 0}"/>
         <org.eventb.core.prPred name="p14" org.eventb.core.predicate="destination=1⇒P1ToP2={1 ↦ 0,2 ↦ 0}">
             <org.eventb.core.prIdent name="P1ToP2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
         </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2ToP4'∈1 ‥ 2 → {0,1,2}∧destination=3⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ">
+            <org.eventb.core.prIdent name="P2ToP4'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p7" org.eventb.core.predicate="destination=3"/>
+        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p3" org.eventb.core.predicate="P2(rame)≠0">
             <org.eventb.core.prIdent name="P2" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
             <org.eventb.core.prIdent name="rame" org.eventb.core.type="ℤ"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+        <org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
         <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.eq:1"/>
-        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
-        <org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
         <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_P2/act2/FIS" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24" org.eventb.core.psManual="true">
         <org.eventb.core.lang name="L"/>
@@ -8665,9 +8671,8 @@
         <org.eventb.core.prPred name="p20" org.eventb.core.predicate="destination=1⇒P1ToP2={1 ↦ 0,2 ↦ 0}"/>
         <org.eventb.core.prPred name="p21" org.eventb.core.predicate="finite(P1ToS1)"/>
         <org.eventb.core.prPred name="p22" org.eventb.core.predicate="finite(S1ToP3)"/>
-        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∃P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=3⇒P2ToP3'={1 ↦ P2ToP3(1),2 ↦ 2})"/>
         <org.eventb.core.prPred name="p25" org.eventb.core.predicate="¬P2(rame)=0"/>
-        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="∀P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=3⇒1∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="∀P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧destination=3⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p6" org.eventb.core.predicate="P1ToP2∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p7" org.eventb.core.predicate="destination∈{1,3}"/>
         <org.eventb.core.prPred name="p10" org.eventb.core.predicate="P2∈1 ‥ 4 → {0,1,2}"/>
@@ -8675,11 +8680,12 @@
         <org.eventb.core.prPred name="p12" org.eventb.core.predicate="finite(S1)"/>
         <org.eventb.core.prPred name="p13" org.eventb.core.predicate="finite(P1ToP2)"/>
         <org.eventb.core.prPred name="p14" org.eventb.core.predicate="P2∈ℤ ⇸ ℤ"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∃P2ToP3'⦂ℙ(ℤ×ℤ)·P2ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=3⇒P2ToP3'={1 ↦ 1,2 ↦ P2ToP3(2)})"/>
         <org.eventb.core.prPred name="p16" org.eventb.core.predicate="finite(P1)"/>
         <org.eventb.core.prPred name="p23" org.eventb.core.predicate="P1∈1 ‥ 4 → {0,1,2}"/>
         <org.eventb.core.prPred name="p24" org.eventb.core.predicate="P2(rame)≠0"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="de.prob.eventb.disprover.core.disproverReasoner"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_P3/act2/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="S1ToP4'" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3">
         <org.eventb.core.lang name="L"/>
@@ -8796,7 +8802,7 @@
         <org.eventb.core.prPred name="p2" org.eventb.core.predicate="rame∈{1,2,3,4}"/>
         <org.eventb.core.prPred name="p3" org.eventb.core.predicate="P3∈ℤ ⇸ ℤ"/>
         <org.eventb.core.prPred name="p29" org.eventb.core.predicate="destination=2⇒2∈dom(P2ToP3)∧P2ToP3∈ℤ ⇸ ℤ∧(P2ToP3(2)=0⇒1∈dom(P2ToP3)∧(¬P2ToP3(1)=1⇒1∈dom(S1)∧S1∈ℤ ⇸ ℤ∧(¬S1(1)=2⇒2∈dom(S1))))"/>
-        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∃S1ToP3'⦂ℙ(ℤ×ℤ)·S1ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 1})"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="∃S1ToP3'⦂ℙ(ℤ×ℤ)·S1ToP3'∈1 ‥ 2 → {0,1,2}∧(destination=1⇒S1ToP3'={1 ↦ S1ToP3(1),2 ↦ 2})"/>
         <org.eventb.core.prPred name="p4" org.eventb.core.predicate="S1∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p5" org.eventb.core.predicate="P2ToP3∈1 ‥ 2 → {0,1,2}"/>
         <org.eventb.core.prPred name="p6" org.eventb.core.predicate="finite(P3)"/>
@@ -8822,8 +8828,8 @@
         <org.eventb.core.prPred name="p28" org.eventb.core.predicate="destination=2⇒P2ToP3(2)=0∧¬P2ToP3(1)=1∧¬S1(1)=2∧¬S1(2)=2"/>
         <org.eventb.core.prPred name="p25" org.eventb.core.predicate="rame∈dom(P3)"/>
         <org.eventb.core.prPred name="p26" org.eventb.core.predicate="P1∈1 ‥ 4 → {0,1,2}"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="de.prob.eventb.disprover.core.disproverReasoner"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="exit_S1/act2/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="S1ToP4'" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2">
         <org.eventb.core.lang name="L"/>

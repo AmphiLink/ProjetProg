@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase">
+    <org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/ProjetGroupe/ProjetGroupeC.bcc|org.eventb.core.scContextFile#ProjetGroupeC" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC2.buc|org.eventb.core.contextFile#ProjetGroupeC2|org.eventb.core.extendsContext#_teoZwN6tEe21C40mRHpxCA"/>
+    <org.eventb.core.scInternalContext name="ProjetGroupeC">
+        <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(aiguillage,{gauche},{droite})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC.buc|org.eventb.core.contextFile#ProjetGroupeC|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scCarrierSet name="aiguillage" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC.buc|org.eventb.core.contextFile#ProjetGroupeC|org.eventb.core.carrierSet#_7LcSwNxiEe2CPrJ6LuiP1g" org.eventb.core.type="ℙ(aiguillage)"/>
+        <org.eventb.core.scConstant de.prob.symbolic.symbolicAttribute="false" name="droite" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC.buc|org.eventb.core.contextFile#ProjetGroupeC|org.eventb.core.constant#(" org.eventb.core.type="aiguillage"/>
+        <org.eventb.core.scConstant de.prob.symbolic.symbolicAttribute="false" name="gauche" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC.buc|org.eventb.core.contextFile#ProjetGroupeC|org.eventb.core.constant#'" org.eventb.core.type="aiguillage"/>
+    </org.eventb.core.scInternalContext>
+    <org.eventb.core.scAxiom name="ProjetGroupeD" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(trafficLights,{vert},{rouge})" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC2.buc|org.eventb.core.contextFile#ProjetGroupeC2|org.eventb.core.axiom#_5DVMAN6tEe21C40mRHpxCA" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scCarrierSet name="trafficLights" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC2.buc|org.eventb.core.contextFile#ProjetGroupeC2|org.eventb.core.carrierSet#_yCrpMN6sEe21C40mRHpxCA" org.eventb.core.type="ℙ(trafficLights)"/>
+    <org.eventb.core.scConstant name="vert" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC2.buc|org.eventb.core.contextFile#ProjetGroupeC2|org.eventb.core.constant#_yCrpMd6sEe21C40mRHpxCA" org.eventb.core.type="trafficLights"/>
+    <org.eventb.core.scConstant name="rouge" org.eventb.core.source="/ProjetGroupe/ProjetGroupeC2.buc|org.eventb.core.contextFile#ProjetGroupeC2|org.eventb.core.constant#_yCsQQN6sEe21C40mRHpxCA" org.eventb.core.type="trafficLights"/>
+</org.eventb.core.scContextFile>
