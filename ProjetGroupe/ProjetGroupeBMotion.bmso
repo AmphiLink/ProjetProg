@@ -2446,7 +2446,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeX>
-            <value class="int">242</value>
+            <value class="int">239</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeX>
         </entry>
         <entry>
@@ -2456,7 +2456,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">732</value>
+            <value class="int">739</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -5067,7 +5067,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">857</value>
+            <value class="int">848</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -7864,7 +7864,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeX>
-            <value class="int">1204</value>
+            <value class="int">1176</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeX>
         </entry>
         <entry>
@@ -7874,7 +7874,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">465</value>
+            <value class="int">461</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -7961,7 +7961,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeX>
-            <value class="int">1331</value>
+            <value class="int">1427</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeX>
         </entry>
         <entry>
@@ -7971,7 +7971,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">606</value>
+            <value class="int">686</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -8155,7 +8155,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeX>
-            <value class="int">572</value>
+            <value class="int">661</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeX>
         </entry>
         <entry>
@@ -8165,7 +8165,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">477</value>
+            <value class="int">461</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -8313,83 +8313,6 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
-            <value class="string">t2.png</value>
-          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
-            <value class="string"></value>
-          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
-            <value class="int">243</value>
-          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">732</value>
-          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
-            <value class="string">control_198</value>
-          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
-            <value class="int">117</value>
-          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
-            <value class="int">255</value>
-          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
-            <value class="boolean">true</value>
-          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
-            <value class="int">119</value>
-          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
-        </entry>
-      </attributes>
-      <sourceConnections/>
-      <targetConnections/>
-    </de.bmotionstudio.gef.editor.model.BImage>
-    <de.bmotionstudio.gef.editor.model.BImage>
-      <children/>
-      <observers/>
-      <events/>
-      <attributes>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
-            <value class="string"></value>
-          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
-        </entry>
-        <entry>
-          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
-          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
             <value class="string">rail_oblique_gauche.png</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
         </entry>
@@ -8455,7 +8378,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P3A(0) = droite</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -8791,7 +8729,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeX>
-            <value class="int">1238</value>
+            <value class="int">1240</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeX>
         </entry>
         <entry>
@@ -8801,7 +8739,7 @@
         <entry>
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeY>
-            <value class="int">596</value>
+            <value class="int">598</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeY>
         </entry>
         <entry>
@@ -8840,7 +8778,22 @@
     </de.bmotionstudio.gef.editor.model.BImage>
     <de.bmotionstudio.gef.editor.model.BImage>
       <children/>
-      <observers/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P3A(0) = gauche</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
       <events/>
       <attributes>
         <entry>
@@ -8909,6 +8862,1048 @@
           <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
           <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
             <value class="int">122</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BImage>
+      <children/>
+      <observers/>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+            <value class="string">rail_oblique_droite_long.png</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">908</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">989</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_192</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">173</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+            <value class="int">255</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">254</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BImage>
+      <children/>
+      <observers/>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+            <value class="string">rail_oblique_droite_courbe.png</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">1124</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">879</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_193</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">173</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+            <value class="int">255</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">254</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BImage>
+      <children/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToP1(1) = 1</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t2.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToP1(1) = 2</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t3.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1ToS1(1) = 0</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+            <value class="string">t2.png</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">422</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">927</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_194</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">117</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+            <value class="int">255</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">119</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BImage>
+      <children/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToP3(2) = 1</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t2.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToP3(2) = 2</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t3.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2ToP3(2) = 0</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+            <value class="string">t2.png</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">1243</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">598</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_199</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">117</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+            <value class="int">255</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">119</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BImage>
+      <children/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToP3(1) = 1</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t2.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToP3(1) = 2</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t3.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P2ToP3(1) = 0</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+            <value class="string">t2.png</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">1152</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">510</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_201</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">117</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+            <value class="int">255</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">119</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BImage>
+      <children/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToP1(2) = 1</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t2.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToP1(2) = 2</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t3.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1ToS1(2) = 0</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+            <value class="string">t2.png</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">512</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">1017</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_202</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">117</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+            <value class="int">255</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">119</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BImage>
+      <children/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P1ToP2(1) = 1</eval>
+                <isExpressionMode>true</isExpressionMode>
+                <image>t1.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P1ToP2(1) = 2</eval>
+                <isExpressionMode>true</isExpressionMode>
+                <image>t4.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1ToP2(1) = 0</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+            <value class="string">t1.png</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">422</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">683</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_209</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">117</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+            <value class="int">255</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">119</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BImage>
+      <children/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P1ToP2(2) = 1</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t1.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P1ToP2(2) = 2</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t4.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>P1ToP2(2) = 0</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+            <value class="string">t1.png</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">512</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">594</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_211</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">117</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+            <value class="int">255</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">119</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BImage>
+      <children/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToS1(1) = 1</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t1penche.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToS1(1) = 2</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t4penche.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>S1ToP3(1) = 0</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+            <value class="string">t1penche.png</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">961</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">1022</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_212</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">117</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+            <value class="int">255</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">119</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+        </entry>
+      </attributes>
+      <sourceConnections/>
+      <targetConnections/>
+    </de.bmotionstudio.gef.editor.model.BImage>
+    <de.bmotionstudio.gef.editor.model.BImage>
+      <children/>
+      <observers>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SwitchImage</string>
+          <de.bmotionstudio.gef.editor.observer.SwitchImage>
+            <toggleObjects>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToS1(2) = 1</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t1penche.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+              <de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+                <type>#PREDICATE</type>
+                <eval>P2ToS1(2) = 2</eval>
+                <isExpressionMode>false</isExpressionMode>
+                <image>t4penche.png</image>
+              </de.bmotionstudio.gef.editor.observer.ToggleObjectImage>
+            </toggleObjects>
+          </de.bmotionstudio.gef.editor.observer.SwitchImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.observer.SetAttribute</string>
+          <de.bmotionstudio.gef.editor.observer.SetAttribute>
+            <setAttributeObjects>
+              <de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+                <type>#PREDICATE</type>
+                <eval>S1ToP3(2) = 0</eval>
+                <value class="boolean">false</value>
+                <attribute>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</attribute>
+                <isExpressionMode>false</isExpressionMode>
+              </de.bmotionstudio.gef.editor.observer.SetAttributeObject>
+            </setAttributeObjects>
+          </de.bmotionstudio.gef.editor.observer.SetAttribute>
+        </entry>
+      </observers>
+      <events/>
+      <attributes>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeMisc</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeMisc>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeImage</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+            <value class="string">t1penche.png</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeImage>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeSize</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeSize/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCustom</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+            <value class="string"></value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeCustom>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeX</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeX>
+            <value class="int">1181</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeX>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeCoordinates/>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeY</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeY>
+            <value class="int">936</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeY>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeID</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeID>
+            <value class="string">control_213</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeID>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeHeight</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+            <value class="int">117</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeHeight>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeAlpha</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+            <value class="int">255</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeAlpha>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeVisible</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+            <value class="boolean">true</value>
+          </de.bmotionstudio.gef.editor.attribute.BAttributeVisible>
+        </entry>
+        <entry>
+          <string>de.bmotionstudio.gef.editor.attribute.BAttributeWidth</string>
+          <de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
+            <value class="int">119</value>
           </de.bmotionstudio.gef.editor.attribute.BAttributeWidth>
         </entry>
       </attributes>

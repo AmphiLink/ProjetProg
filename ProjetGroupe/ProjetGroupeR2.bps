@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <org.eventb.core.psFile>
-    <org.eventb.core.psStatus name="INITIALISATION/inv25/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="INITIALISATION/inv26/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="INITIALISATION/inv27/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="INITIALISATION/inv28/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="INITIALISATION/inv29/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="35" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="INITIALISATION/inv30/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="35" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="INITIALISATION/inv31/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="35" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="INITIALISATION/inv32/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="35" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="INITIALISATION/inv25/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="40" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="INITIALISATION/inv26/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="40" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="INITIALISATION/inv27/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="40" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="INITIALISATION/inv28/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="40" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="INITIALISATION/inv29/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="40" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="INITIALISATION/inv30/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="40" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="INITIALISATION/inv31/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="40" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="INITIALISATION/inv32/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="40" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="exit_P1/grd14/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="true"/>
     <org.eventb.core.psStatus name="exit_P1/inv29/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="true"/>
     <org.eventb.core.psStatus name="exit_P2/grd14/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="true"/>
@@ -35,6 +35,18 @@
     <org.eventb.core.psStatus name="modifyAiguillage0/inv31/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="modifyAiguillage0/act2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="true"/>
     <org.eventb.core.psStatus name="modifyAiguillage0/act2/FIS" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="true"/>
+    <org.eventb.core.psStatus name="modifyAiguillage1/inv30/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="44" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="modifyAiguillage1/inv32/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="44" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="modifyAiguillage1/act4/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="41" org.eventb.core.psManual="true"/>
+    <org.eventb.core.psStatus name="modifyAiguillage1/act4/FIS" org.eventb.core.confidence="0" org.eventb.core.poStamp="44" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="modifyAiguillage1/act5/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="41" org.eventb.core.psManual="true"/>
+    <org.eventb.core.psStatus name="modifyAiguillage1/act5/FIS" org.eventb.core.confidence="0" org.eventb.core.poStamp="44" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="modifyAiguillage2/inv32/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="44" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="modifyAiguillage2/act4/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="42" org.eventb.core.psManual="true"/>
+    <org.eventb.core.psStatus name="modifyAiguillage2/act4/FIS" org.eventb.core.confidence="0" org.eventb.core.poStamp="44" org.eventb.core.psManual="true"/>
+    <org.eventb.core.psStatus name="modifyAiguillage6/inv30/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="44" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="modifyAiguillage6/act3/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="42" org.eventb.core.psManual="true"/>
+    <org.eventb.core.psStatus name="modifyAiguillage6/act3/FIS" org.eventb.core.confidence="0" org.eventb.core.poStamp="44" org.eventb.core.psManual="true"/>
     <org.eventb.core.psStatus name="modifyAiguillage7/inv29/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="modifyAiguillage7/act2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="true"/>
     <org.eventb.core.psStatus name="modifyAiguillage7/act2/FIS" org.eventb.core.confidence="1000" org.eventb.core.poStamp="34" org.eventb.core.psManual="true"/>
