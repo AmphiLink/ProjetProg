@@ -8,8 +8,13 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="org.eventb.ui.views.ProofControl"/>
+			<item value="org.eclipse.ui.ToggleCoolbarAction"/>
+			<item value="org.eclipse.gef.ui.palette_view"/>
+			<item value="fr.systerel.editor.preferences.rodinEditor"/>
+			<item value="org.eclipse.ui.externaltools.ExternalToolMenuDelegateMenu"/>
 			<item value="org.eclipse.debug.ui.VariableView"/>
+			<item value="org.eclipse.help.ui.HelpView"/>
+			<item value="org.eventb.ui.views.ProofControl"/>
 			<item value="de.bmotionstudio.perspective.edit"/>
 			<item value="de.prob.ui.StateView"/>
 			<item value="org.eventb.ui.symboltable.view"/>
@@ -18,6 +23,11 @@
 			<item value="org.eclipse.ui.views.ContentOutline"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.actions"/>
+			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.perspectives"/>
@@ -28,7 +38,12 @@
 			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
 			<item value="2"/>
+			<item value="1"/>
 			<item value="2"/>
 			<item value="1"/>
 			<item value="1"/>
@@ -38,10 +53,15 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="proof cont"/>
-			<item value="proof"/>
+			<item value="main"/>
+			<item value="pal"/>
+			<item value="r"/>
+			<item value="e"/>
 			<item value="var"/>
 			<item value="debug"/>
+			<item value=" hel"/>
+			<item value="proof cont"/>
+			<item value="proof"/>
 			<item value="bms"/>
 			<item value="stat"/>
 			<item value="symbol"/>

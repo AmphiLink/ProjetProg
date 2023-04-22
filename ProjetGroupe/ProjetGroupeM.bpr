@@ -97,6 +97,7 @@
             <org.eventb.core.prIdent name="droite" org.eventb.core.type="aiguillage"/>
             <org.eventb.core.prIdent name="gauche" org.eventb.core.type="aiguillage"/>
         </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="{1 ↦ 2}∪{i⦂ℤ·i∈2 ‥ 4 ∣ i ↦ 0}∈1 ‥ 4 → {0,1,2}"/>
         <org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(aiguillage,{gauche},{droite})">
             <org.eventb.core.prIdent name="aiguillage" org.eventb.core.type="ℙ(aiguillage)"/>
             <org.eventb.core.prIdent name="droite" org.eventb.core.type="aiguillage"/>
@@ -107,7 +108,6 @@
             <org.eventb.core.prIdent name="droite" org.eventb.core.type="aiguillage"/>
             <org.eventb.core.prIdent name="gauche" org.eventb.core.type="aiguillage"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="{1 ↦ 1}∪{i⦂ℤ·i∈2 ‥ 4 ∣ i ↦ 0}∈1 ‥ 4 → {0,1,2}"/>
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="de.prob.eventb.disprover.core.disproverReasoner"/>
     </org.eventb.core.prProof>
@@ -119,9 +119,9 @@
             </org.eventb.core.prAnte>
         </org.eventb.core.prRule>
         <org.eventb.core.prPred name="p1" org.eventb.core.predicate="⊤"/>
-        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="finite({1 ↦ 1}∪{i⦂ℤ·i∈2 ‥ 4 ∣ i ↦ 0})"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="finite({1 ↦ 2}∪{i⦂ℤ·i∈2 ‥ 4 ∣ i ↦ 0})"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.trueGoal"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="INITIALISATION/inv7/INV" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.psManual="true">
         <org.eventb.core.lang name="L"/>
