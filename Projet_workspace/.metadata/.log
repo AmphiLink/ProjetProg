@@ -6955,3 +6955,6 @@ java.lang.Exception: Resource '/ProjetGroupe/ProjetGroupeR2.bcm_tmp' does not ex
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY de.prob.core 1 0 2023-04-22 15:22:06.528
+!MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable
