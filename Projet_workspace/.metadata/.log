@@ -10193,3 +10193,188 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY de.prob.core 1 0 2023-04-23 10:49:12.790
 !MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable
+!SESSION 2023-04-23 10:52:51.413 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:53:03.876
+!MESSAGE Starting ProB CLI for win32 ... Path is C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\probcli.exe
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:53:05.012
+!MESSAGE Server has startet and listens on port 65034
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:53:05.013
+!MESSAGE Server can receive user interrupts via reference 14628
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:53:59.957
+!MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable
+!SESSION 2023-04-23 10:55:47.368 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:55:53.058
+!MESSAGE Starting ProB CLI for win32 ... Path is C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\probcli.exe
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:55:53.944
+!MESSAGE Server has startet and listens on port 65248
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:55:53.944
+!MESSAGE Server can receive user interrupts via reference 16464
+
+!ENTRY org.rodinp.core 4 4 2023-04-23 10:56:00.490
+!MESSAGE  while running extractor null on /ProjetGroupe/ProjetGroupeC2.buc
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.core.runtime.SubMonitor$RootInfo.checkForCancellation(SubMonitor.java:274)
+	at org.eclipse.core.runtime.SubMonitor$RootInfo.reportTrivialOperation(SubMonitor.java:283)
+	at org.eclipse.core.runtime.SubMonitor.split(SubMonitor.java:985)
+	at org.eclipse.core.runtime.SubMonitor.split(SubMonitor.java:895)
+	at org.rodinp.internal.core.builder.ProgressManager.getZeroProgressMonitor(ProgressManager.java:57)
+	at org.rodinp.internal.core.builder.Graph.extract(Graph.java:422)
+	at org.rodinp.internal.core.builder.Graph.builderExtractNode(Graph.java:211)
+	at org.rodinp.internal.core.builder.RodinBuilder.markNodeDated(RodinBuilder.java:289)
+	at org.rodinp.internal.core.builder.RodinBuilder$RodinBuilderResourceVisitor.visit(RodinBuilder.java:172)
+	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.rodinp.internal.core.builder.RodinBuilder.createGraph(RodinBuilder.java:319)
+	at org.rodinp.internal.core.builder.RodinBuilder.fullBuild(RodinBuilder.java:301)
+	at org.rodinp.internal.core.builder.RodinBuilder.build(RodinBuilder.java:216)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:160)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:58:23.864
+!MESSAGE Starting ProB CLI for win32 ... Path is C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\probcli.exe
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:58:25.859
+!MESSAGE Server has startet and listens on port 65386
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:58:25.860
+!MESSAGE Server can receive user interrupts via reference 4188
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:58:26.469
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:23.769
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:26.784
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:30.559
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:33.484
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:37.093
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:40.298
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:44.123
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:48.695
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:51.376
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:54.114
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:56.587
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 10:59:59.748
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:02.612
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:05.382
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:08.259
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:18.131
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:22.577
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:27.141
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:27.345
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:32.174
+!MESSAGE Disprover: Result: Counter-Example found: {P2FS={}, P2ToP3={}, P3={(1|->0)}, P3A={(0|->gauche),(1|->droite),(2|->droite)}, P3F={(1|->vert)}, S1ToP3={(2|->1)}, origin=1, rame=1}
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:37.600
+!MESSAGE Disprover: Result: Counter-Example found: {P2FS={}, P2ToP3={}, P3={(1|->0)}, P3A={(0|->gauche),(1|->droite),(2|->droite)}, P3F={(1|->vert)}, S1ToP3={(2|->1)}, origin=1, rame=1}
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:50.409
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:00:55.511
+!MESSAGE Disprover: Result: Counter-Example found: {P2ToP3={}, P3={(1|->0)}, P3A={(0|->gauche),(1|->droite),(2|->droite)}, P3F={(1|->vert)}, S1FS={}, S1ToP3={(2|->1)}, origin=1, rame=1}
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:01:01.488
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:01:28.270
+!MESSAGE Disprover: Result: No Counter-Example found due to Time-Out.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:01:50.447
+!MESSAGE Disprover: Result: Counter-Example found: {P1ToP2={(2|->1)}, P2={(1|->0)}, P2A={(1|->droite),(2|->droite)}, P2F={(1|->vert),(5|->vert)}, P2ToP3={}, P3FS={}, direction=1, origin=1, rame=1}
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:02:17.155
+!MESSAGE Disprover: Result: No Counter-Example found due to Time-Out.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:02:52.185
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:03:03.284
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:03:06.502
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:03:09.406
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:03:09.611
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:03:12.418
+!MESSAGE Disprover: Result: No Counter-Example exists: Proof.
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:04:38.617
+!MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable

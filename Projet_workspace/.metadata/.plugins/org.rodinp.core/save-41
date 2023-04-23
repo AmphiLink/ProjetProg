@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+    <pim project="/Event-B">
+        <rodin_index>
+            <descriptor element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#(" name="yellow">
+                <occurrence element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="50" loc_char_start="44"/>
+                <occurrence element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="33" loc_char_start="27"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="16"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="53" loc_char_start="47"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="20"/>
+            </descriptor>
+            <descriptor element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#-" name="set_peds_green">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#." name="set_cars">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.refinesEvent#." kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#)" name="peds_colour">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="39" loc_char_start="28"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#0|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="17"/>
+            </descriptor>
+            <descriptor element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.parameter#'" name="new_value_colours">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.action#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="32" loc_char_start="15"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="30"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="39" loc_char_start="22"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.witness#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="44" loc_char_start="27"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="8"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="43" loc_char_start="26"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="24"/>
+            </descriptor>
+            <descriptor element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.variable#(" name="cars_go">
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#2" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="2"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#,|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#3" name="cars_colours">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.action#0" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="8"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="37" loc_char_start="25"/>
+            </descriptor>
+            <descriptor element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1" name="set_cars_colours">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#," name="set_peds_go">
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#-|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.carrierSet#*" name="COLOURS">
+                <occurrence element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.carrierSet#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="10"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="20"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="15"/>
+            </descriptor>
+            <descriptor element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m" name="refines-m">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine" name="Machine">
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine" kind="org.eventb.core.declaration"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.refinesMachine#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#'" name="red">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="45" loc_char_start="42"/>
+                <occurrence element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="16"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="15"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="45" loc_char_start="42"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="49" loc_char_start="46"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="15"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="14"/>
+                <occurrence element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="20"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="15"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="14"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#0|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="14"/>
+            </descriptor>
+            <descriptor element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#-" name="set_peds_stop">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#0|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte" name="contexte">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#.|org.eventb.core.parameter#*" name="new_value">
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.witness#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#.|org.eventb.core.parameter#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.witness#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="9"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#4" name="peds_go">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#'|org.eventb.core.action#internal2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#2" name="cars_go">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#0|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#'|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.variable#)" name="peds_go">
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#4" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="19"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#-|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#,|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+                <occurrence element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="19"/>
+            </descriptor>
+            <descriptor element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#)" name="green">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="55" loc_char_start="50"/>
+                <occurrence element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="37"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="31"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="17"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="20"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.witness#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="19"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="15"/>
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#0" name="set_peds_red">
+                <occurrence element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/Event-B/refines-m.bum">
+                <exported element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#2" name="cars_go"/>
+                <exported element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1|org.eventb.core.parameter#'" name="new_value_colours"/>
+                <exported element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte" name="contexte"/>
+                <exported element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m" name="refines-m"/>
+                <exported element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine" name="Machine"/>
+                <exported element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#0" name="set_peds_red"/>
+                <exported element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#)" name="green"/>
+                <exported element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#3" name="cars_colours"/>
+                <exported element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#4" name="peds_go"/>
+                <exported element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#-" name="set_peds_green"/>
+                <exported element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#(" name="yellow"/>
+                <exported element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.variable#)" name="peds_colour"/>
+                <exported element="/Event-B/refines-m.bum|org.eventb.core.machineFile#refines-m|org.eventb.core.event#1" name="set_cars_colours"/>
+                <exported element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#'" name="red"/>
+                <exported element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.carrierSet#*" name="COLOURS"/>
+            </export>
+            <export file="/Event-B/Machine.bum">
+                <exported element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#." name="set_cars"/>
+                <exported element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.variable#)" name="peds_go"/>
+                <exported element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine" name="Machine"/>
+                <exported element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#.|org.eventb.core.parameter#*" name="new_value"/>
+                <exported element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.variable#(" name="cars_go"/>
+                <exported element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#," name="set_peds_go"/>
+                <exported element="/Event-B/Machine.bum|org.eventb.core.machineFile#Machine|org.eventb.core.event#-" name="set_peds_stop"/>
+            </export>
+            <export file="/Event-B/contexte.buc">
+                <exported element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#(" name="yellow"/>
+                <exported element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#'" name="red"/>
+                <exported element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte" name="contexte"/>
+                <exported element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.carrierSet#*" name="COLOURS"/>
+                <exported element="/Event-B/contexte.buc|org.eventb.core.contextFile#contexte|org.eventb.core.constant#)" name="green"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/Event-B/Machine.bum" mark="false" order_pos="0"/>
+            <node label="/Event-B/contexte.buc" mark="false" order_pos="1"/>
+            <node label="/Event-B/refines-m.bum" mark="false" order_pos="2">
+                <predecessor label="/Event-B/Machine.bum"/>
+                <predecessor label="/Event-B/contexte.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/Event-B/Machine.bcm"/>
+        <unprocessed file="/Event-B/Machine.bpo"/>
+        <unprocessed file="/Event-B/Machine.bpr"/>
+        <unprocessed file="/Event-B/Machine.bps"/>
+        <unprocessed file="/Event-B/contexte.bcc"/>
+        <unprocessed file="/Event-B/contexte.bpo"/>
+        <unprocessed file="/Event-B/contexte.bpr"/>
+        <unprocessed file="/Event-B/contexte.bps"/>
+        <unprocessed file="/Event-B/refines-m.bcm"/>
+        <unprocessed file="/Event-B/refines-m.bpo"/>
+        <unprocessed file="/Event-B/refines-m.bpr"/>
+        <unprocessed file="/Event-B/refines-m.bps"/>
+        <unprocessed file="/Event-B/refines-m.bpo_tmp"/>
+        <unprocessed file="/Event-B/refines-m.bcm_tmp"/>
+    </pim>
+    <delta_list/>
+    <indexer_registry>
+        <registry_entry element_type="org.eventb.core.machineFile">
+            <indexer id="machineIndexer"/>
+        </registry_entry>
+        <registry_entry element_type="org.eventb.core.contextFile">
+            <indexer id="contextIndexer"/>
+        </registry_entry>
+    </indexer_registry>
+</index_root>
