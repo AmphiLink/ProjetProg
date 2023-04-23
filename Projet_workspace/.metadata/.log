@@ -10378,3 +10378,21 @@ org.eclipse.core.runtime.OperationCanceledException
 
 !ENTRY de.prob.core 1 0 2023-04-23 11:04:38.617
 !MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable
+!SESSION 2023-04-23 11:36:34.030 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:36:40.081
+!MESSAGE Starting ProB CLI for win32 ... Path is C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\probcli.exe
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:36:41.111
+!MESSAGE Server has startet and listens on port 51393
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:36:41.112
+!MESSAGE Server can receive user interrupts via reference 8672
+
+!ENTRY de.prob.core 1 0 2023-04-23 11:38:58.065
+!MESSAGE calling the send_user_interrupt command failed: Cannot run program "C:\Program Files\rodin\..\..\Users\esteb\.eclipse\org.eclipse.platform_4.21.0_866311002_win32_win32_x86_64\plugins\de.prob.core_9.4.4.202205060126\prob\windows\send_user_interrupt.exe": CreateProcess error=2, Le fichier spécifié est introuvable
